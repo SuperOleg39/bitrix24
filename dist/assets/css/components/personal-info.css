@@ -45,22 +45,15 @@
 .svz-personal-info .svz-personal-info__main {
   width: calc(100% - 220px);
   padding-left: 20px;
-  color: #4d4d4d;
+  color: #4c4c4c;
 }
 .svz-personal-info .svz-personal-info__name {
-  font-family: 'StagSans-Light', sans-serif;
-  font-size: 36px;
   margin-bottom: 20px;
 }
 .svz-personal-info .svz-personal-info__name .name__sub {
-  font-family: 'StagSans-Book', sans-serif;
-  font-size: 15px;
-  color: #999;
   margin: 5px 0;
 }
 .svz-personal-info .svz-personal-info__name .name__status {
-  font-family: 'StagSans-Book', sans-serif;
-  font-size: 13px;
   position: relative;
   bottom: 2px;
 }
@@ -86,12 +79,9 @@
   margin-left: 5px;
 }
 .svz-personal-info .svz-personal-info__title {
-  font-size: 17px;
   margin-bottom: 20px;
 }
 .svz-personal-info .svz-personal-info__info-group {
-  font-size: 15px;
-  line-height: 18px;
   margin-bottom: 20px;
 }
 .svz-personal-info .svz-personal-info__info-label {

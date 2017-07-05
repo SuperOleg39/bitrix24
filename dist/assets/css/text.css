@@ -1,0 +1,42 @@
+/*
+ * Текст
+ */
+.svz-h1 {
+  font-family: 'StagSans-Light', sans-serif;
+  font-size: 48px;
+  line-height: 54px;
+  color: #4c4c4c;
+}
+.svz-h2 {
+  font-family: 'StagSans-Light', sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  color: #4c4c4c;
+}
+.svz-h3 {
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  color: #4c4c4c;
+}
+.svz-p {
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #4c4c4c;
+}
+.svz-p--small {
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  color: #4c4c4c;
+}
+.svz-p--big {
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  color: #4c4c4c;
+}
+/*
+ * end Текст
+ */

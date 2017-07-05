@@ -16,10 +16,10 @@
   cursor: pointer;
 }
 .svz-personal-tabs .svz-personal-tab:hover {
-  color: #4d4d4d;
+  color: #4c4c4c;
 }
 .svz-personal-tabs .svz-personal-tab--active {
-  color: #4d4d4d;
+  color: #4c4c4c;
   border-bottom: 2px solid #8257ba;
 }
 /*
