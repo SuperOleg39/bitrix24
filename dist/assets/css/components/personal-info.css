@@ -15,6 +15,30 @@
 .svz-personal-info .svz-personal-info__message-btn {
   display: block;
 }
+.svz-personal-info .svz-personal-info__icons-set {
+  text-align: center;
+}
+.svz-personal-info .svz-personal-info__icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #8257ba;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.svz-personal-info .svz-personal-info__icon.icon--camera {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAJCAYAAAACTR1pAAAARElEQVQokdXRsRGAIBQE0ZWu6MxMqIfaaIE1EULHb8bOXPiiQ23q8L2uZpVnFx/Q7JxINQEHsQpACqLVZtCgqQD8/fEGKQygCTJVGJoAAAAASUVORK5CYII=");
+}
+.svz-personal-info .svz-personal-info__icon.icon--phone {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA30lEQVQ4jZXTzyrEURjG8aefspvIZUxZ2loqG1m4CRdhw4rIgguws7YWG8kd+BMbpbCR2CjlY2Em48zRzO+pt855Tn3P2/ucE6RXm7hFZ8AbWf3Ftl+ttQVs+KtXzLQBfBjW1riAJslbhjVX8apqkpwX3nOS1TaAg8K7T3I9LiBocFnMYLltjPP4KpKYbQMI9oouHtBtA5jESQF5wVLvvIsbHA+CS+IULoafhTM8Dew/sYvpWlsdnFYgNd01lWDekywm2R8jxKNRU17A1T+379RmUKsJrOAQj37+znr//BvGB4csyv0EKQAAAABJRU5ErkJggg==");
+}
+.svz-personal-info .svz-personal-info__icon.icon--message {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAJCAYAAAACTR1pAAAAnklEQVQokZ3RsYmCARCE0dEmDEQuMhPhajA4szO9yMQCDKzBq8A+bEBjG7AJBUHk4mfgBj94gjqwycw3C8u2IG+oneQ7yeGFziHJpJ1kmOQzyfqJ0rrYQdy0Qx9TnN3rXFm/WGmEf/jCBzYNf1veuBjN4hEzdLFED/OaHn4rmxUrWKGDBS616ISfmlN5l2I6WAUj7P+565H2GLV4749Xdq8OPMmyRFEAAAAASUVORK5CYII=");
+}
 .svz-personal-info .svz-personal-info__main {
   width: calc(100% - 220px);
   padding-left: 20px;
@@ -24,6 +48,39 @@
   font-family: 'StagSans-Light';
   font-size: 36px;
   margin-bottom: 20px;
+}
+.svz-personal-info .svz-personal-info__name .name__sub {
+  font-family: 'StagSans-Book';
+  font-size: 15px;
+  color: #999;
+  margin: 5px 0;
+}
+.svz-personal-info .svz-personal-info__name .name__status {
+  font-family: 'StagSans-Book';
+  font-size: 13px;
+  position: relative;
+  bottom: 2px;
+}
+.svz-personal-info .svz-personal-info__name .name__status > span {
+  line-height: 15px;
+  vertical-align: middle;
+}
+.svz-personal-info .svz-personal-info__name .name__status .status__icon {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+.svz-personal-info .svz-personal-info__name .name__status .status__icon--online {
+  background-color: #5fbc4e;
+}
+.svz-personal-info .svz-personal-info__name .name__status .status__icon--offline {
+  background-color: #f87424;
+}
+.svz-personal-info .svz-personal-info__name .name__status .status__text {
+  color: #999;
+  margin-left: 5px;
 }
 .svz-personal-info .svz-personal-info__title {
   font-size: 17px;

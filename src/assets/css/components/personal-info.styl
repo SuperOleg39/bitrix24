@@ -1,6 +1,8 @@
 // personal-info
 @import "../variables.styl"
 
+url = embedurl
+
 .svz-personal-info
   margin-top 25px
   
@@ -18,6 +20,28 @@
   .svz-personal-info__message-btn
     display block
     
+  .svz-personal-info__icons-set
+    text-align center
+      
+  .svz-personal-info__icon
+    display inline-block
+    width 40px
+    height 40px
+    background-color main-purple-color
+    background-size auto
+    background-position center
+    background-repeat no-repeat
+    border-radius 50%
+    margin 0 3px
+    cursor pointer
+    
+    &.icon--camera
+      background-image url('../../img/camera-icon.png')
+    &.icon--phone
+      background-image url('../../img/phone-icon.png')
+    &.icon--message
+      background-image url('../../img/message-icon.png')
+    
   .svz-personal-info__main
     width calc(100% - 220px)
     padding-left default-padding
@@ -27,6 +51,38 @@
     font-family 'StagSans-Light'
     font-size 36px
     margin-bottom default-padding
+
+    .name__sub
+      font-family 'StagSans-Book'
+      font-size 15px
+      color gray-font-color
+      margin: 5px 0;
+    
+    .name__status
+      font-family 'StagSans-Book'
+      font-size 13px
+      position relative
+      bottom 2px
+      
+      > span
+        line-height 15px
+        vertical-align middle
+      
+      .status__icon
+        display inline-block
+        width 11px
+        height 11px
+        border-radius 50%
+        margin-left 15px
+        
+        &--online
+          background-color online-color
+        &--offline
+          background-color offline-color
+          
+      .status__text
+        color gray-font-color
+        margin-left 5px
     
   .svz-personal-info__title
     font-size 17px
