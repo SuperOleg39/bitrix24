@@ -23,13 +23,50 @@
         <div class="svz-fake-main svz-col">
           <!-- feedback-tabs-->
           <link rel="stylesheet" href="assets/css/components/tabs.css"/>
-          <div class="svz-personal-tabs svz-row">
-            <div class="svz-personal-tab svz-col">Идеи</div>
-            <div class="svz-personal-tab svz-col">Благодарности</div>
-            <div class="svz-personal-tab svz-col svz-personal-tab--active">Жалобы</div>
-            <div class="svz-personal-tab svz-col">Жалобы в последние инстанции</div>
+          <div class="svz-tabs svz-row">
+            <div class="svz-tab svz-col">Идеи</div>
+            <div class="svz-tab svz-col">Благодарности</div>
+            <div class="svz-tab svz-col svz-tab--active">Жалобы</div>
+            <div class="svz-tab svz-col">Жалобы в последние инстанции</div>
           </div>
           <!-- end feedback-tabs-->
+          <!-- feedback__petition-->
+          <link rel="stylesheet" href="assets/css/components/feedback.css"/>
+          <div class="svz-feedback svz-feedback__petition">
+            <div class="svz-feedback__header svz-row">
+              <div class="header__title svz-col">
+                <div class="svz-h2">Жалобы</div>
+              </div>
+              <div class="header__switch svz-col">
+                <div class="svz-switch-icon"></div>
+              </div>
+              <div class="header__empty svz-col"></div>
+              <div class="header__search svz-col">
+                <!-- search-field-->
+                <link rel="stylesheet" href="assets/css/components/search-field.css"/>
+                <div class="svz-search-field">
+                  <input type="text" title="Поиск по названию"/>
+                </div>
+                <!-- end search-field-->
+              </div>
+              <div class="header__add-btn svz-col"></div>
+            </div>
+            <div class="svz-feedback__list svz-row">
+              <div class="svz-feedback__id-col list__title svz-col"></div>
+              <div class="svz-feedback__name-col list__title svz-col"></div>
+              <div class="svz-feedback__status-col list__title svz-col"></div>
+              <div class="svz-feedback__executor-col list__title svz-col"></div>
+              <div class="svz-feedback__created-col list__title svz-col"></div>
+            </div>
+            <div class="svz-feedback__list svz-row">
+              <div class="svz-feedback__id-col svz-col"></div>
+              <div class="svz-feedback__name-col svz-col"></div>
+              <div class="svz-feedback__status-col svz-col"></div>
+              <div class="svz-feedback__executor-col svz-col"></div>
+              <div class="svz-feedback__created-col svz-col"></div>
+            </div>
+          </div>
+          <!-- end feedback__petition-->
         </div>
         <!-- end fake-main-->
       </div>

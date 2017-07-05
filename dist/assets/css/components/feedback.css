@@ -1,0 +1,15 @@
+/*
+ * feedback
+ */
+.svz-feedback,
+.svz-feedback:after,
+.svz-feedback:before,
+.svz-feedback > *,
+.svz-feedback > *:after,
+.svz-feedback > *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*
+ * end feedback
+ */

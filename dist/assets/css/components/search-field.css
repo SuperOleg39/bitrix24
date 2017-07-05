@@ -1,0 +1,15 @@
+/*
+ * search-field
+ */
+.svz-search-field,
+.svz-search-field:after,
+.svz-search-field:before,
+.svz-search-field > *,
+.svz-search-field > *:after,
+.svz-search-field > *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*
+ * end search-field
+ */

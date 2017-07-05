@@ -1,11 +1,20 @@
 /*
  * tabs
  */
-.svz-personal-tabs {
+.svz-tabs {
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 15px;
 }
-.svz-personal-tabs .svz-personal-tab {
+.svz-tabs,
+.svz-tabs:after,
+.svz-tabs:before,
+.svz-tabs > *,
+.svz-tabs > *:after,
+.svz-tabs > *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.svz-tabs .svz-tab {
   font-size: 15px;
   color: #999;
   padding: 5px 25px 25px;
@@ -15,10 +24,10 @@
   transition: color 0.3s;
   cursor: pointer;
 }
-.svz-personal-tabs .svz-personal-tab:hover {
+.svz-tabs .svz-tab:hover {
   color: #4c4c4c;
 }
-.svz-personal-tabs .svz-personal-tab--active {
+.svz-tabs .svz-tab--active {
   color: #4c4c4c;
   border-bottom: 2px solid #8257ba;
 }

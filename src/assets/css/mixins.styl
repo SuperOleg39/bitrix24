@@ -6,3 +6,12 @@ clearfix()
   
   &:after
     clear both
+    
+border-box()
+  &,
+  &:after,
+  &:before,
+  & > *,
+  & > *:after,
+  & > *:before
+    box-sizing border-box
