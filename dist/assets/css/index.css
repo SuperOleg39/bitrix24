@@ -10,20 +10,6 @@ html {
 body {
   margin: 0;
 }
-.svz-responsive-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.svz-link {
-  color: #38a7de;
-  text-decoration: none;
-  cursor: pointer;
-}
-.svz-link:hover,
-.svz-link:active {
-  color: #2799d1;
-}
 @font-face {
   font-family: 'OpenSans-Regular';
   src: url("../fonts/opensans-regular.eot");
@@ -75,6 +61,20 @@ body {
   font-style: normal;
   font-weight: normal;
   src: local('Stag Sans Semibold'), url("../fonts/stagsans-semibold-cy-web.eot"), url("../fonts/stagsans-semibold-cy-web.eot?#iefix") format('embedded-opentype'), url("../fonts/stagsans-semibold-cy-web.woff2") format('woff2'), url("../fonts/stagsans-semibold-cy-web.woff") format('woff'), url("../fonts/stagsans-semibold-cy-app.ttf") format('truetype'), url("../fonts/stagsans-semibold-cy.otf") format("opentype"), url("../fonts/stagsans-semibold-cy-web.svg#stagsans-semibold-cy-web") format('svg');
+}
+.svz-responsive-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.svz-link {
+  color: #38a7de;
+  text-decoration: none;
+  cursor: pointer;
+}
+.svz-link:hover,
+.svz-link:active {
+  color: #2799d1;
 }
 .svz-container--fixed {
   margin: 0 auto;

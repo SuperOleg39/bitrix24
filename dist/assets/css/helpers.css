@@ -1,0 +1,14 @@
+.svz-responsive-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.svz-link {
+  color: #38a7de;
+  text-decoration: none;
+  cursor: pointer;
+}
+.svz-link:hover,
+.svz-link:active {
+  color: #2799d1;
+}
