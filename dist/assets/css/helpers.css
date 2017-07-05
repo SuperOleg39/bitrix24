@@ -1,3 +1,6 @@
+/*
+ * Вспомогательные классы
+ */
 .svz-responsive-img {
   display: block;
   max-width: 100%;
@@ -12,3 +15,6 @@
 .svz-link:active {
   color: #2799d1;
 }
+/*
+ * end Вспомогательные классы
+ */

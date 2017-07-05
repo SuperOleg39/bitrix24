@@ -1,3 +1,6 @@
+/*
+ * Кнопки
+ */
 .svz-btn {
   display: inline-block;
   height: 40px;
@@ -11,3 +14,6 @@
   padding: 0 5px;
   cursor: pointer;
 }
+/*
+ * end Кнопки
+ */

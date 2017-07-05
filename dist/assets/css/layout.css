@@ -1,3 +1,6 @@
+/*
+ * Разметка страницы
+ */
 .svz-container--fixed {
   margin: 0 auto;
   min-width: 1060px;
@@ -15,3 +18,6 @@
 .svz-col {
   float: left;
 }
+/*
+ * end Разметка страницы
+ */

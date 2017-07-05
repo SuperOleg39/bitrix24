@@ -1,3 +1,6 @@
+/*
+ * fake-header
+ */
 .svz-fake-header {
   height: 80px;
   margin-bottom: 20px;
@@ -7,3 +10,6 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+/*
+ * end fake-header
+ */

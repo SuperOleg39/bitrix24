@@ -1,3 +1,6 @@
+/*
+ * Общие стили
+ */
 *,
 *:after,
 *:before {
@@ -5,11 +8,14 @@
           box-sizing: border-box;
 }
 html {
-  font-family: 'StagSans-Book';
+  font-family: 'StagSans-Book', sans-serif;
 }
 body {
   margin: 0;
 }
+/*
+ * end Общие стили
+ */
 @font-face {
   font-family: 'OpenSans-Regular';
   src: url("../fonts/opensans-regular.eot");
