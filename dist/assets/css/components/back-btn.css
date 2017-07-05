@@ -12,15 +12,6 @@
   background-repeat: no-repeat;
   cursor: pointer;
 }
-.svz-back-btn,
-.svz-back-btn:after,
-.svz-back-btn:before,
-.svz-back-btn > *,
-.svz-back-btn > *:after,
-.svz-back-btn > *:before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
 /*
  * end back-btn
  */

@@ -9,24 +9,15 @@
   background-repeat: no-repeat;
   cursor: pointer;
 }
-.svz-back-btn,
-.svz-back-btn:after,
-.svz-back-btn:before,
-.svz-back-btn > *,
-.svz-back-btn > *:after,
-.svz-back-btn > *:before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
 .svz-personal-info {
   margin-top: 25px;
 }
 .svz-personal-info,
 .svz-personal-info:after,
 .svz-personal-info:before,
-.svz-personal-info > *,
-.svz-personal-info > *:after,
-.svz-personal-info > *:before {
+.svz-personal-info *,
+.svz-personal-info *:after,
+.svz-personal-info *:before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }

@@ -4,8 +4,118 @@
 @import "../variables.styl"
 @import "../mixins.styl"
 
+url = embedurl
+
 .svz-feedback
+  margin-top 40px
   border-box()
+  
+  .svz-feedback__header
+    margin-bottom default-padding
+    > div
+      padding-right default-padding
+    
+    .header__title
+      width 42%
+      .svz-h2
+        display inline-block
+        line-height 40px
+        vertical-align middle
+        padding-right default-padding
+      .svz-switch-icon
+        display inline-block
+        vertical-align middle
+    .header__switch
+      width 25%
+    .header__search
+      width 42%
+    .header__add-btn
+      width 16%
+      padding-right 0
+      padding-left default-padding
+      
+      .svz-btn
+        display block
+
+  .svz-switch-icon
+    width 40px
+    height 40px
+    border-radius 50%
+    border 1px solid #c0c0c0
+    background-image url('../../img/switch-icon.png')
+    background-size auto
+    background-position center
+    background-repeat no-repeat
+    transition 0.1s
+    cursor pointer
+
+    &--active,
+    &:hover
+      border 1px solid main-purple-color
+      background-image url('../../img/switch-icon--active.png')
+      background-color main-purple-color
+
+  .svz-feedback__list-head
+    border-bottom 1px solid #e6e6e6
+    margin-bottom 40px
+     
+    .list__title 
+      color dark-font-color
+      padding 20px 20px 20px 0
+
+      span
+        display inline-block
+        cursor pointer
+      
+      .title__sortable
+        position relative
+        
+        &:after
+          content ""
+          display block 
+          width 9px
+          height 6px
+          position absolute
+          right -16px
+          top 6px
+          background-image url('../../img/sortable-icon.png')
+          background-size auto
+          background-position center
+          background-repeat no-repeat
+          transition transform 0.1s
+          
+        &--active,
+        &:hover
+          &:after
+            transform: rotate(180deg);
+  
+  .svz-feedback__id-col
+    width 15%
+  .svz-feedback__name-col
+    width 27%
+  .svz-feedback__status-col
+    width 21%
+  .svz-feedback__executor-col
+    width 22%
+  .svz-feedback__created-col
+    width 15%
+    text-align right
+    
+  .svz-feedback__list
+    border-bottom 1px solid #e6e6e6
+    padding-bottom  40px
+    margin-bottom 40px
+    
+    .svz-feedback__id-col
+      color gray-font-color
+    .svz-feedback__name-col
+      width 27%
+    .svz-feedback__status-col
+      width 21%
+    .svz-feedback__executor-col
+      color gray-font-color
+    .svz-feedback__created-col
+      color gray-font-color
 /*
  * end feedback
  */

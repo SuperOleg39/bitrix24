@@ -6,24 +6,35 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
     .header__title.svz-col
       .svz-h2
         | Жалобы
-    .header__switch.svz-col
       .svz-switch-icon
-    .header__empty.svz-col
     .header__search.svz-col
       include search-field
     .header__add-btn.svz-col
+      .svz-btn
+        | Добавить
   
-  .svz-feedback__list.svz-row
+  .svz-feedback__list-head.svz-row
     .svz-feedback__id-col.list__title.svz-col
+      span ID
     .svz-feedback__name-col.list__title.svz-col
+      span Название
     .svz-feedback__status-col.list__title.svz-col
+      span Статус
     .svz-feedback__executor-col.list__title.svz-col
+      span Исполнитель
     .svz-feedback__created-col.list__title.svz-col
+      span.title__sortable
+        | Создание
       
   .svz-feedback__list.svz-row
     .svz-feedback__id-col.svz-col
+      | 1
     .svz-feedback__name-col.svz-col
+      | 2
     .svz-feedback__status-col.svz-col
+      | 3
     .svz-feedback__executor-col.svz-col
+      | 4
     .svz-feedback__created-col.svz-col
+      | 5
 // end feedback__petition

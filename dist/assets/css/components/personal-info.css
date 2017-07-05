@@ -7,9 +7,9 @@
 .svz-personal-info,
 .svz-personal-info:after,
 .svz-personal-info:before,
-.svz-personal-info > *,
-.svz-personal-info > *:after,
-.svz-personal-info > *:before {
+.svz-personal-info *,
+.svz-personal-info *:after,
+.svz-personal-info *:before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
