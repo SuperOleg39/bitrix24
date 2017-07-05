@@ -1,0 +1,23 @@
+// personal-tabs
+@import "../variables.styl"
+
+.svz-personal-tabs
+  border-bottom 1px solid #e6e6e6
+  margin-bottom 15px
+  
+  .svz-personal-tab
+    font-size 15px
+    color gray-font-color
+    padding 5px 25px 25px
+    position relative
+    bottom -1px
+    transition color 0.3s
+    cursor pointer
+    
+    &hover
+      color dark-font-color
+    
+    &--active
+      color dark-font-color
+      border-bottom 2px solid main-purple-color
+// end personal-tabs

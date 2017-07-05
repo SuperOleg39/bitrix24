@@ -1,0 +1,45 @@
+.svz-personal-info {
+  margin-top: 25px;
+}
+.svz-personal-info .svz-personal-info__side {
+  width: 220px;
+  padding-right: 20px;
+}
+.svz-personal-info .svz-personal-info__avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.svz-personal-info .svz-personal-info__message-btn {
+  display: block;
+}
+.svz-personal-info .svz-personal-info__main {
+  width: calc(100% - 220px);
+  padding-left: 20px;
+  color: dark-font-colort;
+}
+.svz-personal-info .svz-personal-info__name {
+  font-family: 'StagSans-Light';
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.svz-personal-info .svz-personal-info__title {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.svz-personal-info .svz-personal-info__info-group {
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+.svz-personal-info .svz-personal-info__info-label {
+  width: 35%;
+  padding-right: 20px;
+}
+.svz-personal-info .svz-personal-info__info-value {
+  width: 65%;
+  color: #999;
+  padding-right: 20px;
+}

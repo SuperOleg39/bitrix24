@@ -1,0 +1,13 @@
+.svz-btn {
+  display: inline-block;
+  height: 40px;
+  background-color: #8257ba;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 5px;
+  cursor: pointer;
+}

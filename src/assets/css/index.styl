@@ -1,0 +1,32 @@
+// Общие стили
+@import "variables.styl"
+
+*,
+*:after,
+*:before
+  box-sizing border-box
+  
+html
+  font-family 'StagSans-Book'
+  
+body 
+  margin 0
+
+.svz-responsive-img
+  display block
+  max-width 100%
+  height auto
+
+.svz-link
+  color: static-link-color
+  text-decoration none
+  cursor pointer
+  
+  &:hover,
+  &:active
+    color: hover-link-color
+  
+@import "fonts.styl"
+@import "layout.styl"
+@import "buttons.styl"
+// end Общие стили

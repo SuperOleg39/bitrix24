@@ -1,0 +1,11 @@
+.svz-back-btn {
+  display: inline-block;
+  color: #999;
+  font-size: 13px;
+  padding: 5px 15px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAJCAYAAAD6reaeAAAAcUlEQVQImW3OoQ0CQRSE4W8XRUIBZJugDRSKDkgeLdABEn0voQoEhVAICBIEYjF3CeImGTPin7/03k3JzDOe9W8InLAuvXeZucVt7H7RWtvgjgd2EfGtGLDCISI+UHHEG9fMXMIss0xK4/uAS5nxfP0Ara0uy/UoghYAAAAASUVORK5CYII=");
+  background-size: auto;
+  background-position: left center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.svz-container--fixed {
+  margin: 0 auto;
+  min-width: 1060px;
+  max-width: 1264px;
+  padding: 0 20px;
+}
+.svz-row:before,
+.svz-row:after {
+  content: ' ';
+  display: table;
+}
+.svz-row:after {
+  clear: both;
+}
+.svz-col {
+  float: left;
+}
