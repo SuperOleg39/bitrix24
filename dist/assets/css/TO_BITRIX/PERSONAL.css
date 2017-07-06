@@ -21,6 +21,10 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+.svz-personal-info--mobile {
+  margin-top: 0;
+  padding: 15px;
+}
 .svz-personal-info .svz-personal-info__side {
   width: 220px;
   padding-right: 20px;
@@ -32,6 +36,10 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 20px;
+}
+.svz-personal-info .svz-personal-info__avatar--mobile-personal {
+  margin: 0 auto 25px;
+  overflow: visible;
 }
 .svz-personal-info .svz-personal-info__avatar img {
   position: absolute;
@@ -46,6 +54,11 @@
 }
 .svz-personal-info .svz-personal-info__icons-set {
   text-align: center;
+}
+.svz-personal-info .svz-personal-info__icons-set--mobile {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e9e9e9;
 }
 .svz-personal-info .svz-personal-info__icon {
   display: inline-block;
@@ -76,6 +89,9 @@
 .svz-personal-info .svz-personal-info__name {
   margin-bottom: 20px;
 }
+.svz-personal-info .svz-personal-info__name--mobile {
+  text-align: center;
+}
 .svz-personal-info .svz-personal-info__name .name__sub {
   color: #999;
   margin: 5px 0;
@@ -83,6 +99,11 @@
 .svz-personal-info .svz-personal-info__name .name__status {
   position: relative;
   bottom: 2px;
+}
+.svz-personal-info .svz-personal-info__name .name__status--mobile {
+  position: absolute;
+  top: -5px;
+  left: -70px;
 }
 .svz-personal-info .svz-personal-info__name .name__status > span {
   line-height: 15px;
@@ -108,12 +129,18 @@
 .svz-personal-info .svz-personal-info__title {
   margin-bottom: 20px;
 }
+.svz-personal-info .svz-personal-info__title--mobile {
+  font-size: 20px;
+}
 .svz-personal-info .svz-personal-info__info-group {
   margin-bottom: 20px;
 }
 .svz-personal-info .svz-personal-info__info-label {
   width: 35%;
   padding-right: 20px;
+}
+.svz-personal-info .svz-personal-info__info-label--mobile {
+  padding-right: 8px;
 }
 .svz-personal-info .svz-personal-info__info-value {
   width: 65%;
