@@ -31,8 +31,8 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
       span Название
     .svz-feedback__status-col.list__title.svz-col
       span Статус
-    .svz-feedback__executor-col.list__title.svz-col
-      span Исполнитель
+    .svz-feedback__type-col.list__title.svz-col
+      span Тип
     .svz-feedback__created-col.list__title.svz-col
       span.title__sortable
         | Создание
@@ -44,8 +44,8 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
       span Название
     .svz-feedback__status-col.list__title.svz-col
       span Статус
-    .svz-feedback__executor-col.list__title.svz-col
-      span Исполнитель
+    .svz-feedback__type-col.list__title.svz-col
+      span Тип
     .svz-feedback__created-col.list__title.svz-col
       span.title__sortable.title__sortable--active
         | Создание
@@ -59,8 +59,8 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
       .svz-row
         .status-col__icon.svz-col
         .status-col__text.svz-col Выполнено
-    .svz-feedback__executor-col.svz-col
-      | Барышникова Ольга
+    .svz-feedback__type-col.svz-col
+      | Неработающее оборудование
     .svz-feedback__created-col.svz-col
       | 28 апреля 2017 г.
       
@@ -73,8 +73,8 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
       .svz-row
         .status-col__icon.svz-col
         .status-col__text.svz-col Обрабатывается администратором
-    .svz-feedback__executor-col.svz-col
-      | Барышникова Ольга
+    .svz-feedback__type-col.svz-col
+      | Организация рабочего места
     .svz-feedback__created-col.svz-col
       | 28 апреля 2017 г.
       
@@ -87,8 +87,8 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
       .svz-row
         .status-col__icon.svz-col
         .status-col__text.svz-col В работе
-    .svz-feedback__executor-col.svz-col
-      | Барышникова Ольга
+    .svz-feedback__type-col.svz-col
+      | Хранение и обмен информацией
     .svz-feedback__created-col.svz-col
       | 28 апреля 2017 г.
       
@@ -100,16 +100,16 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
     .svz-feedback__status-col.svz-col.status-col--rejected
       .svz-row
         .status-col__icon.svz-col
-        .status-col__text.svz-col Не выполнена
-    .svz-feedback__executor-col.svz-col
-      | Барышникова Ольга
+        .status-col__text.svz-col Отклонена
+    .svz-feedback__type-col.svz-col
+      | Внутренние коммуникации
     .svz-feedback__created-col.svz-col
       | 28 апреля 2017 г.
       
   .svz-feedback__footer.svz-row
-    .svz-pull-left
+    .svz-pull-left 
       .svz-feedback__show-more-btn.svz-btn
-        | показать еще 10
+        | показать еще 10 
     .svz-pull-right
       include pagination
       

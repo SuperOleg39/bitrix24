@@ -37,6 +37,18 @@
   line-height: 26px;
   color: #4c4c4c;
 }
+.svz-link {
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #38a7de;
+  text-decoration: none;
+  cursor: pointer;
+}
+.svz-link:hover,
+.svz-link:active {
+  color: #2799d1;
+}
 /*
  * end Текст
  */
