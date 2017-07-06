@@ -141,4 +141,9 @@ body {
   text-transform: uppercase;
   padding: 0 5px;
   cursor: pointer;
+  -webkit-transition: color 0.1s;
+  transition: color 0.1s;
+}
+.svz-btn:hover {
+  background-color: #8769ae;
 }
