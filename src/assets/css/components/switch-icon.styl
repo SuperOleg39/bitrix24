@@ -1,0 +1,26 @@
+/*
+ * switch-icon
+ */
+@import "../variables.styl"
+
+url = embedurl
+
+.svz-switch-icon
+  width 40px
+  height 40px
+  border-radius 50%
+  border 1px solid #c0c0c0
+  background-image url('../../img/switch-icon.png')
+  background-size auto
+  background-position center
+  background-repeat no-repeat
+  transition 0.1s
+  cursor pointer
+
+  &--active
+    border 1px solid main-purple-color
+    background-image url('../../img/switch-icon--active.png')
+    background-color main-purple-color
+/*
+ * end switch-icon
+ */

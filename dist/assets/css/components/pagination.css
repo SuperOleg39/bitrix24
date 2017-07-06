@@ -1,0 +1,41 @@
+/*
+ * pagination
+ */
+.svz-pagination {
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  color: #4c4c4c;
+  cursor: default;
+}
+.svz-pagination .svz-pagination__page,
+.svz-pagination .svz-pagination__control {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 2px;
+  cursor: pointer;
+}
+.svz-pagination .svz-pagination__page.page--current {
+  border: 1px solid #8257ba;
+  background-color: #8257ba;
+  color: #fff;
+}
+.svz-pagination .svz-pagination__control {
+  border: 1px solid #9b9b9b;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.svz-pagination .svz-pagination__control.control--prev {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAJCAYAAAARml2dAAAAfElEQVQImU3OIQpCQRhF4e8NdkEMgs0iWERcguIixPLKVNeiGzDpIgSjUTBYLDaDIIIr0PIPvBvPCedWOWeNTbBF3WrAEY7oYpMCDnEKeMEyYRCwhysW+Cbs0McPK3wgocYTFfboFPHADC+M40C7xO+Y440pDkXALcJnrP8roxZDhnkt6wAAAABJRU5ErkJggg==");
+}
+.svz-pagination .svz-pagination__control.control--next {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAJCAYAAAARml2dAAAAf0lEQVQImU3OsQqBUQDF8d93M1NS32CTshiU0ai+h2Cy3A3P4gkY5CHEI0gWZbEpg5QnYLm3nPH8+3dOEWPsYoM5zlICVhhhj/4/mOCEFg7oZfBBhQtKHNEJyXxjii/aWGfQxBYFHpgFNNLwAE+McQ/YYYhXKm9QwxJ1LHDNd38c8Ra3YZJwfwAAAABJRU5ErkJggg==");
+}
+/*
+ * end pagination
+ */

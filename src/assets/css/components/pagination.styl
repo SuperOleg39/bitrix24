@@ -1,0 +1,44 @@
+/*
+ * pagination
+ */
+@import "../variables.styl"
+
+url = embedurl
+
+.svz-pagination
+  font-family 'StagSans-Book', sans-serif
+  font-size 15px
+  color dark-font-color
+  cursor default
+  
+  .svz-pagination__page,
+  .svz-pagination__control
+    width 40px
+    height 40px
+    line-height 40px
+    vertical-align middle
+    text-align center
+    display inline-block
+    border-radius 50%
+    margin 0 2px
+    cursor pointer
+    
+  .svz-pagination__page
+    &.page--current
+      border 1px solid main-purple-color
+      background-color main-purple-color
+      color white
+    
+  .svz-pagination__control
+    border 1px solid #9b9b9b
+    background-size auto
+    background-position center
+    background-repeat no-repeat
+    
+    &.control--prev
+      background-image url('../../img/pagination-icon--prev.png')
+    &.control--next
+      background-image url('../../img/pagination-icon--next.png')
+/*
+ * end pagination
+ */

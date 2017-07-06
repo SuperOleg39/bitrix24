@@ -37,24 +37,6 @@ url = embedurl
       .svz-btn
         display block
 
-  .svz-switch-icon
-    width 40px
-    height 40px
-    border-radius 50%
-    border 1px solid #c0c0c0
-    background-image url('../../img/switch-icon.png')
-    background-size auto
-    background-position center
-    background-repeat no-repeat
-    transition 0.1s
-    cursor pointer
-
-    &--active,
-    &:hover
-      border 1px solid main-purple-color
-      background-image url('../../img/switch-icon--active.png')
-      background-color main-purple-color
-
   .svz-feedback__list-head
     border-bottom 1px solid #e6e6e6
     margin-bottom 40px
@@ -84,8 +66,7 @@ url = embedurl
           background-repeat no-repeat
           transition transform 0.1s
           
-        &--active,
-        &:hover
+        &--active
           &:after
             transform: rotate(180deg);
   
@@ -103,8 +84,9 @@ url = embedurl
     
   .svz-feedback__list
     border-bottom 1px solid #e6e6e6
+    padding-top 20px
     padding-bottom  40px
-    margin-bottom 40px
+    margin-bottom 20px
     
     .svz-feedback__id-col
       color gray-font-color
@@ -112,10 +94,44 @@ url = embedurl
       width 27%
     .svz-feedback__status-col
       width 21%
+
+      .status-col__icon
+        width 20px
+        height 20px
+        background-size auto
+        background-position left top 3px
+        background-repeat no-repeat
+        margin-right 12px
+      .status-col__text
+        width calc(100% - 35px)
+        
+      &.status-col--done
+        color main-green-color
+        .status-col__icon
+          background-image url('../../img/status-icon__done.png')
+          
+      &.status-col--waiting
+        color gray-font-color
+        .status-col__icon
+          background-image url('../../img/status-icon__waiting.png')
+          
+      &.status-col--inprogress
+        color main-blue-color
+        .status-col__icon
+          background-image url('../../img/status-icon__inprogress.png')
+          
+      &.status-col--rejected
+        color main-orange-color
+        .status-col__icon
+          background-image url('../../img/status-icon__reject.png')
+      
     .svz-feedback__executor-col
       color gray-font-color
     .svz-feedback__created-col
       color gray-font-color
+
+  .svz-feedback__show-more-btn
+    padding 0 60px
 /*
  * end feedback
  */

@@ -15,6 +15,12 @@
 .svz-link:active {
   color: #2799d1;
 }
+.svz-pull-left {
+  float: left;
+}
+.svz-pull-right {
+  float: right;
+}
 /*
  * end Вспомогательные классы
  */
