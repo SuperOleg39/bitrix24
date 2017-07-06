@@ -9,6 +9,10 @@ url = embedurl
 .svz-personal-info
   margin-top 25px
   border-box()
+
+  &--mobile
+    margin-top 0
+    padding 15px
   
   .svz-personal-info__side
     width 220px
@@ -21,6 +25,10 @@ url = embedurl
     position relative
     overflow hidden
     margin-bottom default-padding
+
+    &--mobile-personal
+      margin: 0 auto 25px
+      overflow visible
     
     img
       position absolute
@@ -34,7 +42,12 @@ url = embedurl
     
   .svz-personal-info__icons-set
     text-align center
-      
+
+  .svz-personal-info__icons-set--mobile
+    padding-bottom 25px
+    margin-bottom 25px
+    border-bottom 1px solid #e9e9e9
+
   .svz-personal-info__icon
     display inline-block
     width 40px
@@ -62,6 +75,9 @@ url = embedurl
   .svz-personal-info__name
     margin-bottom default-padding
 
+    &--mobile
+      text-align center
+
     .name__sub
       color gray-font-color
       margin: 5px 0;
@@ -69,6 +85,11 @@ url = embedurl
     .name__status
       position relative
       bottom 2px
+
+      &--mobile
+        position absolute
+        top -5px
+        left -70px
       
       > span
         line-height 15px
@@ -92,6 +113,9 @@ url = embedurl
     
   .svz-personal-info__title
     margin-bottom default-padding
+
+  .svz-personal-info__title--mobile
+    font-size 20px
     
   .svz-personal-info__info-group
     margin-bottom default-padding
@@ -99,6 +123,9 @@ url = embedurl
   .svz-personal-info__info-label
     width: 35%
     padding-right default-padding
+
+  .svz-personal-info__info-label--mobile
+    padding-right 8px
     
   .svz-personal-info__info-value
     width 65%
