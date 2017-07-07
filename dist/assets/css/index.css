@@ -74,11 +74,19 @@ body {
   line-height: 44px;
   color: #4c4c4c;
 }
+.svz-h2--mobile {
+  font-size: 30px;
+  line-height: 42px;
+}
 .svz-h3 {
   font-family: 'StagSans-Book', sans-serif;
   font-size: 22px;
   line-height: 30px;
   color: #4c4c4c;
+}
+.svz-h3--mobile {
+  font-size: 18px;
+  line-height: 30px;
 }
 .svz-p {
   font-family: 'StagSans-Book', sans-serif;
@@ -144,6 +152,7 @@ body {
   background-color: #8257ba;
   border-radius: 20px;
   color: #fff;
+  font-family: 'StagSans-Book', sans-serif;
   font-size: 14px;
   line-height: 40px;
   text-align: center;
