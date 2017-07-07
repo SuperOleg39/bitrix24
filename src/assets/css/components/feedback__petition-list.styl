@@ -1,0 +1,135 @@
+/*
+ * feedback__petition-list
+ */
+@import "../variables.styl"
+@import "../mixins.styl"
+
+url = embedurl
+
+.svz-feedback__petition-list
+  .svz-petition-list__header
+    margin-bottom default-padding
+    > div
+      padding-right default-padding
+  
+    .header__title
+      width 42%
+      .svz-h2
+        display inline-block
+        line-height 40px
+        vertical-align middle
+        padding-right default-padding
+      .svz-switch-icon
+        display inline-block
+        vertical-align middle
+    .header__switch
+      width 25%
+    .header__search
+      width 42%
+    .header__add-btn
+      width 16%
+      padding-right 0
+      padding-left default-padding
+  
+      .svz-btn
+        display block
+  
+  .svz-petition-list__list-head
+    border-bottom 1px solid #e6e6e6
+    margin-bottom 40px
+  
+    .list__title
+      color dark-font-color
+      padding 20px 20px 20px 0
+  
+      span
+        display inline-block
+        cursor pointer
+  
+      .title__sortable
+        position relative
+  
+        &:after
+          content ""
+          display block
+          width 9px
+          height 6px
+          position absolute
+          right -16px
+          top 6px
+          background-image url('../../img/sortable-icon.png')
+          background-size auto
+          background-position center
+          background-repeat no-repeat
+          transition transform 0.1s
+  
+        &--active
+          &:after
+            transform: rotate(180deg);
+  
+  .svz-petition-list__id-col
+    width 15%
+  .svz-petition-list__name-col
+    width 27%
+  .svz-petition-list__status-col
+    width 21%
+  .svz-petition-list__type-col
+    width 22%
+  .svz-petition-list__created-col
+    width 15%
+    text-align right
+  
+  .svz-petition-list__list
+    border-bottom 1px solid #e6e6e6
+    padding-top 20px
+    padding-bottom  40px
+    margin-bottom 20px
+  
+    .svz-petition-list__id-col
+      color gray-font-color
+    .svz-petition-list__name-col
+      width 27%
+    .svz-petition-list__status-col
+      width 21%
+  
+      .status-col__icon
+        width 20px
+        height 20px
+        background-size auto
+        background-position left top 3px
+        background-repeat no-repeat
+        margin-right 12px
+      .status-col__text
+        width calc(100% - 35px)
+  
+      &.status-col--done
+        color main-green-color
+        .status-col__icon
+          background-image url('../../img/status-icon__done.png')
+  
+      &.status-col--waiting
+        color gray-font-color
+        .status-col__icon
+          background-image url('../../img/status-icon__waiting.png')
+  
+      &.status-col--inprogress
+        color main-blue-color
+        .status-col__icon
+          background-image url('../../img/status-icon__inprogress.png')
+  
+      &.status-col--rejected
+        color main-orange-color
+        .status-col__icon
+          background-image url('../../img/status-icon__reject.png')
+  
+    .svz-petition-list__type-col
+      color gray-font-color
+    .svz-petition-list__created-col
+      color gray-font-color
+  
+  .svz-petition-list__show-more-btn
+    padding 0 60px
+  
+/*
+ * feedback__petition-list
+ */

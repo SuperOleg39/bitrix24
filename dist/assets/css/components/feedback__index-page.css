@@ -1,0 +1,15 @@
+/*
+ * feedback__index-page
+ */
+.svz-feedback__index-page,
+.svz-feedback__index-page:after,
+.svz-feedback__index-page:before,
+.svz-feedback__index-page *,
+.svz-feedback__index-page *:after,
+.svz-feedback__index-page *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*
+ * end feedback
+ */

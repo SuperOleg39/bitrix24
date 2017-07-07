@@ -1,15 +1,6 @@
-.svz-feedback {
-  margin-top: 40px;
-}
-.svz-feedback,
-.svz-feedback:after,
-.svz-feedback:before,
-.svz-feedback *,
-.svz-feedback *:after,
-.svz-feedback *:before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
+/*
+ * feedback__petition-list
+ */
 .svz-feedback__petition-list .svz-petition-list__header {
   margin-bottom: 20px;
 }
@@ -154,12 +145,6 @@
 .svz-feedback__petition-list .svz-petition-list__show-more-btn {
   padding: 0 60px;
 }
-.svz-feedback__index-page,
-.svz-feedback__index-page:after,
-.svz-feedback__index-page:before,
-.svz-feedback__index-page *,
-.svz-feedback__index-page *:after,
-.svz-feedback__index-page *:before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
+/*
+ * feedback__petition-list
+ */

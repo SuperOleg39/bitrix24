@@ -1,8 +1,13 @@
 $('document').ready(function() {
     /**
-     * Класс для триггера Tooltipster
+     * Классы для триггера Tooltipster
      */
-    var tooltipsterClass = '.svz-tooltip';
+    var tooltipsterClass = 'svz-tooltip';
+    var tooltipsterClassActive = 'svz-switch-icon--active';
+    /**
+     * Элемент для триггера Tooltipster
+     */
+    var tooltipster = $('.' + tooltipsterClass);
     /**
      * Настройки Tooltipster
      */
@@ -17,12 +22,19 @@ $('document').ready(function() {
             tap: true
         },
         side: 'bottom',
+        animationDuration: 0,
         delay: 0,
-        interactive: true
+        interactive: true,
+        functionBefore: function(instance) {
+            $(instance.elementOrigin()).addClass(tooltipsterClassActive);
+        },
+        functionAfter: function(instance) {
+            $(instance.elementOrigin()).removeClass(tooltipsterClassActive);
+        }
     };
 
     /**
      * Активация Tooltipster
      */
-    $(tooltipsterClass).tooltipster(tooltipsterOptions);
+    tooltipster.tooltipster(tooltipsterOptions);
 });
