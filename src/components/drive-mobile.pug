@@ -1,0 +1,104 @@
+// drive-mobile
+link(rel='stylesheet', href='assets/css/components/drive-mobile.css')
+
+.svz-drive-mobile
+  .svz-drive-mobile__header
+    .svz-search-field
+      label
+        input(type='text', placeholder='Поиск документов')
+        
+  .svz-drive-mobile__list
+    .list__row.list__row--title.svz-row
+      .list__col.list__col--type.svz-col
+        span.svz-p Тип
+      .list__col.list__col--name.svz-col
+        span.svz-p Название
+        
+  .svz-drive-mobile__list
+    .list__row.svz-row.svz-drive-file.svz-drive-file--folder
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+      .list__col.list__col--name.svz-col
+        .svz-drive-file__name.svz-p(title='Приказ №334-упв от 14.06.2016. Приказ №334-упв от 14.06.2016.')
+          | Приказ №334-упв от 14.06.2016. Приказ №334-упв от 14.06.2016.
+        .svz-drive-file__date.svz-p--small
+          | 31 мая 2017 г.
+        .svz-drive-file__separator
+        .svz-drive-file__size.svz-p--small
+          | 1 057 Кб
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--folder.svz-drive-file--linked
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--folder.svz-drive-file--shared
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--folder.svz-drive-file--linked.svz-drive-file--shared
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--doc
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--docx
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--image
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--jpeg
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--pdf
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--php
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--png
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+
+    .list__row.svz-row.svz-drive-file.svz-drive-file--ppt
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--rar
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--system
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--txt
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--video
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--xls
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+          
+    .list__row.svz-row.svz-drive-file.svz-drive-file--zip
+      .list__col.list__col--type.svz-col
+        .svz-drive-file__icon
+    
+  .svz-drive-mobile__footer.svz-row
+    
+    include drive-mobile__pagination
+    
+    .svz-drive-mobile__show-more-btn.svz-btn
+      | показать еще 10 
+// end drive-mobile

@@ -19,12 +19,12 @@ gulp.task('build', gulp.series(
 ));
 
 gulp.task('watch', function() {
-    gulp.watch(path.src.pug, gulp.series('pug:build'));
-    gulp.watch(path.src.stylus, gulp.series('stylus:build'));
-    gulp.watch(path.src.js, gulp.series('js:copy'));
-    gulp.watch(path.src.img, gulp.series('images:process'));
-    gulp.watch(path.src.fonts, gulp.series('fonts:copy'));
-    gulp.watch(path.src.vendor, gulp.series('vendor:copy'));
+    gulp.watch(path.src.pug, gulp.series('pug:build', 'server-reload'));
+    gulp.watch(path.src.stylus, gulp.series('stylus:build', 'server-reload'));
+    gulp.watch(path.src.js, gulp.series('js:copy', 'server-reload'));
+    gulp.watch(path.src.img, gulp.series('images:process', 'server-reload'));
+    gulp.watch(path.src.fonts, gulp.series('fonts:copy', 'server-reload'));
+    gulp.watch(path.src.vendor, gulp.series('vendor:copy', 'server-reload'));
 });
 
 gulp.task('default', gulp.series(

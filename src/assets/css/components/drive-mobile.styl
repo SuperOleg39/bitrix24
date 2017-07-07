@@ -1,0 +1,151 @@
+/*
+ * drive-mobile
+ */
+@import "../variables.styl"
+@import "../mixins.styl"
+
+url = embedurl
+ 
+.svz-drive-mobile
+  padding 0 15px
+  border-box()
+   
+  .svz-drive-mobile__header
+    margin 28px 0
+    
+  .svz-drive-mobile__list
+    .list__row
+      border-bottom 1px solid #e6e6e6
+      padding 35px 0
+    
+    .list__row--title
+      padding-top 0
+      padding-bottom 15px
+              
+    .list__col--type
+        width 65px
+        padding-right default-padding 
+      
+    .list__col--name
+        width calc(100% - 65px)
+  
+  .svz-drive-mobile__footer
+    margin-top default-padding
+    
+  .svz-drive-mobile__show-more-btn
+    max-width 250px
+    margin 30px auto 0
+    width 100%
+    display block
+
+.svz-drive-file
+  cursor pointer
+  
+  .svz-drive-file__icon
+    width 40px
+    height 40px
+    background-image url('../../img/drive/drive-icon--default.png')
+    background-size auto
+    background-position left center
+    background-repeat no-repeat
+
+  &--default
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--default.png')
+    
+  &--folder
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-folder-icon.png')
+
+  &--folder.svz-drive-file--linked
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-folder-icon--linked.png')
+
+  &--folder.svz-drive-file--shared
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-folder-icon--shared.png')
+
+  &--folder.svz-drive-file--linked.svz-drive-file--shared
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-folder-icon--linked--shared.png')
+
+  &--doc
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--doc.png')
+
+  &--docx
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--docx.png')
+
+  &--image
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--image.png')
+
+  &--jpeg
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--jpeg.png')
+
+  &--pdf
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--pdf.png')
+
+  &--php
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--php.png')
+
+  &--png
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--png.png')
+
+  &--ppt
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--ppt.png')
+
+  &--rar
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--rar.png')
+
+  &--system
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--system.png')
+
+  &--txt
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--txt.png')
+
+  &--video
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--video.png')
+
+  &--xls
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--xls.png')
+
+  &--zip
+    .svz-drive-file__icon
+      background-image url('../../img/drive/drive-icon--zip.png')
+  
+  .svz-drive-file__name
+    white-space nowrap
+    text-overflow ellipsis
+    overflow hidden
+  
+  .svz-drive-file__date
+    display inline-block
+    color gray-font-color
+    
+  .svz-drive-file__separator
+    display inline-block
+    background-color #e6e6e6
+    width 1px
+    height 12px
+    line-height 22px
+    vertical-align middle
+    margin 0 10px
+
+  .svz-drive-file__size
+    display inline-block
+    color gray-font-color
+/*
+ * end drive-mobile
+ */

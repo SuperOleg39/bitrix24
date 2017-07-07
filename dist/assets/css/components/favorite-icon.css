@@ -13,7 +13,6 @@
   transition: 0.1s;
   cursor: pointer;
 }
-.svz-favorite-icon:hover,
 .svz-favorite-icon--active {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAABYUlEQVQ4jbXVPU/bUBTG8Z8jVNEFRtStjdodEBMbajtUFQuwoqpDlRUGlIEvUL4AIFiqLpmrLB2qKBtjNlbYEAsMIBGJl3TwNXJcp44hOdKVfe49z9/nvh1HvUNlrI6dYYMrJcAL+I75ccDrmefI4O+wEt7X8HaU8K1UbCX4hRYNsaGvcIoXqb4uqjj7n3CYzDczYJjERpFwIuO/xBu8TrXaAG0NkXhWSTvBTRIQ9Q5tYzmAZoqyGcLOw4d+VbAXMhgFWOD0sF/BBT6gPSJ4Cx9xmWzoFT6h+UxwE59xTf9p6WIVjSeCG0HfTTqyR/EW6zgoCT4Iutt0Z945vxdvchnbDbo+G3SJZkvCc+MHwefGCR9b5lFO8AN+YBE/g5+2uaArhFcxlfJb4r/QVxzhS/DbqZhpcU0qhCfrfSy+WO/RycR0sBTGjzO6R8tWReLa8E28DHc542n7jT/iWf1Tm/4Cewk9jFoWii0AAAAASUVORK5CYII=");
 }

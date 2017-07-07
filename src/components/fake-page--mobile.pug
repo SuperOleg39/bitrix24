@@ -1,0 +1,27 @@
+html
+  head
+    meta(name="viewport", content="width=1135")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(http-equiv="Content-Type", content="text/html; charset=UTF-8")
+    script(
+      src="https://code.jquery.com/jquery-1.7.2.min.js",
+      integrity="sha256-R7aNzoy2gFrVs+pNJ6+SokH04ppcEqJ0yFLkNGoFALQ=",
+      crossorigin="anonymous"
+    )
+    script(type="text/javascript", src="../vendor/tooltipster/dist/js/tooltipster.bundle.min.js")
+    link(rel="stylesheet", href="../vendor/tooltipster/dist/css/tooltipster.bundle.min.css")
+    link(rel='stylesheet', href='assets/css/index.css')
+  body
+
+    include fake-header
+
+    .svz-container--mobile
+      .svz-row
+
+        include fake-main
+
+          block content
+            
+            block page-content
+              
+    script(type="text/javascript", src="assets/js/index.js")

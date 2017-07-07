@@ -39,6 +39,19 @@ url = embedurl
       background-image url('../../img/pagination-icon--prev.png')
     &.control--next
       background-image url('../../img/pagination-icon--next.png')
+      
+  &--mobile
+    text-align center
+    
+    .svz-pagination__page,
+    .svz-pagination__control
+      margin 0 -1px
+      
+    .svz-pagination__page
+      &.page--current
+        border 1px solid #9b9b9b
+        background-color white
+        color dark-font-color
 /*
  * end pagination
  */

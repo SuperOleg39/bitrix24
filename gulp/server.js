@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var browserSync = require('browser-sync');
+var browserSync = require('browser-sync').create();
 var path = require('./path');
 
 var config = {
@@ -12,8 +12,12 @@ var config = {
 };
 
 gulp.task('server', function() {
-    browserSync(config);
+    browserSync.init(config);
 
-    browserSync.watch(path.watch.dist)
-        .on('change', browserSync.reload);
+    // gulp.watch(path.watch.dist).on('change', browserSync.reload);
+});
+
+gulp.task('server-reload', function(done) {
+    browserSync.reload();
+    done();
 });
