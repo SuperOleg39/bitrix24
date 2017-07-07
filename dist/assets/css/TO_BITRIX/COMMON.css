@@ -145,6 +145,22 @@
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAYAAAAbBi9cAAAAvElEQVQ4ja2TvQ3CMBSEv0RRBmEFWhCT0FKzBhV4CeYIf2XYIIzio3Eix9gJRpxkxb7ce3q+kwtJONzdd8UYU7yANUDhNeo3RVDwFV8CNWA8gXFcCnG9pIO1Utt0aptO1kqSTpJwq0d/juorYPe8vjgfb8O8y81iC+wTE0X1ZagKjZjDoB+Nesm8mqdHUi3JeAXGcalGUT25BSn9VKOsNKsJH7PS/EhtNp0UctP5xaMss//2aH2zH95Pcvk3Qa7igDzCcl0AAAAASUVORK5CYII=");
   background-color: #8257ba;
 }
+.svz-favorite-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAAB0UlEQVQ4ja3UO2hUQRQG4E9dN4IpEnyA3Qa2T4yNWEaIiGyhwTZGFCy0EITE1s7UinFFg2glaqwUMdqKTYxNAlZGAxZaWRhkwUdxz5WbYR8u7oHLf+bMf/57ZubMbKnX67qwGcz+K3lrF8IHcDWw5+IzCfZMvIqJ8Cdi3DPx6eD+CJzulfg+TOIXjgdORvy/xS+iD4/xPLAv4m2tlIx3ooKhwArOxtxsAU/iHLZhLb4Pgd+L4pdxIoT2tCjiJZbCX8IrHMalJtyv8ZOFEuZwrCD8BW8LFa3hdSJwGocKq6tgFHtD5z3mSviGI3iCcWzHFbxpsQpYx4PC+CCehf9CdvAb+YFuoBY/GMQixtqIF20s+IORXwu9Td3SkB3UPfTjaRDbWS14/bgf+Y18Mm3Fn5jCNezAQ5RbCJfxKHg3cCry/1qzPv+NW+F/KlaSWAMfw78ZeZus1SUaDXyXxNNbmc/vbybSSnwkSa5iAZ8Dq8n8iCbWSXxdtv8rsvYSuILrsm3rWjxf5m1cCN68bLvmY3wedxJ+R/EhDIRflj1WwziD5cDhiOedNBB5HcXzKpZlN/YoVhPOasTHg0eTrUlfRdgV1d2Vvd3tbFH2iE1hdzr5B+/jYi5k5VOSAAAAAElFTkSuQmCC");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.svz-favorite-icon:hover,
+.svz-favorite-icon--active {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAABYUlEQVQ4jbXVPU/bUBTG8Z8jVNEFRtStjdodEBMbajtUFQuwoqpDlRUGlIEvUL4AIFiqLpmrLB2qKBtjNlbYEAsMIBGJl3TwNXJcp44hOdKVfe49z9/nvh1HvUNlrI6dYYMrJcAL+I75ccDrmefI4O+wEt7X8HaU8K1UbCX4hRYNsaGvcIoXqb4uqjj7n3CYzDczYJjERpFwIuO/xBu8TrXaAG0NkXhWSTvBTRIQ9Q5tYzmAZoqyGcLOw4d+VbAXMhgFWOD0sF/BBT6gPSJ4Cx9xmWzoFT6h+UxwE59xTf9p6WIVjSeCG0HfTTqyR/EW6zgoCT4Iutt0Z945vxdvchnbDbo+G3SJZkvCc+MHwefGCR9b5lFO8AN+YBE/g5+2uaArhFcxlfJb4r/QVxzhS/DbqZhpcU0qhCfrfSy+WO/RycR0sBTGjzO6R8tWReLa8E28DHc542n7jT/iWf1Tm/4Cewk9jFoWii0AAAAASUVORK5CYII=");
+}
 .svz-pagination {
   font-family: 'StagSans-Book', sans-serif;
   font-size: 15px;

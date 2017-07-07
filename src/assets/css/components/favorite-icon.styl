@@ -1,0 +1,24 @@
+/*
+ * switch-icon
+ */
+@import "../variables.styl"
+
+url = embedurl
+
+.svz-favorite-icon
+  width 25px
+  height 25px
+  border-radius 50%
+  background-image url('../../img/favorite-icon.png')
+  background-size auto
+  background-position center
+  background-repeat no-repeat
+  transition 0.1s
+  cursor pointer
+
+  &:hover,
+  &--active
+    background-image url('../../img/favorite-icon--active.png')
+/*
+ * end switch-icon
+ */

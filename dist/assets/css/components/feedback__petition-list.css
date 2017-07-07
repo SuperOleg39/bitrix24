@@ -1,6 +1,18 @@
 /*
  * feedback__petition-list
  */
+.svz-feedback__petition-list {
+  margin-top: 40px;
+}
+.svz-feedback__petition-list,
+.svz-feedback__petition-list:after,
+.svz-feedback__petition-list:before,
+.svz-feedback__petition-list *,
+.svz-feedback__petition-list *:after,
+.svz-feedback__petition-list *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 .svz-feedback__petition-list .svz-petition-list__header {
   margin-bottom: 20px;
 }
@@ -12,13 +24,17 @@
 }
 .svz-feedback__petition-list .svz-petition-list__header .header__title .svz-h2 {
   display: inline-block;
-  line-height: 40px;
+  line-height: 39px;
   vertical-align: middle;
   padding-right: 20px;
 }
-.svz-feedback__petition-list .svz-petition-list__header .header__title .svz-switch-icon {
+.svz-feedback__petition-list .svz-petition-list__header .header__title .svz-switch-icon,
+.svz-feedback__petition-list .svz-petition-list__header .header__title .svz-favorite-icon {
   display: inline-block;
   vertical-align: middle;
+}
+.svz-feedback__petition-list .svz-petition-list__header .header__title .svz-switch-icon {
+  margin-left: 6px;
 }
 .svz-feedback__petition-list .svz-petition-list__header .header__switch {
   width: 25%;

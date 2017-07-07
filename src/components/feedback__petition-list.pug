@@ -1,14 +1,17 @@
 // feedback__petition-list
-link(rel='stylesheet', href='assets/css/components/feedback.css')
+link(rel='stylesheet', href='assets/css/components/feedback__petition-list.css')
   
 .svz-feedback__petition-list
   .svz-petition-list__header.svz-row
     .header__title.svz-col
       .svz-h2
         | Жалобы
+      .svz-favorite-icon
       .svz-switch-icon.svz-tooltip(data-tooltip-content="#svz-petition-filters")
     .header__search.svz-col
-      include search-field
+      .svz-search-field
+        label
+          input(type='text', placeholder='Поиск по теме, ID, исполнителю')
     .header__add-btn.svz-col
       .svz-btn
         | Добавить
@@ -19,7 +22,9 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
         | Жалобы
       .svz-switch-icon.svz-switch-icon--active
     .header__search.svz-col
-      include search-field
+      .svz-search-field
+        label
+          input(type='text', placeholder='Поиск по теме, ID, исполнителю')
     .header__add-btn.svz-col
       .svz-btn
         | Добавить
