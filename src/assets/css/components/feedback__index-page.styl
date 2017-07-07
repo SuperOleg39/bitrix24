@@ -5,9 +5,52 @@
 @import "../mixins.styl"
 
 url = embedurl
-
+ 
 .svz-feedback__index-page
-  border-box()
+  .svz-index-page__title
+    margin-bottom 35px
+    
+  .svz-index-page__row
+    margin 0 -10px
+    
+  .svz-index-page__col
+    width calc(100% / 2)
+    padding 0 10px
+    margin-bottom 20px
+    
+    &--small
+      width calc(100% / 3)
+      
+  .svz-index-page__section
+    cursor pointer
+    
+    .section__footer
+      background-color light-gray-color
+      background-size auto
+      background-position right 30px bottom 25px
+      background-repeat no-repeat
+      height 120px
+      padding  px
+      
+    &--chief
+      .section__footer
+        background-image url('../../img/index-icon--chief.png')
+      
+    &--thanks
+      .section__footer
+        background-image url('../../img/index-icon--thanks.png')
+
+    &--ideas
+      .section__footer
+        background-image url('../../img/index-icon--idea.png')
+
+    &--petitions
+      .section__footer
+        background-image url('../../img/index-icon--petition.png')
+
+    &--pi
+      .section__footer
+        background-image url('../../img/index-icon--pi.png')
   
 /*
  * end feedback
