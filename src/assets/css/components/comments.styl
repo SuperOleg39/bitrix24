@@ -1,0 +1,107 @@
+/*
+ * comments
+ */
+@import "../variables.styl"
+@import "../mixins.styl"
+
+.svz-comments
+  border-box()
+  
+  .svz-comments__title
+    margin-bottom 25px
+    
+    .title_comments-count
+      color gray-font-color
+      margin-left 10px
+      
+  .svz-comments__list
+    border-top 1px solid #ebebeb
+    position relative
+    
+    &:before
+      content ''
+      display block
+      position absolute
+      left 45px
+      top -11px
+      border-bottom 10px solid #ebebeb
+      border-left 10px solid transparent
+      border-right 10px solid transparent
+      
+    &:after
+      content ''
+      display block
+      position absolute
+      left 45px
+      top -9px
+      border-bottom 10px solid white
+      border-left 10px solid transparent
+      border-right 10px solid transparent
+      
+  .svz-comment
+    padding 50px 0 25px
+    border-bottom 1px solid #ebebeb
+
+    .comment__avatar
+      width 80px
+      padding-right default-padding
+      
+      .svz-avatar
+        position relative
+        top -18px
+      
+    .comment__body
+      width calc(100% - 80px)
+      
+    .comment__footer
+      margin-top 5px
+      
+    .comment__author
+      margin-bottom 10px
+      
+    .comment__created
+      font-size 11px
+      line-height 20px
+      color gray-font-color
+      
+      .created__time
+        margin-left 8px
+        
+    .comment__actions
+      > *
+        display inline-block
+        vertical-align middle
+
+      .svz-like-btn
+        position relative
+        top -4px
+        
+      .actions__likes
+        padding-right 8px
+      
+      .actions__likes-count
+        color gray-font-color
+        margin-left 5px
+        
+  .svz-comment--system
+    padding 35px 0
+    
+    > div
+      display inline-block
+      vertical-align middle
+      
+    .svz-feedback-status
+      margin-left 25px
+      
+    .comment__created
+      margin-top 0
+      
+  .svz-comment--has-actions
+    .comment__footer
+      margin-top 25px
+    
+    .comment__created
+      line-height 24px
+/*
+ * end comments
+ */

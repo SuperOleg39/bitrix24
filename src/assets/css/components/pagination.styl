@@ -30,15 +30,19 @@ url = embedurl
       color white
     
   .svz-pagination__control
-    border 1px solid #9b9b9b
+    border 1px solid #e6e6e6
     background-size auto
     background-position center
     background-repeat no-repeat
+    transition 0.1s
     
     &.control--prev
       background-image url('../../img/pagination-icon--prev.png')
     &.control--next
       background-image url('../../img/pagination-icon--next.png')
+      
+    &:hover
+      border 1px solid #9b9b9b
       
   &--mobile
     text-align center

@@ -102,6 +102,53 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.svz-feedback-status {
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+.svz-feedback-status .svz-icon {
+  margin-right: 12px;
+  vertical-align: middle;
+}
+.svz-feedback-status span {
+  vertical-align: middle;
+}
+.svz-feedback-status--done {
+  color: #5fbc4e;
+}
+.svz-feedback-status--done .svz-icon {
+  width: 17px;
+  height: 13px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAA8ElEQVQokZ3RsSuFURQA8N/7vFheyZ9iMCn09AwKg5RBmYx6o0yMbLIZLQxkIoS/QBkkYfBIEqVMShkM79DXl/d4313OuZ3b7557bmH6eFTONYQqJos5gRFsoQMbSQ5gAtsBPGO+VWQKm2jHEwZw0Qoyg3W04SGAK/gvMou1OH+Hftx8F5OQV9DdAJjDKgq4jQ5q6QNJtFjFCXoywCKWIr9GH+6ztyTYwye6cITeqC1jIfLL6ODxt1aL6tP+iNiJA+yrfyWco4KXBs/9GewOxgMrpYAzlJsBaQR2MYb32J9iEK/NgCwChxiOWMHbXwB8AbEtL4lIg5uyAAAAAElFTkSuQmCC");
+}
+.svz-feedback-status--waiting {
+  color: #999;
+}
+.svz-feedback-status--waiting .svz-icon {
+  width: 16px;
+  height: 16px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABF0lEQVQ4jaXTPUoDQRwF8F82wWBpqY0YENRAWg8QkCik1gMEDHa5iGKlC7EVwdJGxDQiHkCjYCN4CBEiCRY7K8mSD4gPhhnevPfm6z+5OI5lsIUGdrEWuA/coo23YXE0NF7EOV7QwgaKoW0G7hlnQQsKoV/ADarZ7WSQRxPr2EMv3cHJBHMOR2P4Ko7TI5RxOGPlcWiiHEkuLD9HQB6NCLU5zClqEUr/CChFMwQruMLDhPleJCmSSXjCMnZwPWb+M5JU2CSs4hHbOJA89zDuI1ygPyVkCXfYN/pafbQL6CI2vmBSFHGZ4WJ000tsoTMlIItO8Px9ph7qIXUwxTgImnrwjPzGb0l5VnCKV3zhB++BqwTNd2r6BQvaM3gs+x+TAAAAAElFTkSuQmCC");
+}
+.svz-feedback-status--inprogress {
+  color: #38a7de;
+}
+.svz-feedback-status--inprogress .svz-icon {
+  width: 11px;
+  height: 15px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAPCAYAAAAyPTUwAAAAn0lEQVQokY3OsQpBcRjG4YekLHalrBayMVvdgE2RSbkAO7uszGewssmkbAbZlDLZ3IGYjnSiv3f9nn59qUZ0iTDAXWBptHFC6x8MBawwRz6E4/VwRPMfDCVsMEUuhCGFIQ6oh3C8MnYYI5sJYMhghGKoDA9M0A+Vz+hgz++fn5ihFsP4n+Su6GKbPCTLC1S/wc/yDX2sf7z1Li9RCUF4AUMjGsyAUqgDAAAAAElFTkSuQmCC");
+}
+.svz-feedback-status--rejected {
+  color: #f89b25;
+}
+.svz-feedback-status--rejected .svz-icon {
+  width: 13px;
+  height: 13px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAsUlEQVQokXXQzW0CMRAG0LdWmvA9KJyjNMBPF5G4wzm1UABRugDSAOIMFWwLuZHLLNq1bN/GM08ef93f1+sMe2zQa5+Mb2xTgDXO0WiBX6ywT/HCDfMGzHH/FnObFCstG3AA8+gv0ado1uB7DcDLaI0BDoMXdCWAZHp6fOIR4BH1JNUSZfyMQBd1bqHy0x+NcJ6oltK1Ek4eUDXWIpwJTDg0gALeY+6QsMOxAcZwgRN2/zUePZChkhb9AAAAAElFTkSuQmCC");
+}
+/*
+ * feedback__create
+ */
 .svz-feedback__create {
   position: relative;
 }
@@ -167,6 +214,59 @@
 .svz-feedback__create-thank .svz-icon {
   margin: 0 8px;
 }
+/*
+ * end feedback__create
+ */
+/*
+ * feedback__view
+ */
+.svz-feedback__view-header {
+  padding-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.svz-feedback__view-header .view-header__icon {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.svz-feedback__view-thank .svz-feedback-type-icon {
+  width: 45px;
+  height: 45px;
+  background-size: 45px;
+}
+.svz-feedback__view-info {
+  margin-bottom: 20px;
+}
+.svz-feedback__view-info .view-info__date {
+  color: #999;
+}
+.svz-feedback__view-info .view-info__from-to > div {
+  display: inline-block;
+}
+.svz-feedback__view-info .view-info__from-to .svz-icon {
+  margin: 0 8px 0 5px;
+  vertical-align: middle;
+}
+.svz-feedback__view-info .view-info__from-to span {
+  vertical-align: middle;
+}
+.svz-feedback__view-info .from-to__recipient {
+  color: #999;
+}
+.svz-feedback__view-content {
+  margin-bottom: 50px;
+}
+.svz-feedback__view-footer {
+  padding: 20px 0 30px;
+}
+.svz-feedback__add-comment-btn {
+  padding: 0 30px;
+}
+/*
+ * end feedback__view
+ */
 .svz-feedback__petition-list .svz-petition-list__id-col {
   width: 15%;
 }
@@ -191,41 +291,6 @@
 }
 .svz-feedback__petition-list .svz-list__list .svz-petition-list__status-col {
   width: 21%;
-}
-.svz-feedback__petition-list .svz-list__list .svz-petition-list__status-col .status-col__icon {
-  width: 20px;
-  height: 20px;
-  background-size: auto;
-  background-position: left top 3px;
-  background-repeat: no-repeat;
-  margin-right: 12px;
-}
-.svz-feedback__petition-list .svz-list__list .svz-petition-list__status-col .status-col__text {
-  width: calc(100% - 35px);
-}
-.svz-feedback__petition-list .svz-list__list .svz-petition-list__status-col.status-col--done {
-  color: #5fbc4e;
-}
-.svz-feedback__petition-list .svz-list__list .svz-petition-list__status-col.status-col--done .status-col__icon {
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAA8ElEQVQokZ3RsSuFURQA8N/7vFheyZ9iMCn09AwKg5RBmYx6o0yMbLIZLQxkIoS/QBkkYfBIEqVMShkM79DXl/d4313OuZ3b7557bmH6eFTONYQqJos5gRFsoQMbSQ5gAtsBPGO+VWQKm2jHEwZw0Qoyg3W04SGAK/gvMou1OH+Hftx8F5OQV9DdAJjDKgq4jQ5q6QNJtFjFCXoywCKWIr9GH+6ztyTYwye6cITeqC1jIfLL6ODxt1aL6tP+iNiJA+yrfyWco4KXBs/9GewOxgMrpYAzlJsBaQR2MYb32J9iEK/NgCwChxiOWMHbXwB8AbEtL4lIg5uyAAAAAElFTkSuQmCC");
-}
-.svz-feedback__petition-list .svz-list__list .svz-petition-list__status-col.status-col--waiting {
-  color: #999;
-}
-.svz-feedback__petition-list .svz-list__list .svz-petition-list__status-col.status-col--waiting .status-col__icon {
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABF0lEQVQ4jaXTPUoDQRwF8F82wWBpqY0YENRAWg8QkCik1gMEDHa5iGKlC7EVwdJGxDQiHkCjYCN4CBEiCRY7K8mSD4gPhhnevPfm6z+5OI5lsIUGdrEWuA/coo23YXE0NF7EOV7QwgaKoW0G7hlnQQsKoV/ADarZ7WSQRxPr2EMv3cHJBHMOR2P4Ko7TI5RxOGPlcWiiHEkuLD9HQB6NCLU5zClqEUr/CChFMwQruMLDhPleJCmSSXjCMnZwPWb+M5JU2CSs4hHbOJA89zDuI1ygPyVkCXfYN/pafbQL6CI2vmBSFHGZ4WJ000tsoTMlIItO8Px9ph7qIXUwxTgImnrwjPzGb0l5VnCKV3zhB++BqwTNd2r6BQvaM3gs+x+TAAAAAElFTkSuQmCC");
-}
-.svz-feedback__petition-list .svz-list__list .svz-petition-list__status-col.status-col--inprogress {
-  color: #38a7de;
-}
-.svz-feedback__petition-list .svz-list__list .svz-petition-list__status-col.status-col--inprogress .status-col__icon {
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAPCAYAAAAyPTUwAAAAn0lEQVQokY3OsQpBcRjG4YekLHalrBayMVvdgE2RSbkAO7uszGewssmkbAbZlDLZ3IGYjnSiv3f9nn59qUZ0iTDAXWBptHFC6x8MBawwRz6E4/VwRPMfDCVsMEUuhCGFIQ6oh3C8MnYYI5sJYMhghGKoDA9M0A+Vz+hgz++fn5ihFsP4n+Su6GKbPCTLC1S/wc/yDX2sf7z1Li9RCUF4AUMjGsyAUqgDAAAAAElFTkSuQmCC");
-}
-.svz-feedback__petition-list .svz-list__list .svz-petition-list__status-col.status-col--rejected {
-  color: #f89b25;
-}
-.svz-feedback__petition-list .svz-list__list .svz-petition-list__status-col.status-col--rejected .status-col__icon {
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAsUlEQVQokXXQzW0CMRAG0LdWmvA9KJyjNMBPF5G4wzm1UABRugDSAOIMFWwLuZHLLNq1bN/GM08ef93f1+sMe2zQa5+Mb2xTgDXO0WiBX6ywT/HCDfMGzHH/FnObFCstG3AA8+gv0ado1uB7DcDLaI0BDoMXdCWAZHp6fOIR4BH1JNUSZfyMQBd1bqHy0x+NcJ6oltK1Ek4eUDXWIpwJTDg0gALeY+6QsMOxAcZwgRN2/zUePZChkhb9AAAAAElFTkSuQmCC");
 }
 .svz-feedback__petition-list .svz-list__list .svz-petition-list__type-col {
   color: #999;

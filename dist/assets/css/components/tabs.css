@@ -7,7 +7,7 @@
 }
 .svz-tabs .svz-tab {
   font-size: 15px;
-  color: #999;
+  border-bottom: color #999;
   padding: 25px 25px 25px;
   position: relative;
   bottom: -1px;

@@ -91,6 +91,48 @@ url = embedurl
   background-position center
   background-repeat no-repeat
   
+.svz-feedback-status
+  font-family 'StagSans-Book', sans-serif
+  font-size 15px
+  line-height 24px
+  
+  .svz-icon
+    margin-right 12px
+    vertical-align middle
+  span
+    vertical-align middle
+    
+  &--done
+    color main-green-color
+    .svz-icon
+      width 17px
+      height 13px
+      background-image url('../../img/status-icon__done.png')
+
+  &--waiting
+    color gray-font-color
+    .svz-icon
+      width 16px
+      height 16px
+      background-image url('../../img/status-icon__waiting.png')
+
+  &--inprogress
+    color main-blue-color
+    .svz-icon
+      width 11px
+      height 15px
+      background-image url('../../img/status-icon__inprogress.png')
+
+  &--rejected
+    color main-orange-color
+    .svz-icon
+      width 13px
+      height 13px
+      background-image url('../../img/status-icon__reject.png')
+  
+/*
+ * feedback__create
+ */
 .svz-feedback__create
   position relative
   
@@ -157,6 +199,61 @@ url = embedurl
 
   .svz-icon
     margin 0 8px
+/*
+ * end feedback__create
+ */
+
+/*
+ * feedback__view
+ */
+.svz-feedback__view-header
+  padding-right 100px
+  margin-top default-padding
+  margin-bottom 10px
+  position relative
+  
+  .view-header__icon
+    position absolute
+    right 0
+    top 10px
+
+.svz-feedback__view-thank
+  .svz-feedback-type-icon
+    width 45px
+    height 45px
+    background-size 45px
+    
+.svz-feedback__view-info
+  margin-bottom default-padding
+  
+  .view-info__date
+    color gray-font-color
+    
+  .view-info__from-to
+    > div
+      display inline-block
+      
+    .svz-icon
+      margin 0 8px 0 5px
+      vertical-align middle
+      
+    span
+      vertical-align middle
+      
+  .from-to__recipient
+    color gray-font-color
+
+.svz-feedback__view-content
+  margin-bottom 50px
+  
+.svz-feedback__view-footer
+  padding 20px 0 30px
+
+.svz-feedback__add-comment-btn
+  padding 0 30px
+/*
+ * end feedback__view
+ */
     
 @import "feedback__petition-list.styl"
 @import "feedback__thanks-list.styl"

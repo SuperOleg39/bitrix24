@@ -25,16 +25,21 @@
   color: #fff;
 }
 .svz-pagination .svz-pagination__control {
-  border: 1px solid #9b9b9b;
+  border: 1px solid #e6e6e6;
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 .svz-pagination .svz-pagination__control.control--prev {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAJCAYAAAARml2dAAAAfElEQVQImU3OIQpCQRhF4e8NdkEMgs0iWERcguIixPLKVNeiGzDpIgSjUTBYLDaDIIIr0PIPvBvPCedWOWeNTbBF3WrAEY7oYpMCDnEKeMEyYRCwhysW+Cbs0McPK3wgocYTFfboFPHADC+M40C7xO+Y440pDkXALcJnrP8roxZDhnkt6wAAAABJRU5ErkJggg==");
 }
 .svz-pagination .svz-pagination__control.control--next {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAJCAYAAAARml2dAAAAf0lEQVQImU3OsQqBUQDF8d93M1NS32CTshiU0ai+h2Cy3A3P4gkY5CHEI0gWZbEpg5QnYLm3nPH8+3dOEWPsYoM5zlICVhhhj/4/mOCEFg7oZfBBhQtKHNEJyXxjii/aWGfQxBYFHpgFNNLwAE+McQ/YYYhXKm9QwxJ1LHDNd38c8Ra3YZJwfwAAAABJRU5ErkJggg==");
+}
+.svz-pagination .svz-pagination__control:hover {
+  border: 1px solid #9b9b9b;
 }
 .svz-pagination--mobile {
   text-align: center;

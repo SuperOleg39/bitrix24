@@ -1,0 +1,109 @@
+/*
+ * comments
+ */
+.svz-comments,
+.svz-comments:after,
+.svz-comments:before,
+.svz-comments *,
+.svz-comments *:after,
+.svz-comments *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.svz-comments .svz-comments__title {
+  margin-bottom: 25px;
+}
+.svz-comments .svz-comments__title .title_comments-count {
+  color: #999;
+  margin-left: 10px;
+}
+.svz-comments .svz-comments__list {
+  border-top: 1px solid #ebebeb;
+  position: relative;
+}
+.svz-comments .svz-comments__list:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 45px;
+  top: -11px;
+  border-bottom: 10px solid #ebebeb;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.svz-comments .svz-comments__list:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 45px;
+  top: -9px;
+  border-bottom: 10px solid #fff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.svz-comments .svz-comment {
+  padding: 50px 0 25px;
+  border-bottom: 1px solid #ebebeb;
+}
+.svz-comments .svz-comment .comment__avatar {
+  width: 80px;
+  padding-right: 20px;
+}
+.svz-comments .svz-comment .comment__avatar .svz-avatar {
+  position: relative;
+  top: -18px;
+}
+.svz-comments .svz-comment .comment__body {
+  width: calc(100% - 80px);
+}
+.svz-comments .svz-comment .comment__footer {
+  margin-top: 5px;
+}
+.svz-comments .svz-comment .comment__author {
+  margin-bottom: 10px;
+}
+.svz-comments .svz-comment .comment__created {
+  font-size: 11px;
+  line-height: 20px;
+  color: #999;
+}
+.svz-comments .svz-comment .comment__created .created__time {
+  margin-left: 8px;
+}
+.svz-comments .svz-comment .comment__actions > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.svz-comments .svz-comment .comment__actions .svz-like-btn {
+  position: relative;
+  top: -4px;
+}
+.svz-comments .svz-comment .comment__actions .actions__likes {
+  padding-right: 8px;
+}
+.svz-comments .svz-comment .comment__actions .actions__likes-count {
+  color: #999;
+  margin-left: 5px;
+}
+.svz-comments .svz-comment--system {
+  padding: 35px 0;
+}
+.svz-comments .svz-comment--system > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.svz-comments .svz-comment--system .svz-feedback-status {
+  margin-left: 25px;
+}
+.svz-comments .svz-comment--system .comment__created {
+  margin-top: 0;
+}
+.svz-comments .svz-comment--has-actions .comment__footer {
+  margin-top: 25px;
+}
+.svz-comments .svz-comment--has-actions .comment__created {
+  line-height: 24px;
+}
+/*
+ * end comments
+ */
