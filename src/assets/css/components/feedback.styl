@@ -1,0 +1,91 @@
+/*
+ * feedback
+ */
+@import "../variables.styl"
+@import "../mixins.styl"
+
+url = embedurl
+
+.svz-feedback__list
+  margin-top 40px
+  border-box()
+
+  .svz-list__header
+    margin-bottom default-padding
+    
+    > div
+      padding-right default-padding
+
+    .header__title
+      width 42%
+      .svz-h2
+        display inline-block
+        line-height 39px
+        vertical-align middle
+        padding-right default-padding
+      .svz-switch-icon,
+      .svz-favorite-icon
+        display inline-block
+        vertical-align middle
+      .svz-switch-icon
+        margin-left 6px
+    .header__switch
+      width 25%
+    .header__search
+      width 42%
+    .header__add-btn
+      width 16%
+      padding-right 0
+      padding-left default-padding
+
+      .svz-btn
+        display block
+
+  .svz-list__list-head
+    border-bottom 1px solid #e6e6e6
+    margin-bottom 40px
+
+    .list__title
+      color dark-font-color
+      padding 20px 20px 20px 0
+
+      span
+        display inline-block
+        cursor pointer
+
+      .title__sortable
+        position relative
+
+        &:after
+          content ""
+          display block
+          width 9px
+          height 6px
+          position absolute
+          right -16px
+          top 6px
+          background-image url('../../img/sortable-icon.png')
+          background-size auto
+          background-position center
+          background-repeat no-repeat
+          transition transform 0.1s
+
+        &--active
+          &:after
+            transform: rotate(180deg);
+
+  .svz-list__list
+    border-bottom 1px solid #e6e6e6
+    padding-top 20px
+    padding-bottom  40px
+    margin-bottom 20px
+
+  .svz-list__show-more-btn
+    padding 0 60px
+
+@import "feedback__petition-list.styl"
+@import "feedback__thanks-list.styl"
+@import "feedback__index-page.styl"
+/*
+ * end feedback
+ */

@@ -6,19 +6,17 @@
 
 url = embedurl
 
-.svz-feedback__petition-list
+.svz-feedback__thanks-list
   .svz-petition-list__id-col
     width 15%
-  .svz-petition-list__name-col
+  .svz-petition-list__theme-col
     width 27%
-  .svz-petition-list__status-col
-    width 21%
   .svz-petition-list__type-col
     width 22%
-  .svz-petition-list__created-col
+  .svz-petition-list__author-col
     width 15%
     text-align right
-  
+
   .svz-list__list
     .svz-petition-list__id-col
       color gray-font-color
@@ -26,7 +24,7 @@ url = embedurl
       width 27%
     .svz-petition-list__status-col
       width 21%
-  
+
       .status-col__icon
         width 20px
         height 20px
@@ -36,27 +34,27 @@ url = embedurl
         margin-right 12px
       .status-col__text
         width calc(100% - 35px)
-  
+
       &.status-col--done
         color main-green-color
         .status-col__icon
           background-image url('../../img/status-icon__done.png')
-  
+
       &.status-col--waiting
         color gray-font-color
         .status-col__icon
           background-image url('../../img/status-icon__waiting.png')
-  
+
       &.status-col--inprogress
         color main-blue-color
         .status-col__icon
           background-image url('../../img/status-icon__inprogress.png')
-  
+
       &.status-col--rejected
         color main-orange-color
         .status-col__icon
           background-image url('../../img/status-icon__reject.png')
-  
+
     .svz-petition-list__type-col
       color gray-font-color
     .svz-petition-list__created-col

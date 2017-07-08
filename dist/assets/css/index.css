@@ -129,6 +129,18 @@ body {
 .svz-pull-right {
   float: right;
 }
+.svz-icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.svz-icon--arrow-right {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAJCAYAAAACTR1pAAAAgklEQVQokZ3QIRJBYRQF4O8Z5W+aNXhR1xXBJq4NmMEOBFW5XVZFVbQLu3gCL7+fE8/MN/fMbbquM5TM3GESEYe+Gw2qT6bYZ2b8Cre44pyZS2hqpn7nFtwxw6KJiDqJUoq2beHx98VxJRrhgjlWEfGsgjhhjU1E3Kj/6gvHiMi+eANR7iiJa3kGEwAAAABJRU5ErkJggg==");
+  width: 14px;
+  height: 9px;
+}
 .svz-container--fixed {
   margin: 0 auto;
   min-width: 1060px;
