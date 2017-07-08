@@ -1,0 +1,52 @@
+
+<!-- create-petition-->
+<link rel="stylesheet" href="assets/css/components/feedback.css"/>
+<div class="svz-feedback__create svz-feedback__create-petition">
+  <div class="svz-h2">Добавить жалобу</div>
+  <div class="svz-feedback__editor-area svz-editor-area">
+    <div class="svz-editor-area__theme">
+      <div class="svz-icon svz-icon--cross theme__clear-btn"></div>
+      <label class="svz-editor-area__theme-inner">
+        <input type="text" placeholder="Тема"/>
+      </label>
+    </div>
+    <!-- REMOVE #editor block!-->
+    <div id="editor"><img src="assets/img/EDITOR.jpg"/></div>
+    <div class="svz-editor-area__extra">
+      <div class="svz-row">
+        <div class="extra-col extra-col--title svz-col">
+          <div class="svz-p">Выберите тип жалобы:</div>
+        </div>
+        <div class="extra-col svz-col svz-radiobutton-group">
+          <div class="svz-radiobutton">
+            <input id="petitionType1" type="radio" name="petitionType"/>
+            <label for="petitionType1"><span>Неработающее оборудование</span></label>
+          </div>
+          <div class="svz-radiobutton">
+            <input id="petitionType2" type="radio" name="petitionType"/>
+            <label for="petitionType2"><span>Организация рабочего места</span></label>
+          </div>
+          <div class="svz-radiobutton">
+            <input id="petitionType3" type="radio" name="petitionType"/>
+            <label for="petitionType3"><span>Хранение и обмен информацией</span></label>
+          </div>
+        </div>
+        <div class="extra-col svz-col svz-radiobutton-group">
+          <div class="svz-radiobutton">
+            <input id="petitionType4" type="radio" name="petitionType"/>
+            <label for="petitionType4"><span>Проблемы с доступом к интернету</span></label>
+          </div>
+          <div class="svz-radiobutton">
+            <input id="petitionType5" type="radio" name="petitionType"/>
+            <label for="petitionType5"><span>Внутренние коммуникации</span></label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="svz-editor-area__footer">
+      <div class="svz-btn">Отправить</div>
+      <div class="svz-btn svz-btn--link">Отменить</div>
+    </div>
+  </div>
+</div>
+<!-- end create-petition-->

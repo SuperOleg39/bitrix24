@@ -91,6 +91,17 @@
 .svz-feedback__list .svz-list__show-more-btn {
   padding: 0 60px;
 }
+.svz-feedback__create .svz-h2 {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+.svz-feedback__create-petition .svz-editor-area__extra .extra-col {
+  width: 38%;
+  padding-right: 15px;
+}
+.svz-feedback__create-petition .svz-editor-area__extra .extra-col--title {
+  width: 24%;
+}
 .svz-feedback__petition-list .svz-petition-list__id-col {
   width: 15%;
 }

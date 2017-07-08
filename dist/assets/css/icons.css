@@ -13,6 +13,11 @@
   width: 14px;
   height: 9px;
 }
+.svz-icon--cross {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAmklEQVQYlV3PwRGDIBCF4V88ZCyFC2fTxjZhCUgKUCmBEjxIBeYcO6CK1GAukGHYGzsfu2+74zi+QBCRF03FGBdgUkAAXIxxa8AGOCD0+76/U0oDYFNKg9b6zMACXkRcd993/dMCFzBmMAP8UYafDC4ReZa+ajKMZVKdUTWrfJ7gAVtgb4xZgLnOoLU+q2MeCpiAtYBS+b0C0w/vk0x5lJKYEwAAAABJRU5ErkJggg==");
+  width: 9px;
+  height: 9px;
+}
 /*
  * end Иконки
  */

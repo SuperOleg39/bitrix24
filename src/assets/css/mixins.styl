@@ -15,3 +15,13 @@ border-box()
   & *:after,
   & *:before
     box-sizing border-box
+    
+placeholder-color(c)
+  &::-webkit-input-placeholder
+    color c
+  &::-moz-placeholder
+    color c
+  &:-ms-input-placeholder
+    color c
+  &:-moz-placeholder
+    color c

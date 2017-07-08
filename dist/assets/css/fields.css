@@ -1,0 +1,47 @@
+/*
+ * Поля ввода, чекбоксы, радио и тд
+ */
+.svz-radiobutton input[type='radio'] {
+  display: none;
+}
+.svz-radiobutton label {
+  display: inline-block;
+  padding-left: 32px;
+  position: relative;
+  cursor: pointer;
+}
+.svz-radiobutton label span {
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #4c4c4c;
+}
+.svz-radiobutton label:before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #d8d8d8;
+  border-radius: 50%;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+.svz-radiobutton input[type='radio']:checked + label:after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #8257ba;
+  position: absolute;
+  left: 5px;
+  top: 7px;
+}
+.svz-radiobutton-group .svz-radiobutton:not(:last-child) {
+  margin-bottom: 5px;
+}
+/*
+ * end Поля ввода, чекбоксы, радио и тд
+ */

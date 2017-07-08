@@ -20,6 +20,16 @@
 .svz-btn:hover {
   background-color: #8769ae;
 }
+.svz-btn--link {
+  background: none;
+  border: none;
+  color: #4c4c4c;
+  font-size: 15px;
+  text-transform: none;
+}
+.svz-btn--link:hover {
+  background: none;
+}
 /*
  * end Кнопки
  */

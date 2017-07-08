@@ -1,0 +1,52 @@
+/*
+ * Поля ввода, чекбоксы, радио и тд
+ */
+@import "variables.styl"
+@import "mixins.styl"
+
+.svz-radiobutton
+  input[type='radio']
+    display none
+    
+  label
+    display inline-block
+    padding-left 32px
+    position relative
+    cursor pointer
+    
+    span
+      font-family 'StagSans-Book', sans-serif
+      font-size 15px
+      line-height 24px
+      color dark-font-color
+    
+    &:before
+      content ''
+      display block
+      width 20px
+      height 20px
+      border 1px solid #d8d8d8
+      border-radius 50%
+      background-color transparent
+      position absolute
+      left 0
+      top 2px
+      
+  input[type='radio']:checked + label
+    &:after
+      content ''
+      display block
+      width 10px
+      height 10px
+      border-radius 50%
+      background-color main-purple-color
+      position absolute
+      left 5px
+      top 7px
+      
+.svz-radiobutton-group
+  .svz-radiobutton:not(:last-child)
+    margin-bottom 5px
+/*
+ * end Поля ввода, чекбоксы, радио и тд
+ */
