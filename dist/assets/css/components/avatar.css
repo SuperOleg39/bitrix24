@@ -1,0 +1,21 @@
+/*
+ * avatar
+ */
+.svz-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.svz-avatar img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-height: 100%;
+}
+/*
+ * end avatar
+ */
