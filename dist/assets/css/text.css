@@ -57,6 +57,56 @@
 .svz-link:active {
   color: #2799d1;
 }
+.svz-hashtag {
+  display: inline-block;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #4c4c4c;
+  text-decoration: none;
+  margin: 0 6px;
+  -webkit-transition: color 0.1s;
+  transition: color 0.1s;
+}
+.svz-hashtag:hover {
+  color: #38a7de;
+}
+.svz-tag {
+  display: inline-block;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #4c4c4c;
+  text-decoration: none;
+  -webkit-transition: color 0.1s;
+  transition: color 0.1s;
+  cursor: pointer;
+}
+.svz-tag--xs {
+  font-size: 13px;
+  line-height: 22px;
+}
+.svz-tag--sm {
+  font-size: 17px;
+  line-height: 26px;
+}
+.svz-tag--md {
+  font-size: 22px;
+  line-height: 30px;
+}
+.svz-tag--xl {
+  font-size: 32px;
+  line-height: 40px;
+}
+.svz-tag:hover {
+  color: #38a7de;
+}
+.svz-gray-font {
+  color: #999;
+}
+.svz-indent + .svz-indent {
+  margin-top: 20px;
+}
 /*
  * end Текст
  */

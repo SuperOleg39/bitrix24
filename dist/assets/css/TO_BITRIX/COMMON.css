@@ -54,6 +54,56 @@
 .svz-link:active {
   color: #2799d1;
 }
+.svz-hashtag {
+  display: inline-block;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #4c4c4c;
+  text-decoration: none;
+  margin: 0 6px;
+  -webkit-transition: color 0.1s;
+  transition: color 0.1s;
+}
+.svz-hashtag:hover {
+  color: #38a7de;
+}
+.svz-tag {
+  display: inline-block;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #4c4c4c;
+  text-decoration: none;
+  -webkit-transition: color 0.1s;
+  transition: color 0.1s;
+  cursor: pointer;
+}
+.svz-tag--xs {
+  font-size: 13px;
+  line-height: 22px;
+}
+.svz-tag--sm {
+  font-size: 17px;
+  line-height: 26px;
+}
+.svz-tag--md {
+  font-size: 22px;
+  line-height: 30px;
+}
+.svz-tag--xl {
+  font-size: 32px;
+  line-height: 40px;
+}
+.svz-tag:hover {
+  color: #38a7de;
+}
+.svz-gray-font {
+  color: #999;
+}
+.svz-indent + .svz-indent {
+  margin-top: 20px;
+}
 .svz-icon {
   display: inline-block;
   vertical-align: middle;
@@ -85,6 +135,45 @@
   display: block;
   max-width: 100%;
   height: auto;
+}
+.svz-photo-preview {
+  display: inline-block;
+  border: 1px solid #e6e6e6;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.svz-photo-preview img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-height: 100%;
+}
+.svz-photo-preview-group .svz-photo-preview {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.svz-video-preview {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+.svz-video-preview:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAEuklEQVRo3uWbTWxUVRTHf+cxKYFSWpu2wVAXajWxUGRRRG2NJFpJjI3BkBBxYTQhrHBhgk0gQZu4EaNbd+3ShbBswlTwIwpJ0YSqUAKKKB9KoGmkNSQ0kL+Ld4nPsTPtm/dxp+l/+ebee87vzpyXO/ecY2QoSWuBx4FHgYeBFmA5UACWuWF3gTvAbWAS+BU4B/xgZlez8s0ygF0PPA88CzQCsxGgq8ANYNo9B6gDVgOtwFrgIbdBdcBN4GvgqJmdrklwSduBV53zfwLHgDHgjJndirnWSmAdsBl4DrjfbdqnZnYozQ1IArxD0jFJY5IGJXVlYKPLrT3mbO3wCbxZ0oikU5LeltSUg80mZ+uUs705b+hBSRckfSypJVfjof0WZ/uCpME8DLZLOuJ+cr15A8/hT6/z5Yik9qyMbJJ0VtKQe/nUhCStdD6dlbQp7cX7JF2WtN83aAUf9zsfX0gT+g9Ju33DLcDX3c7XvqQLdUu6ImmXb6gYPu9yPndXu0CrpHOSBnzDVOH7gPO9rZrJRUlDviESwA9JKsadtE/S95LqfAMkAK9zDPsWOmGDpN+rjRFJzZJe8w3ufOl2LBsWMnhE0sEExloValzS1hqA/0DSyHyDXpb0o6RVCQzVS7qlf3U4iz8uMfxZ5Zi2VRpUlPRWQkMNkqb1f30oabUn+D2SvpBkc334oqSTklZkBC53snrDA/gKSd9J6p/rw0OSDqRgpBL4PZ1I7Wi5cL8OSPqs9GGH+7Y7cgKPxv/6nMA73Lf+CEDgnvcDl8zslzyciOgV4CdJB7OOf8d2CXgpCt4LfJUzdFR7gTM5xP+XjpVA0hqgGTjuERygHRjKOP6PA82S1gTARsI77QnP4Pf0FFDMKP4nHOvGAHgMuG5mt30Tlyj1+HeM14HOgPAC/6JvygpKO/4vAg8GhFmLK77p5lGa8X8FaA0Ic1mTvskWqDTifxKoCwgTeDO+iWIqGv/3xZw7AxQCwqzlbMzJtaK9wJSkJ2PMmQWWFXx7nlB/A58Al+NOLBDmpxfjFdMw8K6ZxYWuA+4WCJPyDb4pYmgUGDSzE1XObwDuFAhPMrkn/qrQaeA9MzuccJ0WYLZA+HrPJuGWjmaA982s6nvAErUDNwLcScY3XRkNA+tShMaxXgwID+5tkpb7poxoFOgxszereHmVlWNsAyYCYJzw9Nbpm5Ywjreb2dYEL69K6nSs44GZXQOmgB6PwDPAgJl1pfDyqqQeYMrMrt27gfkW2OIJOos4LqctjjWUp8vGoqSnc4CNMv73sjFyEbczBx+yjuNy2gn8ZmY/l+5Iv9uRrBIK05LeyRE06lPFhIK5NMueFMBvlkAPS3rAB7TzqXwKyQ3Y5hJs9QmM1EeAR/OM4zL+zJ80dAOTponXKEzIv+4TOOLP/GliNzBpYUDN/MVVnMIAN2HplYJEJhYlDfsGSAA+rLjFP25im6TzWrzlXudVTbmXW2DpFfhFFlp6JZ0l8EuriDey8NIr244YqdVC/aKyKtQvMVgLrRkfKa/WjBLjpc04jTnYbJTPZpwSZxZl+1WWDXdHgZMka7h7grBrMfWGu6xaLPuAZ4AmkrVY/gV8A3xesy2WZTahZptq/wGcTEKRceX6DQAAAABJRU5ErkJggg==");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .svz-pull-left {
   float: left;
@@ -318,13 +407,35 @@
   width: 19px;
   height: 18px;
   cursor: pointer;
+  position: relative;
+  top: -4px;
 }
-.svz-like-btn--already-liked,
+.svz-like-btn--active,
 .svz-like-btn:hover {
   background-image: url("../img/like-icon--hover.png");
 }
+.svz-dislike-btn {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("../img/dislike-icon.png");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 18px;
+  cursor: pointer;
+  position: relative;
+  top: 3px;
+}
+.svz-dislike-btn--active,
+.svz-dislike-btn:hover {
+  background-image: url("../img/dislike-icon--hover.png");
+}
 .svz-dropdown-btn {
   display: inline-block;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
   padding: 0 15px 0 8px;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAGCAYAAAARx7TFAAAAfElEQVQImUXNsQnCcBTE4S8hfcAZ7GwCtqIWkiEc4N9FZ3ECO4cQYuECFgYhA6QQguAGNi94zfHufo/LUkpznLDH118lLjgWOGOFFjU+mOGKJcocB4wRtFjgFveIpsADmwAqPJHhjR26PPZf2GIIYIjHDiYIeqxxD++n4gcsgRiztuupfAAAAABJRU5ErkJggg==");
   background-size: auto;
