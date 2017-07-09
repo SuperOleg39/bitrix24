@@ -370,6 +370,8 @@
 }
 .svz-feedback__ideas-list .svz-ideas-list__main {
   width: calc(100% - 300px);
+}
+.svz-feedback__ideas-list .svz-ideas-list__main--inner {
   background-color: #f7f7f7;
   padding: 20px;
 }
@@ -524,6 +526,24 @@
 .svz-feedback__ideas-list .svz-tags-cloud .svz-tag {
   margin-right: 4px;
   margin-bottom: 4px;
+}
+.svz-feedback__create-idea {
+  margin-bottom: 20px;
+}
+.svz-feedback__create-idea .svz-editor-area__extra .extra-title {
+  margin-bottom: 10px;
+}
+.svz-feedback__create-idea .svz-editor-area__extra .extra-col {
+  width: 50%;
+}
+.svz-feedback__create-idea .svz-editor-area__extra .extra__dnd-zone {
+  background-color: #ededed;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+.svz-feedback__create-idea .svz-add-btn {
+  margin-left: 10px;
 }
 .svz-feedback__index-page {
   margin-top: 25px;

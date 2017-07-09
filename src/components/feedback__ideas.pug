@@ -23,199 +23,243 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
   .svz-ideas-list__body.svz-row
     .svz-ideas-list__main.svz-col
 
-      .svz-feedback-idea
-        .svz-feedback-idea__header.svz-row
-          .header__avatar.svz-col
-            .svz-avatar
-              img(src='assets/img/avatar.png')
-          .header__from-to.svz-col
-            .form-to__author
-              span.svz-p Барышникова Ольга
-            .from-to__project
-              .svz-icon.svz-icon--arrow-right
-              span.svz-p Кадровая политика компании
-          .header__rating.svz-col
-            span.svz-p Рейтинг
-            span.rating__count.svz-p 2
-            i.svz-like-btn.svz-like-btn--active
-            i.svz-dislike-btn
-        .svz-feedback-idea__status
-          .svz-feedback-status.svz-feedback-status--idea
-            .svz-icon
-            span Новая
-        .svz-feedback-idea__title
-          .svz-h3
-            | Тестовая идея
-        .svz-feedback-idea__body
-          .svz-p
-            | Отметим, что компания «Связной» соблюдает все нормы по оплате услуг: 
-            | мы исправно и в срок платим комиссионные отчисления агентам и агентствам, 
-            | риелторам и другим посредникам, способствующим заключению сделок по аренде или приобретению помещений. 
-            | Сотрудничать с нами перспективно, выгодно и надежно!
-        .svz-feedback-idea__attachments
-          .attachments__row.svz-row
-            .attachments__title.svz-col
-              .svz-p.svz-gray-font Теги:
-            .attachments__content.svz-col
-              a(href="#").svz-hashtag #СвязнойЭнергия
-              a(href="#").svz-hashtag #КостаРика
-              a(href="#").svz-hashtag #КлассноПогуляли
-        .svz-feedback-idea__comments.svz-feedback-idea__comments--closed
-          .comments__add-comment-btn
-            span.svz-p Добавить комментарий
+      // create-idea
+      .svz-feedback__create.svz-feedback__create-idea        
+        .svz-feedback__editor-area.svz-editor-area
+          .svz-editor-area__theme
+            .svz-icon.svz-icon--cross.theme__clear-btn
+            label.svz-editor-area__theme-inner
+              input(type='text', placeholder='Идея')
+          
+          // REMOVE #editor block!
+          #editor
+            img(src='assets/img/EDITOR.jpg')
+            
+          .svz-editor-area__extra
+              .extra-title
+                .svz-p Выберите тип жалобы:
+              .svz-row
+                .extra-col.svz-col.svz-radiobutton-group
+                  .svz-radiobutton
+                    input#ideaCategory1(type='radio', name='ideaCategory')
+                    label(for='ideaCategory1')
+                      span Кадровая политика компании
+                .extra-col.svz-col.svz-radiobutton-group
+                  .svz-radiobutton
+                    input#ideaCategory2(type='radio', name='ideaCategory')
+                    label(for='ideaCategory2')
+                      span Корпоративные мероприятия
 
-      .svz-feedback-idea
-        .svz-feedback-idea__header.svz-row
-          .header__avatar.svz-col
-            .svz-avatar
-              img(src='assets/img/avatar.png')
-          .header__from-to.svz-col
-            .form-to__author
-              span.svz-p Барышникова Ольга
-            .from-to__project
-              .svz-icon.svz-icon--arrow-right
-              span.svz-p Кадровая политика компании
-          .header__rating.svz-col
-            span.svz-p Рейтинг
-            span.rating__count.rating__count--positive.svz-p 713
-            i.svz-like-btn
-            i.svz-dislike-btn.svz-dislike-btn--active
-        .svz-feedback-idea__status
-          .svz-feedback-status.svz-feedback-status--done
-            .svz-icon
-            span Внедрено
-        .svz-feedback-idea__title
-          .svz-h3
-            | Тестовая идея 2
-        .svz-feedback-idea__body
-          .svz-p
-            | Отметим, что компания «Связной» соблюдает все нормы по оплате услуг.
-        .svz-feedback-idea__attachments
-          .attachments__row.svz-row
-            .attachments__title.svz-col
-              .svz-p.svz-gray-font Теги:
-            .attachments__content.svz-col
-              a(href="#").svz-hashtag #СвязнойЭнергия
-              a(href="#").svz-hashtag #КостаРика
-              a(href="#").svz-hashtag #КлассноПогуляли
-        .svz-feedback-idea__comments.svz-feedback-idea__comments--closed
-          .comments__show-comments-btn
-            span.svz-p Комментарии
-            span.comments__count.svz-p.svz-gray-font 21
+          .svz-editor-area__extra
+            span.svz-p Теги:
+            .svz-add-btn Добавить
 
-      .svz-feedback-idea
-        .svz-feedback-idea__header.svz-row
-          .header__avatar.svz-col
-            .svz-avatar
-              img(src='assets/img/avatar.png')
-          .header__from-to.svz-col
-            .form-to__author
-              span.svz-p Барышникова Ольга
-            .from-to__project
-              .svz-icon.svz-icon--arrow-right
-              span.svz-p Кадровая политика компании
-          .header__rating.svz-col
-            span.svz-p Рейтинг
-            span.rating__count.rating__count--negative.svz-p -123
-            i.svz-like-btn
-            i.svz-dislike-btn
-        .svz-feedback-idea__status
-          .svz-feedback-status.svz-feedback-status--rejected
-            .svz-icon
-            span Отклонена
-        .svz-feedback-idea__title
-          .svz-h3
-            | Тестовая идея 2
-        .svz-feedback-idea__body
-          .svz-p
-            | Отметим, что компания «Связной» соблюдает все нормы по оплате услуг.
-        .svz-feedback-idea__comments.svz-feedback-idea__comments--closed
-          .comments__show-comments-btn
-            span.svz-p Комментарии
-            span.comments__count.svz-p.svz-gray-font 21
+          .svz-editor-area__extra
+            .extra__dnd-zone
+              .dnd-zone__text
+                .svz-p Загрузить файл или картинку
+                .svz-p--small.svz-gray-font Перетащите с помощью Drag’n’Drop
 
-      .svz-feedback-idea
-        .svz-feedback-idea__header.svz-row
-          .header__avatar.svz-col
-            .svz-avatar
-              img(src='assets/img/avatar.png')
-          .header__from-to.svz-col
-            .form-to__author
-              span.svz-p Барышникова Ольга
-            .from-to__project
-              .svz-icon.svz-icon--arrow-right
-              span.svz-p Кадровая политика компании
-          .header__rating.svz-col
-            span.svz-p Рейтинг
-            span.rating__count.rating__count--negative.svz-p -123
-            i.svz-like-btn
-            i.svz-dislike-btn
-        .svz-feedback-idea__status
-          .svz-feedback-status.svz-feedback-status--inprogress
-            .svz-icon
-            span В работе
-        .svz-feedback-idea__title
-          .svz-h3
-            | Тестовая идея 2
-        .svz-feedback-idea__body
-          .svz-indent
+          .svz-editor-area__footer
+            .svz-btn Отправить
+            .svz-btn.svz-btn--link Отменить
+      // end create-idea
+    
+      .svz-ideas-list__main--inner.svz-col
+
+        .svz-feedback-idea
+          .svz-feedback-idea__header.svz-row
+            .header__avatar.svz-col
+              .svz-avatar
+                img(src='assets/img/avatar.png')
+            .header__from-to.svz-col
+              .form-to__author
+                span.svz-p Барышникова Ольга
+              .from-to__project
+                .svz-icon.svz-icon--arrow-right
+                span.svz-p Кадровая политика компании
+            .header__rating.svz-col
+              span.svz-p Рейтинг
+              span.rating__count.svz-p 2
+              i.svz-like-btn.svz-like-btn--active
+              i.svz-dislike-btn
+          .svz-feedback-idea__status
+            .svz-feedback-status.svz-feedback-status--idea
+              .svz-icon
+              span Новая
+          .svz-feedback-idea__title
+            .svz-h3
+              | Тестовая идея
+          .svz-feedback-idea__body
             .svz-p
               | Отметим, что компания «Связной» соблюдает все нормы по оплате услуг: 
               | мы исправно и в срок платим комиссионные отчисления агентам и агентствам, 
               | риелторам и другим посредникам, способствующим заключению сделок по аренде или приобретению помещений. 
               | Сотрудничать с нами перспективно, выгодно и надежно!
-          .svz-indent
-            img.svz-responsive-img(src="assets/img/feedback-ideas-img.jpg")
-          .svz-indent
+          .svz-feedback-idea__attachments
+            .attachments__row.svz-row
+              .attachments__title.svz-col
+                .svz-p.svz-gray-font Теги:
+              .attachments__content.svz-col
+                a(href="#").svz-hashtag #СвязнойЭнергия
+                a(href="#").svz-hashtag #КостаРика
+                a(href="#").svz-hashtag #КлассноПогуляли
+          .svz-feedback-idea__comments.svz-feedback-idea__comments--closed
+            .comments__add-comment-btn
+              span.svz-p Добавить комментарий
+
+        .svz-feedback-idea
+          .svz-feedback-idea__header.svz-row
+            .header__avatar.svz-col
+              .svz-avatar
+                img(src='assets/img/avatar.png')
+            .header__from-to.svz-col
+              .form-to__author
+                span.svz-p Барышникова Ольга
+              .from-to__project
+                .svz-icon.svz-icon--arrow-right
+                span.svz-p Кадровая политика компании
+            .header__rating.svz-col
+              span.svz-p Рейтинг
+              span.rating__count.rating__count--positive.svz-p 713
+              i.svz-like-btn
+              i.svz-dislike-btn.svz-dislike-btn--active
+          .svz-feedback-idea__status
+            .svz-feedback-status.svz-feedback-status--done
+              .svz-icon
+              span Внедрено
+          .svz-feedback-idea__title
+            .svz-h3
+              | Тестовая идея 2
+          .svz-feedback-idea__body
             .svz-p
-              | Тонкий корпус – один из признаков продвинутого современного смартфона. 
-              | Кажется, что производители соревнуются друг с другом за каждую десятую долю миллиметра. 
-          .svz-indent
-            a.svz-link(href="#") Павличук Роман Викторович 
-            span &nbsp;
-            a.svz-link(href="#") Конвалюк Татьяна Александровна 
-          .svz-indent
-            .svz-video-preview
-              img.svz-responsive-img(src="assets/img/feedback-ideas-video.jpg")
+              | Отметим, что компания «Связной» соблюдает все нормы по оплате услуг.
+          .svz-feedback-idea__attachments
+            .attachments__row.svz-row
+              .attachments__title.svz-col
+                .svz-p.svz-gray-font Теги:
+              .attachments__content.svz-col
+                a(href="#").svz-hashtag #СвязнойЭнергия
+                a(href="#").svz-hashtag #КостаРика
+                a(href="#").svz-hashtag #КлассноПогуляли
+          .svz-feedback-idea__comments.svz-feedback-idea__comments--closed
+            .comments__show-comments-btn
+              span.svz-p Комментарии
+              span.comments__count.svz-p.svz-gray-font 21
 
-        .svz-feedback-idea__separator
+        .svz-feedback-idea
+          .svz-feedback-idea__header.svz-row
+            .header__avatar.svz-col
+              .svz-avatar
+                img(src='assets/img/avatar.png')
+            .header__from-to.svz-col
+              .form-to__author
+                span.svz-p Барышникова Ольга
+              .from-to__project
+                .svz-icon.svz-icon--arrow-right
+                span.svz-p Кадровая политика компании
+            .header__rating.svz-col
+              span.svz-p Рейтинг
+              span.rating__count.rating__count--negative.svz-p -123
+              i.svz-like-btn
+              i.svz-dislike-btn
+          .svz-feedback-idea__status
+            .svz-feedback-status.svz-feedback-status--rejected
+              .svz-icon
+              span Отклонена
+          .svz-feedback-idea__title
+            .svz-h3
+              | Тестовая идея 2
+          .svz-feedback-idea__body
+            .svz-p
+              | Отметим, что компания «Связной» соблюдает все нормы по оплате услуг.
+          .svz-feedback-idea__comments.svz-feedback-idea__comments--closed
+            .comments__show-comments-btn
+              span.svz-p Комментарии
+              span.comments__count.svz-p.svz-gray-font 21
 
-        .svz-feedback-idea__attachments
-          .attachments__row.svz-row
-            .attachments__title.svz-col
-              .svz-p.svz-gray-font Фото:
-            .attachments__content.svz-photo-preview-group.svz-col
-              .svz-photo-preview
-                img(src="assets/img/photo-preview.png")
-              .svz-photo-preview
-                img(src="assets/img/photo-preview.png")
-              .svz-photo-preview
-                img(src="assets/img/photo-preview.png")
-              .svz-photo-preview
-                img(src="assets/img/photo-preview.png")
-          .attachments__row.svz-row
-            .attachments__title.svz-col
-              .svz-p.svz-gray-font Файлы:
-            .attachments__content.svz-col
-              // TODO: Добавить файлы!!! 
-              a(href="#").svz-hashtag Добавить файлы!!!
-              a(href="#").svz-hashtag Добавить файлы!!!
-              a(href="#").svz-hashtag Добавить файлы!!!
-          .attachments__row.svz-row
-            .attachments__title.svz-col
-              .svz-p.svz-gray-font Теги:
-            .attachments__content.svz-col
-              a(href="#").svz-hashtag #СвязнойЭнергия
-              a(href="#").svz-hashtag #КостаРика
-              a(href="#").svz-hashtag #КлассноПогуляли
-        .svz-feedback-idea__comments
+        .svz-feedback-idea
+          .svz-feedback-idea__header.svz-row
+            .header__avatar.svz-col
+              .svz-avatar
+                img(src='assets/img/avatar.png')
+            .header__from-to.svz-col
+              .form-to__author
+                span.svz-p Барышникова Ольга
+              .from-to__project
+                .svz-icon.svz-icon--arrow-right
+                span.svz-p Кадровая политика компании
+            .header__rating.svz-col
+              span.svz-p Рейтинг
+              span.rating__count.rating__count--negative.svz-p -123
+              i.svz-like-btn
+              i.svz-dislike-btn
+          .svz-feedback-idea__status
+            .svz-feedback-status.svz-feedback-status--inprogress
+              .svz-icon
+              span В работе
+          .svz-feedback-idea__title
+            .svz-h3
+              | Тестовая идея 2
+          .svz-feedback-idea__body
+            .svz-indent
+              .svz-p
+                | Отметим, что компания «Связной» соблюдает все нормы по оплате услуг: 
+                | мы исправно и в срок платим комиссионные отчисления агентам и агентствам, 
+                | риелторам и другим посредникам, способствующим заключению сделок по аренде или приобретению помещений. 
+                | Сотрудничать с нами перспективно, выгодно и надежно!
+            .svz-indent
+              img.svz-responsive-img(src="assets/img/feedback-ideas-img.jpg")
+            .svz-indent
+              .svz-p
+                | Тонкий корпус – один из признаков продвинутого современного смартфона. 
+                | Кажется, что производители соревнуются друг с другом за каждую десятую долю миллиметра. 
+            .svz-indent
+              a.svz-link(href="#") Павличук Роман Викторович 
+              span &nbsp;
+              a.svz-link(href="#") Конвалюк Татьяна Александровна 
+            .svz-indent
+              .svz-video-preview
+                img.svz-responsive-img(src="assets/img/feedback-ideas-video.jpg")
 
-          include feedback__idea-comments
+          .svz-feedback-idea__separator
 
-          .comments__footer.svz-row
-            .svz-feedback__add-comment-btn.svz-btn Добавить комментарий
-            .svz-pull-right
-              .comments__more-comments-btn.svz-p Показать еще 5 комментариев
+          .svz-feedback-idea__attachments
+            .attachments__row.svz-row
+              .attachments__title.svz-col
+                .svz-p.svz-gray-font Фото:
+              .attachments__content.svz-photo-preview-group.svz-col
+                .svz-photo-preview
+                  img(src="assets/img/photo-preview.png")
+                .svz-photo-preview
+                  img(src="assets/img/photo-preview.png")
+                .svz-photo-preview
+                  img(src="assets/img/photo-preview.png")
+                .svz-photo-preview
+                  img(src="assets/img/photo-preview.png")
+            .attachments__row.svz-row
+              .attachments__title.svz-col
+                .svz-p.svz-gray-font Файлы:
+              .attachments__content.svz-col
+                // TODO: Добавить файлы!!! 
+                a(href="#").svz-hashtag Добавить файлы!!!
+                a(href="#").svz-hashtag Добавить файлы!!!
+                a(href="#").svz-hashtag Добавить файлы!!!
+            .attachments__row.svz-row
+              .attachments__title.svz-col
+                .svz-p.svz-gray-font Теги:
+              .attachments__content.svz-col
+                a(href="#").svz-hashtag #СвязнойЭнергия
+                a(href="#").svz-hashtag #КостаРика
+                a(href="#").svz-hashtag #КлассноПогуляли
+          .svz-feedback-idea__comments
+
+            include feedback__idea-comments
+
+            .comments__footer.svz-row
+              .svz-feedback__add-comment-btn.svz-btn Добавить комментарий
+              .svz-pull-right
+                .comments__more-comments-btn.svz-p Показать еще 5 комментариев
 
     .svz-ideas-list__sidebar.svz-col
 

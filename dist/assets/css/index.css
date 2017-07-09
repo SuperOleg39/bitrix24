@@ -479,6 +479,19 @@ body {
   color: #38a7de;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAJCAYAAAD6reaeAAAAd0lEQVQImW3OoQ3CQACF4e/OkTAAthNgOYdkAEQ9SVmBDZDoCjT1jIDoCDhuBBAklYdpE0Rf8swT//tDKcWU1OUz3vFvaHDCKpRSpC7vcB+7D5vba40Hntj2dTVEtFji0NfVABFHfHFNXV7APHNSGt9bXMKM5+cHQiYv8Ge6Y8UAAAAASUVORK5CYII=");
 }
+.svz-add-btn {
+  display: inline-block;
+  color: #4c4c4c;
+  font-size: 15px;
+  padding: 5px 20px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAL0lEQVQYlWP8//8/Awykp6f/Z2BgYJg5cyYjTIyJgQAgqIAxLS3tPz4FhE2gvSMBuBYQOdz5Qx8AAAAASUVORK5CYII=");
+  background-size: auto;
+  background-position: left 5px center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
 .svz-like-btn {
   display: inline-block;
   vertical-align: middle;
