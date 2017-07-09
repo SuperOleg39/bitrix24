@@ -43,10 +43,83 @@
       position absolute
       left 5px
       top 7px
+
+  &--mobile
+    label
+      padding-left 24px
+
+      &:before
+        width 14px
+        height 14px
+        top 5px
+
+    input[type='radio']:checked + label
+      &:after
+        width 6px
+        height 6px
+        left 4px
+        top 9px
       
 .svz-radiobutton-group
   .svz-radiobutton:not(:last-child)
     margin-bottom 5px
+
+.svz-checkbox
+  input[type='checkbox']
+    display none
+    
+  label
+    display inline-block
+    padding-left 24px
+    position relative
+    cursor pointer
+    
+    span
+      font-family 'StagSans-Book', sans-serif
+      font-size 15px
+      line-height 24px
+      color dark-font-color
+    
+    &:before
+      content ''
+      display block
+      width 14px
+      height 14px
+      border 1px solid #d7d7d7
+      border-radius 1px
+      background-color transparent
+      position absolute
+      left 0
+      top 5px
+      
+  input[type='checkbox']:checked + label
+    &:after
+      content ''
+      display block
+      width 14px
+      height 14px
+      background-image url('../img/checkbox-icon.png')
+      background-size auto
+      background-position center
+      background-repeat no-repeat
+      position absolute
+      left 0
+      top 5px
+
+.svz-progressbar
+  height 12px
+  background-color #f7f7f7
+  position relative
+
+  .svz-progress
+    height 12px
+    background-color #eee6f8
+    position absolute
+    left 0
+    top 0
+    width 0
+    transition width 0.3s
+
 /*
  * end Поля ввода, чекбоксы, радио и тд
  */

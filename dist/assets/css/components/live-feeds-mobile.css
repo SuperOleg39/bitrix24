@@ -1,0 +1,15 @@
+/*
+ * live-feeds-mobile
+ */
+.svz-live-feeds-mobile,
+.svz-live-feeds-mobile:after,
+.svz-live-feeds-mobile:before,
+.svz-live-feeds-mobile *,
+.svz-live-feeds-mobile *:after,
+.svz-live-feeds-mobile *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*
+ * end live-feeds-mobile
+ */

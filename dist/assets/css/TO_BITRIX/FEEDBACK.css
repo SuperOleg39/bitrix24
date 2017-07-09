@@ -119,26 +119,32 @@
   height: 13px;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAA8ElEQVQokZ3RsSuFURQA8N/7vFheyZ9iMCn09AwKg5RBmYx6o0yMbLIZLQxkIoS/QBkkYfBIEqVMShkM79DXl/d4313OuZ3b7557bmH6eFTONYQqJos5gRFsoQMbSQ5gAtsBPGO+VWQKm2jHEwZw0Qoyg3W04SGAK/gvMou1OH+Hftx8F5OQV9DdAJjDKgq4jQ5q6QNJtFjFCXoywCKWIr9GH+6ztyTYwye6cITeqC1jIfLL6ODxt1aL6tP+iNiJA+yrfyWco4KXBs/9GewOxgMrpYAzlJsBaQR2MYb32J9iEK/NgCwChxiOWMHbXwB8AbEtL4lIg5uyAAAAAElFTkSuQmCC");
 }
-.svz-feedback-status--waiting {
+.svz-feedback-status--waiting,
+.svz-feedback-status--handled {
   color: #999;
 }
-.svz-feedback-status--waiting .svz-icon {
+.svz-feedback-status--waiting .svz-icon,
+.svz-feedback-status--handled .svz-icon {
   width: 16px;
   height: 16px;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABF0lEQVQ4jaXTPUoDQRwF8F82wWBpqY0YENRAWg8QkCik1gMEDHa5iGKlC7EVwdJGxDQiHkCjYCN4CBEiCRY7K8mSD4gPhhnevPfm6z+5OI5lsIUGdrEWuA/coo23YXE0NF7EOV7QwgaKoW0G7hlnQQsKoV/ADarZ7WSQRxPr2EMv3cHJBHMOR2P4Ko7TI5RxOGPlcWiiHEkuLD9HQB6NCLU5zClqEUr/CChFMwQruMLDhPleJCmSSXjCMnZwPWb+M5JU2CSs4hHbOJA89zDuI1ygPyVkCXfYN/pafbQL6CI2vmBSFHGZ4WJ000tsoTMlIItO8Px9ph7qIXUwxTgImnrwjPzGb0l5VnCKV3zhB++BqwTNd2r6BQvaM3gs+x+TAAAAAElFTkSuQmCC");
 }
-.svz-feedback-status--inprogress {
+.svz-feedback-status--inprogress,
+.svz-feedback-status--new {
   color: #38a7de;
 }
-.svz-feedback-status--inprogress .svz-icon {
+.svz-feedback-status--inprogress .svz-icon,
+.svz-feedback-status--new .svz-icon {
   width: 11px;
   height: 15px;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAPCAYAAAAyPTUwAAAAn0lEQVQokY3OsQpBcRjG4YekLHalrBayMVvdgE2RSbkAO7uszGewssmkbAbZlDLZ3IGYjnSiv3f9nn59qUZ0iTDAXWBptHFC6x8MBawwRz6E4/VwRPMfDCVsMEUuhCGFIQ6oh3C8MnYYI5sJYMhghGKoDA9M0A+Vz+hgz++fn5ihFsP4n+Su6GKbPCTLC1S/wc/yDX2sf7z1Li9RCUF4AUMjGsyAUqgDAAAAAElFTkSuQmCC");
 }
-.svz-feedback-status--rejected {
+.svz-feedback-status--rejected,
+.svz-feedback-status--returned {
   color: #f89b25;
 }
-.svz-feedback-status--rejected .svz-icon {
+.svz-feedback-status--rejected .svz-icon,
+.svz-feedback-status--returned .svz-icon {
   width: 13px;
   height: 13px;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAsUlEQVQokXXQzW0CMRAG0LdWmvA9KJyjNMBPF5G4wzm1UABRugDSAOIMFWwLuZHLLNq1bN/GM08ef93f1+sMe2zQa5+Mb2xTgDXO0WiBX6ywT/HCDfMGzHH/FnObFCstG3AA8+gv0ado1uB7DcDLaI0BDoMXdCWAZHp6fOIR4BH1JNUSZfyMQBd1bqHy0x+NcJ6oltK1Ek4eUDXWIpwJTDg0gALeY+6QsMOxAcZwgRN2/zUePZChkhb9AAAAAElFTkSuQmCC");
