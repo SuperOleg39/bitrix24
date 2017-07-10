@@ -61,8 +61,10 @@
         top 9px
       
 .svz-radiobutton-group
+  .svz-radiobutton-group__title
+    margin-bottom 4px
   .svz-radiobutton:not(:last-child)
-    margin-bottom 5px
+    margin-bottom 4px
 
 .svz-checkbox
   input[type='checkbox']
@@ -106,6 +108,12 @@
       left 0
       top 5px
 
+.svz-checkbox-group
+  .svz-checkbox-group__title
+    margin-bottom 4px
+  .svz-checkbox:not(:last-child)
+    margin-bottom 4px
+
 .svz-progressbar
   height 12px
   background-color #f7f7f7
@@ -119,6 +127,22 @@
     top 0
     width 0
     transition width 0.3s
+    
+.svz-progressbar-row
+  .svz-progressbar
+    width calc(100% - 80px)
+  .progressbar-row__number
+    width 45px
+    text-align center
+    font-size 13px
+    line-height 13px
+    color dark-font-color
+  .progressbar-row__percent
+    width 35px
+    text-align right
+    font-size 13px
+    line-height 13px
+    color gray-font-color
 
 /*
  * end Поля ввода, чекбоксы, радио и тд

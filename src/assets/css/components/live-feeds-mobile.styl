@@ -8,6 +8,143 @@ url = embedurl
  
 .svz-live-feeds-mobile
   border-box()
+
+  .svz-feeds
+    .svz-pagination
+      padding default-padding 0
+      border-bottom 1px solid gray-border-color
+      margin-bottom 50px
+
+.svz-feed
+  padding 30px 15px 25px
+  border-bottom 1px solid gray-border-color
+  
+  &--new
+    background-color #fff4e5
+
+  .svz-feed__header
+    position relative
+    margin-bottom 25px
+    
+    .header__avatar
+      width 80px
+      padding-right default-padding
+
+      .svz-avatar
+        position relative
+        top -5px
+        
+    .header__info
+      width calc(100% - 80px)
+        
+    .header__name
+      line-height 18px
+      margin-bottom 4px
+      
+    .header__recipient
+      .recipient__icon
+        padding-top 4px
+        padding-right 10px
+        width 24px
+        
+      .recipient__wrap
+        width calc(100% - 24px)
+          
+        span
+          line-height 18px
+        
+    .header__icons-set
+      position absolute
+      right -2px
+      top -2px
+      
+  .svz-feed__title
+    margin-bottom 10px
+      
+  .svz-feed__content
+    margin-bottom default-padding
+    
+    .content__thanks
+      margin-bottom 35px
+      
+      .thanks__icon
+        width 94px
+        
+        > div
+          display inline-block
+          vertical-align middle
+          
+        .svz-icon--arrow-right
+          margin-left 6px
+        
+      .thanks__peoples
+        width calc(100% - 94px)
+        padding-top 6px
+        
+      .thanks__people
+        + .thanks__people
+          margin-top 15px
+          
+      .thanks__people-avatar
+        width 60px
+        padding-right 15px
+
+      .thanks__people-info
+        width calc(100% - 60px)
+        padding-top 3px
+        
+        .people-info__name
+          line-height 20px
+        .people-info__position
+          line-height 20px
+    
+  .svz-feed__read-feed-btn
+    text-align center
+    margin-bottom 25px
+    .svz-btn
+      min-width 245px
+
+  .svz-feed__vote-btn
+    text-align center
+    .svz-btn
+      min-width 245px
+      
+  .svz-feed__voting-action-btns
+    text-align center
+
+    .voting-action-btn
+      display inline-block
+      padding 0 8px
+      margin 4px 0
+      height 40px
+      line-height 40px
+      cursor pointer
+      transition color 0.1s
+      
+      &:hover
+        color main-blue-color
+
+  .svz-feed__footer
+    .footer__like-icon
+      margin-right 7px
+    .footer__likes-count
+      margin-right 15px
+    .footer__show-comments-btn
+      cursor pointer
+    .footer__comments-count
+      margin-left 7px
+
+  .svz-comments
+    margin-top 25px
+    
+  .svz-comments__list--mobile
+    .svz-comment:last-child
+      padding-bottom 10px
+      
+  .svz-progressbar-row
+    + .svz-radiobutton,
+    + .svz-checkbox
+      margin-top 10px
 /*
  * end live-feeds-mobile
  */

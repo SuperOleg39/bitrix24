@@ -101,6 +101,9 @@
 .svz-tag:hover {
   color: #38a7de;
 }
+.svz-medium-font {
+  font-family: 'StagSans-Medium', sans-serif;
+}
 .svz-gray-font {
   color: #999;
 }

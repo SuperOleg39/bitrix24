@@ -102,6 +102,40 @@
     
     .comment__created
       line-height 24px
+      
+  .svz-comments__list--mobile
+    &:before
+      content ''
+      display block
+      position absolute
+      left calc(50% - 10px)
+      top -11px
+      border-bottom 10px solid #ebebeb
+      border-left 10px solid transparent
+      border-right 10px solid transparent
+
+    &:after
+      content ''
+      display block
+      position absolute
+      left calc(50% - 10px)
+      top -9px
+      border-bottom 10px solid white
+      border-left 10px solid transparent
+      border-right 10px solid transparent
+    
+    .svz-comment
+      border-bottom none
+      
+      & + .svz-comment
+        border-top 1px solid #ebebeb
+        
+      .comment__content
+        margin-bottom 14px
+        
+      .comment__created
+        margin-bottom 14px
+
 /*
  * end comments
  */

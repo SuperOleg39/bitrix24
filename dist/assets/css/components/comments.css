@@ -104,6 +104,38 @@
 .svz-comments .svz-comment--has-actions .comment__created {
   line-height: 24px;
 }
+.svz-comments .svz-comments__list--mobile:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: calc(50% - 10px);
+  top: -11px;
+  border-bottom: 10px solid #ebebeb;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.svz-comments .svz-comments__list--mobile:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: calc(50% - 10px);
+  top: -9px;
+  border-bottom: 10px solid #fff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.svz-comments .svz-comments__list--mobile .svz-comment {
+  border-bottom: none;
+}
+.svz-comments .svz-comments__list--mobile .svz-comment + .svz-comment {
+  border-top: 1px solid #ebebeb;
+}
+.svz-comments .svz-comments__list--mobile .svz-comment .comment__content {
+  margin-bottom: 14px;
+}
+.svz-comments .svz-comments__list--mobile .svz-comment .comment__created {
+  margin-bottom: 14px;
+}
 /*
  * end comments
  */

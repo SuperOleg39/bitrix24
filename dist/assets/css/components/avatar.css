@@ -5,6 +5,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  background-color: #ccc;
   position: relative;
   overflow: hidden;
 }
@@ -15,6 +16,10 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   max-height: 100%;
+}
+.svz-avatar--small {
+  width: 45px;
+  height: 45px;
 }
 /*
  * end avatar

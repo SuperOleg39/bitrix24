@@ -28,6 +28,14 @@
   width: 20px;
   height: 18px;
 }
+.svz-icon--warning-empty {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAYAAAAbBi9cAAABOklEQVQ4jZ3Su0okYRCG4WecEZEFA9nIZGWMTFQwFTwgbCIaGq6JicGEGpmZGIqYeLoAgwVHUDzcgReggYKygadAVFgVBA2mwLZtZ9SC4u/6vqq3u/kr97BYVCNO4mzNMhvGj0FdDcgcfkXOVWusBvqJEtojS6F9GbSr8luHkSfY+yqoH13oS2i96AzvXRQ+AO1gA6foQAP2UQ6v/jNfNBEvGI56HivxPBLeRC1QHguYTmhnOErU09GTrwZajnMmod3gOlHPpHrfgVowhtEU/D/uU9po9LZkgcq4wFpq6C4yGWs4j5k3oEF0y77adfzN0AfQ/bjUNsjr9ZexhYOMgT8oYiilH2BTZU0acw+LxUnMIpcBgWb8wL8P/GdMFQKyrbJ4TRmNl3hCT4Z3G7OzBazit8rmfieusPoCp80+qKetMbgAAAAASUVORK5CYII=");
+  width: 20px;
+  height: 18px;
+}
+.svz-icons-set .svz-icon + .svz-icon {
+  margin-left: 3px;
+}
 /*
  * end Иконки
  */
