@@ -1,0 +1,40 @@
+.svz-feed
+  .svz-feed__header.svz-row
+    .header__avatar.svz-col
+      .svz-avatar
+        img(src='assets/img/avatar.png')
+    .header__info.svz-col
+      .header__date.svz-p--small.svz-gray-font
+        | 27 апреля 2017 г.
+      .header__name.svz-p
+        | Барышникова Ольга
+      .header__recipient.svz-row
+        .recipient__icon.svz-col
+          .svz-icon.svz-icon--arrow-right
+        .recipient__wrap.svz-col
+          span.svz-p.svz-gray-font Алла Батракова
+    .header__icons-set
+      i.svz-favorite-icon.svz-favorite-icon--mobile
+  .svz-feed__content
+    .svz-indent
+      img.svz-responsive-img(src="assets/img/feed-img.jpg")
+    .svz-indent
+      .svz-p
+        | Акция не действует на два одинаковых товара. Например, купить два совершенно идентичных 
+        | чехла ты не сможешь, но сможешь купить два одинаковых, но разных цветов.
+    .svz-indent
+      .svz-video-preview
+        img.svz-responsive-img(src="assets/img/feed-img.jpg")
+    .svz-indent
+      .svz-p
+        | Акция не действует на два одинаковых товара. Например, купить два совершенно идентичных 
+        | чехла ты не сможешь, но сможешь купить два одинаковых, но разных цветов.
+  .svz-feed__footer
+    span.footer__like-icon.svz-p
+      .svz-like-btn
+    span.footer__likes-count.svz-p.svz-gray-font 25
+    span.footer__show-comments-btn
+      span.svz-p Комментарии
+      span.footer__comments-count.svz-p.svz-gray-font 7
+
+    include comments
