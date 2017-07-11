@@ -107,6 +107,21 @@
 .svz-gray-font {
   color: #999;
 }
+.svz-purple-font {
+  color: #8257ba;
+}
+.svz-blue-font {
+  color: #38a7de;
+}
+.svz-yellow-font {
+  color: #ffde0e;
+}
+.svz-orange-font {
+  color: #f89b25;
+}
+.svz-green-font {
+  color: #5fbc4e;
+}
 .svz-indent + .svz-indent {
   margin-top: 20px;
 }
