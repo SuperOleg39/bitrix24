@@ -1,0 +1,58 @@
+/*
+ * sitemap
+ */
+@import "../variables.styl"
+@import "../mixins.styl"
+
+.svz-sitemap
+  border-box()
+  
+  ul
+    list-style none
+    padding 0
+    margin 0
+  
+  .map-level-0
+    > li + li
+      margin-top default-padding
+    
+    > li a
+      font-family 'StagSans-Book', sans-serif
+      font-size 22px
+      line-height 30px
+      color dark-font-color
+      text-decoration none
+      
+      &:hover
+        color hover-link-color
+
+  .map-level-1
+    > li
+      margin-top 8px
+      
+    > li a
+      font-size 15px
+      line-height 24px
+
+      &:hover
+        color hover-link-color
+        
+    ul
+      > li
+        margin-top 6px
+        margin-left 5px
+        
+        &:before
+          content '- '
+  
+      > li a
+        font-size 13px
+        line-height 22px
+  
+  .svz-sitemap-col
+    padding-right 20px
+    padding-bottom 20px
+    width 265px
+/*
+ * end sitemap
+ */
