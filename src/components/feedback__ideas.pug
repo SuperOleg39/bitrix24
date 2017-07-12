@@ -37,7 +37,7 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
             
           .svz-editor-area__extra
               .extra-title
-                .svz-p Выберите тип жалобы:
+                .svz-p Выберите категорию идеи:
               .svz-row
                 .extra-col.svz-col.svz-radiobutton-group
                   .svz-radiobutton
@@ -49,6 +49,22 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
                     input#ideaCategory2(type='radio', name='ideaCategory')
                     label(for='ideaCategory2')
                       span Корпоративные мероприятия
+              .extra__fields
+                .svz-btn.svz-btn--reverse
+                  | Создать новую категорию
+                div
+                  | <br />
+                .svz-field
+                  label
+                    input(type='text', placeholder='Введите название категории')
+                div
+                  | <br />
+                .svz-field.svz-field--has-error
+                  label
+                    input(type='text', placeholder='Введите название категории' value='xdfhxdhzdfhg1435')
+                  .svz-field__error
+                    .svz-icon.svz-icon--warning
+                    .svz-icon__label.svz-p--small.svz-orange-font Ошибка! Некорректное имя категории
 
           .svz-editor-area__extra
             span.svz-p Теги:
@@ -241,10 +257,27 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
               .attachments__title.svz-col
                 .svz-p.svz-gray-font Файлы:
               .attachments__content.svz-col
-                // TODO: Добавить файлы!!! 
-                a(href="#").svz-hashtag Добавить файлы!!!
-                a(href="#").svz-hashtag Добавить файлы!!!
-                a(href="#").svz-hashtag Добавить файлы!!!
+                .attachments__file.svz-row
+                  .file__icon.svz-col
+                    .svz-file-icon.svz-file-icon--small.svz-file-icon--default
+                  .file__info.svz-col
+                    span.file__name.svz-p Выплата ЗП (1).pdf
+                    span.file__size.svz-p--small.svz-gray-font 165,51 КБ
+                    span.file__actions-btn.svz-dropdown-btn.svz-dropdown-btn--small Еще
+                .attachments__file.svz-row
+                  .file__icon.svz-col
+                    .svz-file-icon.svz-file-icon--small.svz-file-icon--png
+                  .file__info.svz-col
+                    span.file__name.svz-p 4K VIDEO INCREDIBLE PATAGONIA - Epic 4K 60fps Ultra HD Drone Footage.mp4
+                    span.file__size.svz-p--small.svz-gray-font 165,51 КБ
+                    span.file__actions-btn.svz-dropdown-btn.svz-dropdown-btn--small Еще
+                .attachments__file.svz-row
+                  .file__icon.svz-col
+                    .svz-file-icon.svz-file-icon--small.svz-file-icon--pdf
+                  .file__info.svz-col
+                    span.file__name.svz-p Выплата ЗП (1).pdf
+                    span.file__size.svz-p--small.svz-gray-font 165,51 КБ
+                    span.file__actions-btn.svz-dropdown-btn.svz-dropdown-btn--small Еще
             .attachments__row.svz-row
               .attachments__title.svz-col
                 .svz-p.svz-gray-font Теги:
@@ -260,7 +293,9 @@ link(rel='stylesheet', href='assets/css/components/feedback.css')
               .svz-feedback__add-comment-btn.svz-btn Добавить комментарий
               .svz-pull-right
                 .comments__more-comments-btn.svz-p Показать еще 5 комментариев
-
+                  
+        .svz-ideas-list__more-ideas-btn
+          .svz-p Еще идеи
     .svz-ideas-list__sidebar.svz-col
 
       .svz-ideas-list__short-list

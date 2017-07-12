@@ -5,6 +5,7 @@
   display: inline-block;
   height: 40px;
   background-color: #8257ba;
+  border: 1px solid #8257ba;
   border-radius: 20px;
   color: #fff;
   font-family: 'StagSans-Book', sans-serif;
@@ -18,7 +19,18 @@
   transition: color 0.1s;
 }
 .svz-btn:hover {
+  border: 1px solid #8769ae;
   background-color: #8769ae;
+}
+.svz-btn--reverse {
+  border: 1px solid #8257ba;
+  background-color: transparent;
+  color: #8257ba;
+}
+.svz-btn--reverse:hover {
+  border: 1px solid #8769ae;
+  background-color: transparent;
+  color: #8769ae;
 }
 .svz-btn--link {
   background: none;

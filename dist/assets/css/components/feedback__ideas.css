@@ -20,6 +20,13 @@
   background-color: #f7f7f7;
   padding: 20px;
 }
+.svz-feedback__ideas-list .svz-ideas-list__more-ideas-btn {
+  cursor: pointer;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
 .svz-feedback__ideas-list .svz-ideas-list__sidebar {
   width: 300px;
   padding: 0 20px 20px;
@@ -113,6 +120,26 @@
 .svz-feedback__ideas-list .svz-feedback-idea__attachments .attachments__content {
   width: calc(100% - 80px);
 }
+.svz-feedback__ideas-list .svz-feedback-idea__attachments .attachments__file {
+  margin-bottom: 6px;
+}
+.svz-feedback__ideas-list .svz-feedback-idea__attachments .attachments__file .file__icon {
+  width: 30px;
+  padding-top: 1px;
+  padding-right: 10px;
+}
+.svz-feedback__ideas-list .svz-feedback-idea__attachments .attachments__file .file__info {
+  width: calc(100% - 30px);
+}
+.svz-feedback__ideas-list .svz-feedback-idea__attachments .attachments__file .file__name {
+  margin-right: 6px;
+}
+.svz-feedback__ideas-list .svz-feedback-idea__attachments .attachments__file .file__size {
+  margin-right: 6px;
+}
+.svz-feedback__ideas-list .svz-feedback-idea__attachments .attachments__file .file__actions-btn {
+  color: #999;
+}
 .svz-feedback__ideas-list .svz-feedback-idea__comments {
   padding: 15px 0 0 0;
 }
@@ -186,6 +213,12 @@
   text-align: center;
   padding: 20px;
   cursor: pointer;
+}
+.svz-feedback__create-idea .svz-editor-area__extra .extra__fields {
+  margin-top: 20px;
+}
+.svz-feedback__create-idea .svz-editor-area__extra .extra__fields .svz-btn {
+  padding: 0 30px;
 }
 .svz-feedback__create-idea .svz-add-btn {
   margin-left: 10px;

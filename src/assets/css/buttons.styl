@@ -8,6 +8,7 @@
   display inline-block
   height 40px
   background-color main-purple-color
+  border 1px solid main-purple-color
   border-radius default-border-radius
   color white
   font-family 'StagSans-Book', sans-serif
@@ -20,7 +21,18 @@
   transition color 0.1s
   
   &:hover
+    border 1px solid hover-purple-color
     background-color hover-purple-color
+    
+  &--reverse
+    border 1px solid main-purple-color
+    background-color transparent
+    color main-purple-color
+
+    &:hover
+      border 1px solid hover-purple-color
+      background-color transparent
+      color hover-purple-color
     
   &--link
     background none

@@ -33,6 +33,11 @@
   width: 20px;
   height: 18px;
 }
+.svz-icon + .svz-icon__label {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+}
 .svz-icons-set .svz-icon + .svz-icon {
   margin-left: 3px;
 }

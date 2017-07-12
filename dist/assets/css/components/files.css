@@ -1,0 +1,138 @@
+/*
+ * files
+ */
+.svz-file-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../../img/drive/drive-icon--default.png");
+  background-size: auto;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+.svz-file-icon--small {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../img/drive/drive-icon--default--small.png");
+}
+.svz-file-icon--default {
+  background-image: url("../../img/drive/drive-icon--default.png");
+  background-position: left 5px center;
+}
+.svz-file-icon--default.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--default--small.png");
+}
+.svz-file-icon--folder {
+  background-image: url("../../img/drive/drive-folder-icon.png");
+}
+.svz-file-icon--folder.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-folder-icon--small.png");
+}
+.svz-file-icon--folder.svz-file-icon--linked {
+  background-image: url("../../img/drive/drive-folder-icon--linked.png");
+}
+.svz-file-icon--folder.svz-file-icon--linked.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-folder-icon--linked--small.png");
+}
+.svz-file-icon--folder.svz-file-icon--shared {
+  background-image: url("../../img/drive/drive-folder-icon--shared.png");
+}
+.svz-file-icon--folder.svz-file-icon--shared.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-folder-icon--shared--small.png");
+}
+.svz-file-icon--folder.svz-file-icon--linked.svz-file-icon--shared {
+  background-image: url("../../img/drive/drive-folder-icon--linked--shared.png");
+}
+.svz-file-icon--folder.svz-file-icon--linked.svz-file-icon--shared.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-folder-icon--linked--shared--small.png");
+}
+.svz-file-icon--doc {
+  background-image: url("../../img/drive/drive-icon--doc.png");
+}
+.svz-file-icon--doc.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--doc--small.png");
+}
+.svz-file-icon--docx {
+  background-image: url("../../img/drive/drive-icon--docx.png");
+}
+.svz-file-icon--docx.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--docx--small.png");
+}
+.svz-file-icon--image {
+  background-image: url("../../img/drive/drive-icon--image.png");
+  background-position: left 5px center;
+}
+.svz-file-icon--image.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--image--small.png");
+}
+.svz-file-icon--jpeg {
+  background-image: url("../../img/drive/drive-icon--jpeg.png");
+}
+.svz-file-icon--jpeg.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--jpeg--small.png");
+}
+.svz-file-icon--pdf {
+  background-image: url("../../img/drive/drive-icon--pdf.png");
+}
+.svz-file-icon--pdf.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--pdf--small.png");
+}
+.svz-file-icon--php {
+  background-image: url("../../img/drive/drive-icon--php.png");
+}
+.svz-file-icon--php.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--php--small.png");
+}
+.svz-file-icon--png {
+  background-image: url("../../img/drive/drive-icon--png.png");
+}
+.svz-file-icon--png.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--png--small.png");
+}
+.svz-file-icon--ppt {
+  background-image: url("../../img/drive/drive-icon--ppt.png");
+}
+.svz-file-icon--ppt.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--ppt--small.png");
+}
+.svz-file-icon--rar {
+  background-image: url("../../img/drive/drive-icon--rar.png");
+}
+.svz-file-icon--rar.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--rar--small.png");
+}
+.svz-file-icon--system {
+  background-image: url("../../img/drive/drive-icon--system.png");
+  background-position: left 5px center;
+}
+.svz-file-icon--system.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--system--small.png");
+}
+.svz-file-icon--txt {
+  background-image: url("../../img/drive/drive-icon--txt.png");
+}
+.svz-file-icon--txt.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--txt--small.png");
+}
+.svz-file-icon--video {
+  background-image: url("../../img/drive/drive-icon--video.png");
+  background-position: left 5px center;
+}
+.svz-file-icon--video.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--video--small.png");
+}
+.svz-file-icon--xls {
+  background-image: url("../../img/drive/drive-icon--xls.png");
+}
+.svz-file-icon--xls.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--xls--small.png");
+}
+.svz-file-icon--zip {
+  background-image: url("../../img/drive/drive-icon--zip.png");
+}
+.svz-file-icon--zip.svz-file-icon--small {
+  background-image: url("../../img/drive/drive-icon--zip--small.png");
+}
+/*
+ * end files
+ */

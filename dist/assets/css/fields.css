@@ -1,6 +1,46 @@
 /*
  * Поля ввода, чекбоксы, радио и тд
  */
+.svz-field label {
+  display: block;
+  border: 1px solid #bfbfbf;
+  border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  padding: 0 30px;
+}
+.svz-field input {
+  display: block;
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  height: 38px;
+  line-height: 39px;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  color: #4c4c4c;
+}
+.svz-field input::-webkit-input-placeholder {
+  color: #999;
+}
+.svz-field input::-moz-placeholder {
+  color: #999;
+}
+.svz-field input:-ms-input-placeholder {
+  color: #999;
+}
+.svz-field input:-moz-placeholder {
+  color: #999;
+}
+.svz-field--has-error input {
+  color: #8257ba;
+}
+.svz-field .svz-field__error {
+  margin-top: 3px;
+  padding-left: 30px;
+}
 .svz-radiobutton input[type='radio'] {
   display: none;
 }

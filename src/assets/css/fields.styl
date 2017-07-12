@@ -4,6 +4,38 @@
 @import "variables.styl"
 @import "mixins.styl"
 
+.svz-field
+  label
+    display block
+    border 1px solid #bfbfbf
+    border-radius default-border-radius
+    height 40px
+    line-height 40px
+    overflow hidden
+    padding 0 30px
+
+  input
+    display block
+    border none
+    background transparent
+    outline none
+    width: 100%
+    height 38px
+    line-height 39px
+    font-family 'StagSans-Book', sans-serif
+    font-size 15px
+    color dark-font-color
+
+    placeholder-color(gray-font-color)
+    
+  &--has-error
+    input
+      color main-purple-color
+      
+  .svz-field__error
+    margin-top 3px
+    padding-left 30px
+
 .svz-radiobutton
   input[type='radio']
     display none

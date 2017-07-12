@@ -71,7 +71,7 @@
                     <div id="editor"><img src="assets/img/EDITOR.jpg"/></div>
                     <div class="svz-editor-area__extra">
                       <div class="extra-title">
-                        <div class="svz-p">Выберите тип жалобы:</div>
+                        <div class="svz-p">Выберите категорию идеи:</div>
                       </div>
                       <div class="svz-row">
                         <div class="extra-col svz-col svz-radiobutton-group">
@@ -84,6 +84,25 @@
                           <div class="svz-radiobutton">
                             <input id="ideaCategory2" type="radio" name="ideaCategory"/>
                             <label for="ideaCategory2"><span>Корпоративные мероприятия</span></label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="extra__fields">
+                        <div class="svz-btn svz-btn--reverse">Создать новую категорию</div>
+                        <div><br /></div>
+                        <div class="svz-field">
+                          <label>
+                            <input type="text" placeholder="Введите название категории"/>
+                          </label>
+                        </div>
+                        <div><br /></div>
+                        <div class="svz-field svz-field--has-error">
+                          <label>
+                            <input type="text" placeholder="Введите название категории" value="xdfhxdhzdfhg1435"/>
+                          </label>
+                          <div class="svz-field__error">
+                            <div class="svz-icon svz-icon--warning"></div>
+                            <div class="svz-icon__label svz-p--small svz-orange-font">Ошибка! Некорректное имя категории</div>
                           </div>
                         </div>
                       </div>
@@ -272,7 +291,24 @@
                           <div class="svz-p svz-gray-font">Файлы:</div>
                         </div>
                         <div class="attachments__content svz-col">
-                          <!-- TODO: Добавить файлы!!! --><a class="svz-hashtag" href="#">Добавить файлы!!!</a><a class="svz-hashtag" href="#">Добавить файлы!!!</a><a class="svz-hashtag" href="#">Добавить файлы!!!</a>
+                          <div class="attachments__file svz-row">
+                            <div class="file__icon svz-col">
+                              <div class="svz-file-icon svz-file-icon--small svz-file-icon--default"></div>
+                            </div>
+                            <div class="file__info svz-col"><span class="file__name svz-p">Выплата ЗП (1).pdf</span><span class="file__size svz-p--small svz-gray-font">165,51 КБ</span><span class="file__actions-btn svz-dropdown-btn svz-dropdown-btn--small">Еще</span></div>
+                          </div>
+                          <div class="attachments__file svz-row">
+                            <div class="file__icon svz-col">
+                              <div class="svz-file-icon svz-file-icon--small svz-file-icon--png"></div>
+                            </div>
+                            <div class="file__info svz-col"><span class="file__name svz-p">4K VIDEO INCREDIBLE PATAGONIA - Epic 4K 60fps Ultra HD Drone Footage.mp4</span><span class="file__size svz-p--small svz-gray-font">165,51 КБ</span><span class="file__actions-btn svz-dropdown-btn svz-dropdown-btn--small">Еще</span></div>
+                          </div>
+                          <div class="attachments__file svz-row">
+                            <div class="file__icon svz-col">
+                              <div class="svz-file-icon svz-file-icon--small svz-file-icon--pdf"></div>
+                            </div>
+                            <div class="file__info svz-col"><span class="file__name svz-p">Выплата ЗП (1).pdf</span><span class="file__size svz-p--small svz-gray-font">165,51 КБ</span><span class="file__actions-btn svz-dropdown-btn svz-dropdown-btn--small">Еще</span></div>
+                          </div>
                         </div>
                       </div>
                       <div class="attachments__row svz-row">
@@ -359,6 +395,9 @@
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div class="svz-ideas-list__more-ideas-btn">
+                    <div class="svz-p">Еще идеи</div>
                   </div>
                 </div>
               </div>

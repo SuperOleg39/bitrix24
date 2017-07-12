@@ -77,6 +77,11 @@
   background-repeat: no-repeat;
   cursor: pointer;
 }
+.svz-dropdown-btn--small {
+  font-size: 13px;
+  line-height: 22px;
+  background-position: right top 9px;
+}
 .svz-clean-btn {
   display: inline-block;
   padding: 0 8px;
