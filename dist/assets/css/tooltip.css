@@ -4,6 +4,11 @@
 .svz-tooltip_templates {
   display: none;
 }
+.tooltipster-sidetip.tooltipster-shadow .tooltipster-box {
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,0.1);
+          box-shadow: 0 0 10px 3px rgba(0,0,0,0.1);
+}
 /*
  * end Стили для Tooltipster
  */

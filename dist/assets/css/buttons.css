@@ -40,7 +40,9 @@
   text-transform: none;
 }
 .svz-btn--link:hover {
+  color: #2799d1;
   background: none;
+  border: none;
 }
 /*
  * end Кнопки

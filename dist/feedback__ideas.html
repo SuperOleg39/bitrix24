@@ -7,6 +7,7 @@
     <script src="https://code.jquery.com/jquery-1.7.2.min.js" integrity="sha256-R7aNzoy2gFrVs+pNJ6+SokH04ppcEqJ0yFLkNGoFALQ=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../vendor/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
     <link rel="stylesheet" href="../vendor/tooltipster/dist/css/tooltipster.bundle.min.css"/>
+    <link rel="stylesheet" href="../vendor/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css"/>
     <link rel="stylesheet" href="assets/css/index.css"/>
   </head>
   <body>
@@ -473,7 +474,32 @@
             </div>
           </div>
           <div class="svz-tooltip_templates">
-            <div id="svz-ideas-filters">1234567890</div>
+            <div id="svz-ideas-filters">
+              <div class="svz-feedback__tooltip">
+                <div class="tooltip__indent svz-p">Дата создания</div>
+                <div class="tooltip__indent">
+                  <div class="svz-field svz-field--datepicker">
+                    <label>
+                      <input type="datepicker" placeholder="С даты"/>
+                    </label>
+                  </div>
+                </div>
+                <div class="tooltip__indent">
+                  <div class="svz-field svz-field--datepicker">
+                    <label>
+                      <input type="datepicker" placeholder="По дату"/>
+                    </label>
+                  </div>
+                </div>
+                <div class="tooltip__indent tooltip__separator"></div>
+                <div class="tooltip__indent svz-p">Статус жалобы</div>
+                <div class="tooltip__indent">
+                  <div class="svz-feedback-status svz-feedback-status--inprogress"><i class="svz-icon"></i><span>В работе</span></div>
+                  <div class="svz-feedback-status svz-feedback-status--done"><i class="svz-icon"></i><span>Выполнено</span></div>
+                  <div class="svz-feedback-status svz-feedback-status--rejected"><i class="svz-icon"></i><span>Не выполнена</span></div>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- end feedback__ideas-->
         </div>

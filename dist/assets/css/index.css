@@ -360,7 +360,9 @@ body {
   text-transform: none;
 }
 .svz-btn--link:hover {
+  color: #2799d1;
   background: none;
+  border: none;
 }
 .svz-field label {
   display: block;
@@ -401,6 +403,13 @@ body {
 .svz-field .svz-field__error {
   margin-top: 3px;
   padding-left: 30px;
+}
+.svz-field.svz-field--datepicker label {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAd0lEQVQ4je2TURIAEQhAs9MFOKTjc4Tdn9jKlvzv+xGah0yp1gpEprGDj8hDttFoTBuByENm1CfsyEPQ1Iaeuze5gskmvAa74mnmEwblUHADfD8hw1tIK56gXgD5TVbsCnogdgUlEE/+GkhBtIlMQbSJFsFpDwgeADEYuOa6jcgAAAAASUVORK5CYII=");
+  background-size: 16px 18px;
+  background-position: right 20px center;
+  background-repeat: no-repeat;
+  padding: 0 45px 0 30px;
 }
 .svz-radiobutton input[type='radio'] {
   display: none;
@@ -540,6 +549,11 @@ body {
 }
 .svz-tooltip_templates {
   display: none;
+}
+.tooltipster-sidetip.tooltipster-shadow .tooltipster-box {
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,0.1);
+          box-shadow: 0 0 10px 3px rgba(0,0,0,0.1);
 }
 .svz-avatar {
   width: 60px;

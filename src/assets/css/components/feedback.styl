@@ -209,6 +209,29 @@ url = embedurl
 /*
  * end feedback__view
  */
+
+/*
+ * feedback__tooltip
+ */
+.svz-feedback__tooltip
+  padding 20px 10px
+  
+  .tooltip__indent
+    + .tooltip__indent
+      margin-top default-padding
+      
+  .tooltip__separator
+    border-bottom 1px solid gray-border-color
+    
+  .svz-feedback-status
+    + .svz-feedback-status
+      margin-top 10px
+      
+    .svz-icon
+      width 18px
+/*
+ * end feedback__tooltip
+ */
     
 @import "feedback__petition-list.styl"
 @import "feedback__thanks-list.styl"

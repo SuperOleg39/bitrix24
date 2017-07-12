@@ -218,6 +218,27 @@
 /*
  * end feedback__view
  */
+/*
+ * feedback__tooltip
+ */
+.svz-feedback__tooltip {
+  padding: 20px 10px;
+}
+.svz-feedback__tooltip .tooltip__indent + .tooltip__indent {
+  margin-top: 20px;
+}
+.svz-feedback__tooltip .tooltip__separator {
+  border-bottom: 1px solid #e6e6e6;
+}
+.svz-feedback__tooltip .svz-feedback-status + .svz-feedback-status {
+  margin-top: 10px;
+}
+.svz-feedback__tooltip .svz-feedback-status .svz-icon {
+  width: 18px;
+}
+/*
+ * end feedback__tooltip
+ */
 .svz-feedback__petition-list .svz-petition-list__id-col {
   width: 15%;
 }

@@ -41,6 +41,13 @@
   margin-top: 3px;
   padding-left: 30px;
 }
+.svz-field.svz-field--datepicker label {
+  background-image: url("../img/datepicker-icon.png");
+  background-size: 16px 18px;
+  background-position: right 20px center;
+  background-repeat: no-repeat;
+  padding: 0 45px 0 30px;
+}
 .svz-radiobutton input[type='radio'] {
   display: none;
 }

@@ -25,6 +25,8 @@ $('document').ready(function() {
         animationDuration: 0,
         delay: 0,
         interactive: true,
+        theme: 'tooltipster-shadow',
+        maxWidth: 250,
         functionBefore: function(instance) {
             $(instance.elementOrigin()).addClass(tooltipsterClassActive);
         },
