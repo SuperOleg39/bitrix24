@@ -1,3 +1,6 @@
+/*
+ * feedback
+ */
 .svz-feedback__list {
   margin-top: 40px;
 }
@@ -94,6 +97,9 @@
 .svz-feedback__list .svz-list__show-more-btn {
   padding: 0 60px;
 }
+/*
+ * feedback__create
+ */
 .svz-feedback__create {
   position: relative;
 }
@@ -159,6 +165,12 @@
 .svz-feedback__create-thank .svz-icon {
   margin: 0 8px;
 }
+/*
+ * end feedback__create
+ */
+/*
+ * feedback__view
+ */
 .svz-feedback__view-header {
   padding-right: 100px;
   margin-top: 20px;
@@ -203,6 +215,12 @@
 .svz-feedback__add-comment-btn {
   padding: 0 30px;
 }
+/*
+ * end feedback__view
+ */
+/*
+ * feedback__tooltip
+ */
 .svz-feedback__tooltip {
   padding: 20px 10px;
 }
@@ -218,6 +236,9 @@
 .svz-feedback__tooltip .svz-feedback-status .svz-icon {
   width: 18px;
 }
+/*
+ * end feedback__tooltip
+ */
 .svz-feedback__petition-list .svz-petition-list__id-col {
   width: 15%;
 }
@@ -632,3 +653,6 @@
 .svz-feedback__index-page.svz-feedback__index-page--mobile .svz-index-page__section--pi {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAASCAYAAABfJS4tAAABZ0lEQVQ4jaXUQUtUURjG8d9chhBauAhLpX3Qop2gIASlgmIWitByYNoLois/QfgJigndDIKSOxFjCEHxM0y4z42LoRGUNtPinIuDzZ17swcO5/Ae3ue+/3Pee0qrb7cV0Cy+xHUVh3E9gCks4Dkm04SkiGs0HYljCxV8xSVqKOFjd0JR43LX+gnWcY5pjOIZVrIS7n5wDO8EzEf4jWusxSpTzeAFOsJRnPaqeB6f8RPfYyWbscoHGLxj+hJ1vMF77ON1r4rraOMDGrjJIIIJ7EbDkxhbxh4q3cYzEechWjmmcBbnRo+9g/QoMpHuq8TfSEcC0g7m+uT+ivOo0G4loR3hKhGQHgtInTiOMYSDPsbpEdQwjKduf6JvWe1WRBt4JVBddMVb2EjkIPUxbmJcuI92HPsx1iwLSIsRqSq04KcUKafqH1jqtVHOQ8oxzlQiB+m+xunlZSL9r3GWOjmxUlZi0Wfzn/UHlfBQuvFDSYIAAAAASUVORK5CYII=");
 }
+/*
+ * end feedback
+ */

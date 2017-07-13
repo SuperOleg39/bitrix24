@@ -1,0 +1,227 @@
+/*
+ * feedback__ideas
+ */
+@import "../../variables.styl"
+@import "../../mixins.styl"
+
+url = embedurl
+
+.svz-feedback__ideas-list
+  .svz-list__header
+    border-bottom 1px solid gray-border-color
+    padding-bottom default-padding
+    margin-bottom 15px
+
+  .svz-ideas-list__sort-by
+    margin-bottom 30px
+
+    .svz-dropdown-btn
+      color dark-font-color
+      padding-left 0
+
+  .svz-ideas-list__main
+    width calc(100% - 300px)
+
+  .svz-ideas-list__main--inner
+    background-color light-gray-color
+    padding default-padding
+
+  .svz-ideas-list__more-ideas-btn
+    cursor pointer
+    background-color white
+    text-align center
+    margin-top default-padding
+    padding default-padding
+    
+  .svz-ideas-list__sidebar
+    width 300px
+    padding 0 default-padding default-padding
+
+  .svz-feedback-idea
+    background-color white
+    position relative
+
+  .svz-feedback-idea + .svz-feedback-idea
+    margin-top 20px
+
+  .svz-feedback-idea__header
+    padding 25px 23px 0 28px
+    margin-bottom 18px
+
+    .header__avatar
+      width 80px
+      padding-right default-padding
+    
+    .svz-avatar
+      position relative
+      top -5px
+
+    .header__from-to
+      width calc(100% - 280px)
+
+      .form-to__author
+        padding-right 10px
+        ellipsis-overflow()
+
+      .from-to__project
+        color gray-font-color
+        ellipsis-overflow()
+
+        .svz-icon
+          margin-right 8px
+
+        span
+          color gray-font-color
+      
+    .header__rating
+      width 200px
+      text-align right
+
+      .rating__count
+        color gray-font-color
+        margin 0 20px 0 5px
+      .rating__count--positive
+        color main-green-color
+      .rating__count--negative
+        color main-orange-color
+
+      .svz-like-btn
+        margin-right 5px
+
+  .svz-feedback-idea__status
+    position absolute
+    right 23px
+    top 60px
+
+  .svz-feedback-idea__title
+    padding 0 23px 0 28px
+    margin-bottom 20px
+
+  .svz-feedback-idea__body
+    padding 0 23px 0 28px
+    margin-bottom 23px
+
+  .svz-feedback-idea__separator
+    background-color gray-border-color
+    height 1px
+    width calc(100% - 51px)
+    margin 25px 23px 25px 28px
+
+  .svz-feedback-idea__attachments
+    padding 0 23px 0 28px
+    padding-bottom default-padding
+
+    .attachments__row + .attachments__row
+      margin-top 25px
+
+    .attachments__title
+      width 80px
+      padding-right 20px
+
+    .attachments__content
+      width calc(100% - 80px)
+      
+    .attachments__file
+      margin-bottom 6px
+      
+      .file__icon
+        width 30px
+        padding-top 1px
+        padding-right 10px
+      .file__info
+        width calc(100% - 30px)
+      .file__name
+        margin-right 6px
+      .file__size
+        margin-right 6px
+      .file__actions-btn
+        color gray-font-color
+        
+  .svz-feedback-idea__comments
+    padding 15px 0 0 0
+
+    &--closed
+      padding 18px 23px 18px 28px
+      border-top 1px solid gray-border-color
+      cursor pointer
+
+    .comments__show-comments-btn
+      .comments__count
+        margin-left 8px
+
+    .comments__more-comments-btn
+      line-height 40px
+      cursor pointer
+
+    .svz-comments__title,
+    .svz-comments__list
+      padding-left 28px
+      padding-right 23px
+
+    .comments__footer
+      padding 20px 23px 30px 28px
+
+  .svz-ideas-list__short-list
+    border-top 1px solid gray-border-color
+    border-bottom 1px solid gray-border-color
+    padding 25px 0
+    margin-bottom default-padding
+
+    .svz-feedback-status
+      .svz-icon
+        width 30px
+        background-position left center
+        margin-right 0
+
+    .short-list__row + .short-list__row
+      margin-top 15px
+
+    .short-list__status
+      width calc(100% - 100px)
+
+    .short-list__count
+      width 100px
+      text-align right
+
+      span
+        color gray-font-color
+        cursor pointer
+
+        &:hover
+          color main-blue-color
+
+  .svz-tags-cloud
+    background-color light-gray-color
+    padding 32px 25px 32px 30px
+
+    .svz-tag
+      margin-right 4px
+      margin-bottom 4px
+
+.svz-feedback__create-idea
+  margin-bottom default-padding
+  
+  .svz-editor-area__extra
+    .extra-title
+      margin-bottom 10px
+    .extra-col
+      width 50%
+
+    .extra__dnd-zone
+      background-color #ededed
+      text-align center
+      padding default-padding
+      cursor pointer
+      
+    .extra__fields
+      margin-top default-padding
+      
+      .svz-btn
+        padding 0 30px
+
+  .svz-add-btn
+    margin-left 10px
+
+/*
+ * end feedback__ideas
+ */
