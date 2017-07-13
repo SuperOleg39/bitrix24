@@ -97,6 +97,29 @@
 .svz-feedback__list .svz-list__show-more-btn {
   padding: 0 60px;
 }
+.svz-feedback__list--mobile .svz-list__header {
+  padding: 0 15px;
+}
+.svz-feedback__list--mobile .svz-list__header > div {
+  padding-right: 0;
+}
+.svz-feedback__list--mobile .svz-list__list {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0 15px;
+}
+.svz-feedback__list--mobile .svz-list__list .list__row + .list__row {
+  margin-top: 15px;
+}
+.svz-feedback__list--mobile .svz-list__list .list__title {
+  width: 100px;
+  padding-right: 15px;
+}
+.svz-feedback__list--mobile .svz-list__list .list__content {
+  width: calc(100% - 100px);
+}
 /*
  * feedback__create
  */
@@ -270,6 +293,16 @@
 .svz-feedback__petition-list .svz-list__list .svz-petition-list__created-col {
   color: #999;
 }
+.svz-feedback__petition-list--mobile .svz-list__header .header__search {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.svz-feedback__petition-list--mobile .svz-list__header .header__title {
+  width: auto;
+}
+.svz-feedback__petition-list--mobile .svz-list__header .header__add-btn {
+  width: auto;
+}
 .svz-feedback__thanks-list .svz-list__header .header__title {
   width: 47%;
 }
@@ -319,6 +352,35 @@
 }
 .svz-feedback__thanks-list .svz-thanks-list__from-to .svz-icon {
   margin-right: 5px;
+}
+.svz-feedback__thanks-list--mobile .svz-list__header .header__switch {
+  width: 50px;
+  padding-right: 10px;
+}
+.svz-feedback__thanks-list--mobile .svz-list__header .header__search {
+  width: calc(100% - 100px);
+  margin-bottom: 25px;
+}
+.svz-feedback__thanks-list--mobile .svz-list__header .header__title {
+  width: 100%;
+}
+.svz-feedback__thanks-list--mobile .svz-list__header .header__add-btn {
+  width: 50px;
+  padding-left: 10px;
+}
+.svz-feedback__thanks-list--mobile .svz-list__list .list__row.list__row--type {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.svz-feedback__thanks-list--mobile .svz-list__list .svz-feedback-type-icon {
+  margin-left: 0;
+}
+.svz-feedback__thanks-list--mobile .svz-list__list .list__row--from-to .svz-icon--arrow-right {
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+.svz-feedback__thanks-list--mobile .svz-thanks-list__from-to .from-to__names {
+  width: 100%;
 }
 .svz-feedback__ideas-list .svz-list__header {
   border-bottom: 1px solid #e6e6e6;
@@ -542,6 +604,28 @@
 }
 .svz-feedback__create-idea .svz-add-btn {
   margin-left: 10px;
+}
+.svz-feedback__ideas-list--mobile .svz-list__header {
+  padding-bottom: 15px;
+}
+.svz-feedback__ideas-list--mobile .svz-list__header .header__search {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.svz-feedback__ideas-list--mobile .svz-list__header .header__title {
+  width: auto;
+}
+.svz-feedback__ideas-list--mobile .svz-list__header .header__add-btn {
+  width: auto;
+  margin-right: 15px;
+}
+.svz-feedback__ideas-list--mobile .svz-ideas-list__sort-by {
+  border-top: 1px solid #e6e6e6;
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-top: 15px;
 }
 .svz-feedback__index-page {
   margin-top: 25px;

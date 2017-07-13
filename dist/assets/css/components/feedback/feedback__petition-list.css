@@ -32,6 +32,16 @@
 .svz-feedback__petition-list .svz-list__list .svz-petition-list__created-col {
   color: #999;
 }
+.svz-feedback__petition-list--mobile .svz-list__header .header__search {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.svz-feedback__petition-list--mobile .svz-list__header .header__title {
+  width: auto;
+}
+.svz-feedback__petition-list--mobile .svz-list__header .header__add-btn {
+  width: auto;
+}
 /*
  * feedback__petition-list
  */

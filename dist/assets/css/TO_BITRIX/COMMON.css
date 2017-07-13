@@ -101,6 +101,9 @@
 .svz-medium-font {
   font-family: 'StagSans-Medium', sans-serif;
 }
+.svz-p--super {
+  vertical-align: super;
+}
 .svz-gray-font {
   color: #999;
 }
@@ -874,6 +877,17 @@
 .svz-clean-btn {
   display: inline-block;
   padding: 0 8px;
+  cursor: pointer;
+}
+.svz-magic-stick-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #724fa0;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAABGElEQVQ4ja3UMS8EQRTA8X8uxzUSnVx5hVxJKRGFRETvvgEqhVqhktD5AApfQK2TiE6UFHSIKESlENHwV5i5bMbtGrc3ycvu233zy7yZzaLyjzhRt6tqGpSPqneltWWTxoALoJeB7QGH/axi+evqh9orPJtW24V8X31V53JaPgI2gYWktalwPw7MACvAZc4K0+iqT+qLOltW18zYI4AucAacAm/hugxcpYU5YBHbAL6AiZDPA21gK9Q+/gVGbBLYAT6BDrAInAMPAb8L9c85exbHTTjNe/VYbQ6al4sVRxH7hdbBWuq1uloF5mLpx99H62Ax1tTdFBwWG3goDfV2FFgEO6PCItjy549RG4sg6lJo+109GBZT+QZqH2N1fxHyBgAAAABJRU5ErkJggg==");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
   cursor: pointer;
 }
 .svz-switch-icon {

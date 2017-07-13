@@ -224,6 +224,28 @@
 .svz-feedback__create-idea .svz-add-btn {
   margin-left: 10px;
 }
+.svz-feedback__ideas-list--mobile .svz-list__header {
+  padding-bottom: 15px;
+}
+.svz-feedback__ideas-list--mobile .svz-list__header .header__search {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.svz-feedback__ideas-list--mobile .svz-list__header .header__title {
+  width: auto;
+}
+.svz-feedback__ideas-list--mobile .svz-list__header .header__add-btn {
+  width: auto;
+  margin-right: 15px;
+}
+.svz-feedback__ideas-list--mobile .svz-ideas-list__sort-by {
+  border-top: 1px solid #e6e6e6;
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-top: 15px;
+}
 /*
  * end feedback__ideas
  */
