@@ -370,9 +370,10 @@
   top: -5px;
 }
 .svz-feedback__ideas-list .svz-feedback-idea__header .header__from-to {
-  width: calc(100% - 260px);
+  width: calc(100% - 280px);
 }
 .svz-feedback__ideas-list .svz-feedback-idea__header .header__from-to .form-to__author {
+  padding-right: 10px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -390,7 +391,7 @@
   color: #999;
 }
 .svz-feedback__ideas-list .svz-feedback-idea__header .header__rating {
-  width: 180px;
+  width: 200px;
   text-align: right;
 }
 .svz-feedback__ideas-list .svz-feedback-idea__header .header__rating .rating__count {
