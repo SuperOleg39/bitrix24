@@ -56,6 +56,15 @@
 .svz-comments .svz-comment .comment__body {
   width: calc(100% - 80px);
 }
+.svz-comments .svz-comment .comment__attachments {
+  margin-bottom: 15px;
+}
+.svz-comments .svz-comment .comment__attachments .attachments__row + .attachments__row {
+  margin-top: 15px;
+}
+.svz-comments .svz-comment .comment__attachments .attachments__file {
+  margin-bottom: 10px;
+}
 .svz-comments .svz-comment .comment__footer {
   margin-top: 5px;
 }

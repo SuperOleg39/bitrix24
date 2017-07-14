@@ -704,6 +704,23 @@
 .svz-file-icon--zip.svz-file-icon--small {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABhElEQVQ4jaWUuUsDQRSHv5GQA0Vcm2zAQhBBwSAeWHigCApisdho0EIJ/gWJWKWwSGFjJ4KNRMEQsApWChGPFBZJoSJ4gKaQMIsgIl6kWQvdkOBGjP5g4PGbNx/vzTxGGIaBqWw2a4ZpoB0LpVKpAynlQKFXYZVYCgAgpexXVfXwN5AfJaXsc7vdyX9BAHRd7zErKhuiKEpRRR6PZ18EtMi3xODKkPHN/EF/bqdQIqBFYsA4IMo7CU0dKqN+LzYTEI76cLrsALy/5QhNxghHfawtJrg5vcfcz1zrLM/vgAGXaZ1Rv5cKs4LQZIy5sQ0eH17IXOkAOF12Kqsd+XhrNUl9oxtvbx0A5qAW3cnITCs1tZVsR9KWHbw+5yz9PKRKcdAz3EwifoKeebJMng4O8v6W4/b8vsi3mYE22wnAUfzCEgCwvrTHWfLOshIDoK27AafLzsLaBOGorySoUEJ8PqgIaJFNwEeZMyOEoLlLZWS6BRsw9bXyKndiRYn/ZBcY+iXj+AO65nbKWT4LZgAAAABJRU5ErkJggg==");
 }
+.svz-file .file__icon {
+  width: 30px;
+  padding-top: 1px;
+  padding-right: 10px;
+}
+.svz-file .file__info {
+  width: calc(100% - 30px);
+}
+.svz-file .file__name {
+  margin-right: 6px;
+}
+.svz-file .file__size {
+  margin-right: 6px;
+}
+.svz-file .file__actions-btn {
+  color: #999;
+}
 .svz-tabs {
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 15px;

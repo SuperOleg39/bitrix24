@@ -20,7 +20,177 @@ link(rel='stylesheet', href='assets/css/components/feedback/feedback.css')
 
   .svz-ideas-list__body.svz-row
     .svz-ideas-list__main.svz-col
+      
+      .svz-feedback-idea
+        .svz-feedback-idea__status
+          .svz-feedback-status.svz-feedback-status--idea
+            .svz-icon
+            span Новая
+        .svz-feedback-idea__header.svz-row
+          .header__avatar.svz-col
+            .svz-avatar
+              img(src='assets/img/avatar.png')
+          .header__from-to.svz-col
+            .form-to__author
+              span.svz-p Барышникова Ольга
+            .from-to__project
+              .svz-icon.svz-icon--arrow-right
+              span.svz-p Кадровая политика компании
+        .svz-feedback-idea__title
+          .svz-h3
+            | Тестовая идея
+        .svz-feedback-idea__body
+          .svz-p
+            | Отметим, что компания «Связной» соблюдает все нормы по оплате услуг: 
+            | мы исправно и в срок платим комиссионные отчисления агентам и агентствам, 
+            | риелторам и другим посредникам, способствующим заключению сделок по аренде или приобретению помещений. 
+            | Сотрудничать с нами перспективно, выгодно и надежно!
+        .svz-feedback-idea__attachments
+        .svz-feedback-idea__comments.svz-feedback-idea__comments--closed
+          .comments__add-comment-btn
+            span.svz-p Комментировать
+          .comments__rating
+            span.rating__count.svz-p.svz-gray-font 2
+            i.svz-like-btn.svz-like-btn--active
+            i.svz-dislike-btn
+            
+      .svz-feedback-idea
+        .svz-feedback-idea__status
+          .svz-feedback-status.svz-feedback-status--done
+            .svz-icon
+            span Внедрено
+        .svz-feedback-idea__header.svz-row
+          .header__avatar.svz-col
+            .svz-avatar
+              img(src='assets/img/avatar.png')
+          .header__from-to.svz-col
+            .form-to__author
+              span.svz-p Барышникова Ольга
+            .from-to__project
+              .svz-icon.svz-icon--arrow-right
+              span.svz-p Кадровая политика компании
+        .svz-feedback-idea__title
+          .svz-h3
+            | Тестовая идея
+        .svz-feedback-idea__body
+          .svz-indent
+            .svz-p Отметим, что компания «Связной» соблюдает все нормы по оплате услуг
+          .svz-indent
+            img.svz-responsive-img(src="assets/img/feedback-ideas-img.jpg")
+        .svz-feedback-idea__attachments
+        .svz-feedback-idea__comments.svz-feedback-idea__comments--closed
+          .comments__show-comments-btn
+            span.svz-p Комментарев
+            span.comments__count.svz-p.svz-gray-font 21
+          .comments__rating
+            span.rating__count.svz-p.svz-gray-font 2
+            i.svz-like-btn.svz-like-btn--active
+            i.svz-dislike-btn
+            
+      .svz-feedback-idea
+        .svz-feedback-idea__status
+          .svz-feedback-status.svz-feedback-status--rejected
+            .svz-icon
+            span Отклонена
+        .svz-feedback-idea__header.svz-row
+          .header__avatar.svz-col
+            .svz-avatar
+              img(src='assets/img/avatar.png')
+          .header__from-to.svz-col
+            .form-to__author
+              span.svz-p Барышникова Ольга
+            .from-to__project
+              .svz-icon.svz-icon--arrow-right
+              span.svz-p Кадровая политика компании
+        .svz-feedback-idea__title
+          .svz-h3
+            | Тестовая идея
+        .svz-feedback-idea__body
+          .svz-indent
+            .svz-p Отметим, что компания «Связной» соблюдает все нормы по оплате услуг
+          .svz-indent
+            img.svz-responsive-img(src="assets/img/feedback-ideas-img.jpg")
+        .svz-feedback-idea__attachments
+        .svz-feedback-idea__comments
+          .comments__show-comments-btn
+            span.svz-p Комментарев
+            span.comments__count.svz-p.svz-gray-font 21
+          .comments__rating
+            span.rating__count.svz-p.svz-gray-font 2
+            i.svz-like-btn.svz-like-btn--active
+            i.svz-dislike-btn
+          
+          include ../live-feeds/comments
+            
+      .svz-feedback-idea
+        .svz-feedback-idea__status
+          .svz-feedback-status.svz-feedback-status--inprogress
+            .svz-icon
+            span В работе
+        .svz-feedback-idea__header.svz-row
+          .header__avatar.svz-col
+            .svz-avatar
+              img(src='assets/img/avatar.png')
+          .header__from-to.svz-col
+            .form-to__author
+              span.svz-p Барышникова Ольга
+            .from-to__project
+              .svz-icon.svz-icon--arrow-right
+              span.svz-p Кадровая политика компании
+        .svz-feedback-idea__title
+          .svz-h3
+            | Тестовая идея
+        .svz-feedback-idea__body
+          .svz-indent
+            .svz-p
+              | Присоединилась к компании «Связнмой» в 2016 году. С 1994 года работала в Промторгбанке, а после 
+              | запуска Связного Банка, продолжила свое развитие в его команде с момента основания. 
+        .svz-feedback-idea__attachments
+          .attachments__row
+            .attachments__content.svz-photo-preview-group
+              .svz-photo-preview
+                img(src="assets/img/photo-preview.png")
+              .svz-photo-preview
+                img(src="assets/img/photo-preview.png")
+              .svz-photo-preview
+                img(src="assets/img/photo-preview.png")
+              .svz-photo-preview
+                img(src="assets/img/photo-preview.png")
+          .attachments__row
+            .attachments__content
+              .attachments__file.svz-row
+                .file__icon.svz-col
+                  .svz-file-icon.svz-file-icon--small.svz-file-icon--default
+                .file__info.svz-col
+                  span.file__name.svz-p Выплата ЗП (1).pdf
+                  span.file__size.svz-p--small.svz-gray-font 165,51 КБ
+              .attachments__file.svz-row
+                .file__icon.svz-col
+                  .svz-file-icon.svz-file-icon--small.svz-file-icon--png
+                .file__info.svz-col
+                  span.file__name.svz-p 4K VIDEO INCREDIBLE PATAGONIA - Epic 4K 60fps Ultra HD Drone Footage.mp4
+                  span.file__size.svz-p--small.svz-gray-font 165,51 КБ
+              .attachments__file.svz-row
+                .file__icon.svz-col
+                  .svz-file-icon.svz-file-icon--small.svz-file-icon--pdf
+                .file__info.svz-col
+                  span.file__name.svz-p Выплата ЗП (1).pdf
+                  span.file__size.svz-p--small.svz-gray-font 165,51 КБ
+          .attachments__row
+            .attachments__content
+              a(href="#").svz-hashtag #СвязнойЭнергия
+              a(href="#").svz-hashtag #КостаРика
+              a(href="#").svz-hashtag #КлассноПогуляли
+        .svz-feedback-idea__comments
+          .comments__show-comments-btn
+            span.svz-p Комментарев
+            span.comments__count.svz-p.svz-gray-font 21
+          .comments__rating
+            span.rating__count.svz-p.svz-gray-font 2
+            i.svz-like-btn.svz-like-btn--active
+            i.svz-dislike-btn
 
+          include ../live-feeds/comments
         
 .svz-tooltip_templates
   #svz-ideas-filters

@@ -133,6 +133,23 @@
 .svz-file-icon--zip.svz-file-icon--small {
   background-image: url("../../img/drive/drive-icon--zip--small.png");
 }
+.svz-file .file__icon {
+  width: 30px;
+  padding-top: 1px;
+  padding-right: 10px;
+}
+.svz-file .file__info {
+  width: calc(100% - 30px);
+}
+.svz-file .file__name {
+  margin-right: 6px;
+}
+.svz-file .file__size {
+  margin-right: 6px;
+}
+.svz-file .file__actions-btn {
+  color: #999;
+}
 /*
  * end files
  */

@@ -223,6 +223,14 @@ url = embedurl
     margin-left 10px
 
 .svz-feedback__ideas-list--mobile
+  .svz-ideas-list__main
+    width 100%
+    
+  .svz-feedback-idea + .svz-feedback-idea
+    border-top 1px solid gray-border-color
+    margin-top 5px
+    padding-top 20px
+  
   .svz-list__header
     padding-bottom 15px
     
@@ -234,6 +242,13 @@ url = embedurl
     .header__add-btn
       width auto
       margin-right 15px
+      
+  .svz-feedback-idea__header
+    padding 0 15px
+    margin-bottom 15px
+    
+    .header__from-to
+      width calc(100% - 80px)
 
   .svz-ideas-list__sort-by
     border-top 1px solid gray-border-color
@@ -242,6 +257,64 @@ url = embedurl
     margin-top default-padding
     margin-bottom 0
     padding-top 15px
+
+  .svz-feedback-idea__status
+    position static
+    padding 0 15px
+    margin-bottom 15px
+    
+  .svz-feedback-idea__title
+    padding 0 15px
+    margin-bottom 10  px
+    
+  .svz-feedback-idea__body
+    padding 0 15px
+    margin-bottom 5px
+
+  .svz-feedback-idea__attachments
+    padding 20px 15px 10px
+    
+    .attachments__content
+      width 100%
+      
+    .attachments__file
+      margin-bottom 15px
+    
+  .svz-feedback-idea__comments
+    position relative
+    padding 18px 15px
+    border-top none
+    cursor default
+    
+    .comments__add-comment-btn
+      display inline-block
+      cursor pointer
+
+    .comments__rating
+      position absolute
+      right 15px
+      top 18px
+      
+      .rating__count
+        display inline-block
+        max-width 75px
+        margin-right 12px
+        vertical-align middle
+        ellipsis-overflow()
+        
+      .svz-like-btn
+        margin-right 8px
+  
+  .svz-comments
+    margin-top 20px
+    
+  .svz-photo-preview-group
+    .svz-photo-preview
+      margin-right 6px
+      margin-bottom 6px
+      
+  .svz-hashtag
+    margin 0 6px 0 0
 /*
  * end feedback__ideas
  */
