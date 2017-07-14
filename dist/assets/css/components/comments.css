@@ -145,6 +145,19 @@
 .svz-comments .svz-comments__list--mobile .svz-comment .comment__created {
   margin-bottom: 14px;
 }
+.svz-comments .svz-comments__list--mobile .svz-comment .comment__system-title {
+  margin-bottom: 8px;
+}
+.svz-comments .svz-comments__list--mobile .svz-comment--system > div {
+  display: block;
+}
+.svz-comments .svz-comments__list--mobile .svz-comment--system .svz-feedback-status {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.svz-comments .svz-comments__list--mobile .svz-comment--system .comment__created {
+  margin-bottom: 0;
+}
 /*
  * end comments
  */

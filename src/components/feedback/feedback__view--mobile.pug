@@ -1,0 +1,67 @@
+link(rel='stylesheet', href='assets/css/components/feedback/feedback.css')
+
+// view-thank
+.svz-feedback__view.svz-feedback__view--mobile.svz-feedback__view-thank.svz-feedback__view-thank--mobile
+  .svz-feedback__view-header
+    .view-header__title.svz-h2
+      | Отличная работа!
+    .view-header__icon
+      .svz-feedback-type-icon
+        
+  .svz-feedback__view-info
+    .view-info__date.svz-p--small
+      | 27 апреля 2017 г.
+    .view-info__from-to.svz-p
+      .from-to__author
+        span Будрина Евгения
+      .from-to__recipient
+        i.svz-icon.svz-icon--arrow-right
+        span Павличук Роман
+      .from-to__recipient
+        i.svz-icon.svz-icon--arrow-right
+        span Мироненко Сергей
+      .from-to__recipient
+        i.svz-icon.svz-icon--arrow-right
+        span Авсиевич Дарья
+        
+  .svz-feedback__view-content
+    .svz-p
+      | Кондиционер перестал работать еще неделю назад, в офисе сложно работать при температуре 30+. 
+      | Пожалуйста, исправьте технические неполадки, очень хочется работать в нормальных условиях.
+      
+  include feedback__thank-comments--mobile
+// end view-thank
+  
+// view-petition
+.svz-feedback__view.svz-feedback__view--mobile.svz-feedback__view-petition.svz-feedback__view-petition--mobile
+  .svz-feedback__view-header
+    .view-header__title.svz-h2
+      | ЗП за октябрь / ноябрь
+    .view-header__category
+      .svz-p.svz-gray-font Неработающее оборудование
+
+  .svz-feedback__view-info
+    .view-info__date.svz-p--small
+      | 27 апреля 2017 г.
+    .view-info__from-to.svz-p
+      .from-to__author
+        span Будрина Евгения
+      .from-to__recipient
+        i.svz-icon.svz-icon--arrow-right
+        span Авсиевич Дарья
+        
+  .svz-feedback__view-icon
+    .svz-feedback-status.svz-feedback-status--inprogress
+      .svz-icon
+      span В работе
+
+  .svz-feedback__view-content
+    .svz-p
+      | Кондиционер перестал работать еще неделю назад, в офисе сложно работать при температуре 30+. 
+      | Пожалуйста, исправьте технические неполадки, очень хочется работать в нормальных условиях.
+
+  include feedback__petition-comments--mobile
+
+  .svz-feedback__view-footer.svz-row
+    .svz-feedback__add-comment-btn.svz-btn Перейти в бизнес-процесс
+// end view-petition

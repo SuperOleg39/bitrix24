@@ -3,9 +3,9 @@ link(rel='stylesheet', href='assets/css/components/comments.css')
   
 .svz-comments
   .svz-comments__title 
-    span.svz-h3 Комментариев
-    span.title_comments-count.svz-h3 3
-  .svz-comments__list
+    span.svz-p Комментариев
+    span.title_comments-count.svz-p 3
+  .svz-comments__list.svz-comments__list--mobile
     .svz-comment.svz-comment--has-actions.svz-row
       .comment__avatar.svz-col
         .svz-avatar
@@ -19,16 +19,14 @@ link(rel='stylesheet', href='assets/css/components/comments.css')
               | Акция не действует на два одинаковых товара. Например, купить два совершенно идентичных чехла ты не сможешь, 
               | но сможешь купить два одинаковых, но разных цветов.
         .comment__footer.svz-row
-          .comment__actions.svz-p.svz-pull-left
+          .comment__created.svz-p--small
+            span.created__date 28 апр. 2017 г.
+            span.created__time 20:11
+          .comment__actions.svz-p
             .actions__likes
               .svz-like-btn
               span.actions__likes-count 2
             .actions__reply
               .svz-clean-btn Ответить
-            .actions__more
-              .svz-dropdown-btn Еще
-          .comment__created.svz-p--small.svz-pull-right
-            span.created__date 28 апр. 2017 г.
-            span.created__time 20:11
         
 // end comments
