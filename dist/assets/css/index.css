@@ -370,6 +370,15 @@ body {
   background: none;
   border: none;
 }
+.svz-btn--gray {
+  border: 1px solid #999;
+  color: #999;
+  background: inherit;
+  padding: 0 25px;
+}
+.svz-btn--gray:hover {
+  color: #fff;
+}
 .svz-field label {
   display: block;
   border: 1px solid #bfbfbf;
