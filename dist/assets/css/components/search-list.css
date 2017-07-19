@@ -1,0 +1,27 @@
+/*
+ * search-list
+ */
+.svz-search-list {
+  margin-top: 40px;
+}
+.svz-search-list,
+.svz-search-list:after,
+.svz-search-list:before,
+.svz-search-list *,
+.svz-search-list *:after,
+.svz-search-list *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.svz-search-list__header {
+  margin-bottom: 25px;
+}
+.svz-search-list__search {
+  display: block;
+  border: 1px solid #bfbfbf;
+  border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  padding: 0 45px 0 30px;
+}
