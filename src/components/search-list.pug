@@ -1,5 +1,11 @@
 // search-list
+
 link(rel='stylesheet', href='assets/css/components/search-list.css')
+link(rel='stylesheet', href='assets/css/components/selectivity.css')
+//link(rel='stylesheet', href='selectivity.css')
+
+script(src='assets/js/selectivity-jquery.min.js')
+script(src='assets/js/selectivity--call.js')
 
 .svz-search-list
     .svz-search-list__header.svz-row
@@ -17,14 +23,3 @@ link(rel='stylesheet', href='assets/css/components/search-list.css')
                     | По медиа
                 option
                     | По файлам
-            .svz-search-list-field
-                label
-                    input(type='text', placeholder='')
-
-
-
-
-.svz-row
-    .svz-col
-        .svz-btn.svz-btn--gray
-            | Написать сообщение
