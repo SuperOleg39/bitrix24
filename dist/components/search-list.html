@@ -10,15 +10,83 @@
     <div class="header__title svz-col">
       <div class="svz-h2">Поиск</div>
     </div>
+    <div class="svz-row">
+      <form class="svz-search-list__search svz-col">
+        <div class="svz-col">
+          <select class="svz-search-list__sort js-selectivity">
+            <option>По всем разделам</option>
+            <option>По сотрудникам</option>
+            <option>По медиа</option>
+            <option>По файлам</option>
+          </select>
+        </div>
+        <div class="svz-col svz-search-list__input-wrap">
+          <label>
+            <input class="svz-search-list__input" placeholder="" value="При"/>
+          </label>
+        </div>
+        <div class="svz-col"><a class="svz-search-list__cross" href="javascript:void(0);"></a></div>
+        <div class="svz-col">
+          <label class="svz-search-list__submit-wrap">
+            <input class="svz-search-list__submit" type="submit"/>
+          </label>
+        </div>
+      </form>
+    </div>
   </div>
-  <div class="svz-row">
-    <div class="svz-search-list__search svz-col">
-      <select class="svz-search-list__sort js-selectivity">
-        <option>По всем разделам</option>
-        <option>По сотрудникам</option>
-        <option>По медиа</option>
-        <option>По файлам</option>
-      </select>
+  <div class="svz-search-list-results">
+    <div class="svz-search-list-results__text svz-search-list-results__text--none">К сожалению, по вашему поисковому запросу ничего не найдено.</div>
+  </div>
+  <div class="svz-search-list__header svz-row">
+    <div class="header__title svz-col">
+      <div class="svz-h2">Поиск</div>
+    </div>
+    <div class="svz-row">
+      <form class="svz-search-list__search svz-col">
+        <div class="svz-col">
+          <select class="svz-search-list__sort js-selectivity">
+            <option>По всем разделам</option>
+            <option>По сотрудникам</option>
+            <option>По медиа</option>
+            <option>По файлам</option>
+          </select>
+        </div>
+        <div class="svz-col svz-search-list__input-wrap">
+          <label>
+            <input class="svz-search-list__input" placeholder="" value=""/>
+          </label>
+        </div>
+        <div class="svz-col"><a class="svz-search-list__cross" href="javascript:void(0);"></a></div>
+        <div class="svz-col">
+          <label class="svz-search-list__submit-wrap">
+            <input class="svz-search-list__submit" type="submit"/>
+          </label>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="svz-search-list-results svz-row">
+    <div class="svz-row svz-search-list-results__text svz-search-list-results__text--smth">По вашему поисковому запросу найдено 129 ссылок</div>
+    <div class="svz-row svz-search-list__sort-more-wrap">
+      <div class="svz-col">
+        <div class="svz-search-list__sort-more svz-tooltip" data-tooltip-content="#svz-search-list-filters">По дате</div>
+      </div>
+    </div>
+    <div class="svz-row">
+      <ol class="svz-search-list-results-count">
+        <li class="svz-search-list-results-count">
+          <div class="svz-row">
+            <h3 class="svz-col">8 тонких и легких смартфонов до 23 000 рублей!</h3><span class="svz-col"></span>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+<div class="svz-tooltip_templates">
+  <div id="svz-search-list-filters">
+    <div class="svz-search-list__tooltip">
+      <div class="svz-search-list__tooltip-sort-more"><a href="#">По релевантности</a><a href="#">По дате</a></div>
     </div>
   </div>
 </div>

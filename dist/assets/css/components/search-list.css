@@ -21,6 +21,117 @@
   border: 1px solid #bfbfbf;
   border-radius: 20px;
   height: 40px;
+  width: 100%;
   line-height: 40px;
   padding: 2px;
+  margin: 15px 0 0 0;
+}
+.svz-search-list__input-wrap {
+  width: calc(100% - 280px);
+}
+.svz-search-list__input {
+  border: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0 15px;
+  border-radius: 20px;
+  color: #999;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+.svz-search-list__input:active {
+  outline: none;
+}
+.svz-search-list__input:focus {
+  outline: none;
+}
+.svz-search-list__submit-wrap {
+  background: #724fa0;
+  border-radius: 20px;
+  width: 50px;
+  height: 100%;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+.svz-search-list__submit-wrap:hover {
+  background: #8769ae;
+}
+.svz-search-list__submit-wrap:before {
+  content: '';
+  background-image: url("../../img/svz-search-list__submit-wrap-before.png");
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 16px;
+  position: absolute;
+  top: 9px;
+  right: 17px;
+}
+.svz-search-list__submit {
+  font-size: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.svz-search-list__cross {
+  background-image: url("../../img/svz-search-list__cross.png");
+  background-repeat: no-repeat;
+  width: 9px;
+  height: 9px;
+  margin: 13px 15px 0 0;
+  display: block;
+}
+.svz-search-list-results__text {
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.svz-search-list-results__text--none {
+  color: #f87424;
+  padding-top: 40px;
+}
+.svz-search-list-results__text--smth {
+  color: #5fbb4e;
+}
+.svz-search-list__tooltip {
+  padding: 20px 10px;
+}
+.svz-search-list__tooltip-sort-more a {
+  cursor: pointer;
+  padding: 5px 0;
+  color: #4c4c4c;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration: none;
+  display: block;
+}
+.svz-search-list__sort-more-wrap {
+  margin-bottom: 15px;
+}
+.svz-search-list__sort-more {
+  color: #4c4c4c;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  cursor: pointer;
+  position: relative;
+}
+.svz-search-list__sort-more:after {
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 8px;
+  background-image: url("../../img/selectivity-single-select-after.png");
+  background-repeat: no-repeat;
+  width: 9px;
+  height: 6px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.svz-search-list__sort-more.svz-switch-icon--active {
+  border: 0;
+  background: inherit;
 }

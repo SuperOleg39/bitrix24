@@ -12,14 +12,76 @@ script(src='assets/js/selectivity--call.js')
         .header__title.svz-col
             .svz-h2
                 | Поиск
-    .svz-row
-        .svz-search-list__search.svz-col
-            select.svz-search-list__sort.js-selectivity
-                option
-                    | По всем разделам
-                option
-                    | По сотрудникам
-                option
-                    | По медиа
-                option
-                    | По файлам
+        .svz-row
+            form.svz-search-list__search.svz-col
+                .svz-col
+                    select.svz-search-list__sort.js-selectivity
+                        option
+                            | По всем разделам
+                        option
+                            | По сотрудникам
+                        option
+                            | По медиа
+                        option
+                            | По файлам
+                .svz-col.svz-search-list__input-wrap
+                    label
+                        input.svz-search-list__input(placeholder='', value='При')
+                .svz-col
+                    a.svz-search-list__cross(href='javascript:void(0);')
+                .svz-col
+                    label.svz-search-list__submit-wrap
+                        input.svz-search-list__submit(type='submit')
+    .svz-search-list-results
+        .svz-search-list-results__text.svz-search-list-results__text--none
+            | К сожалению, по вашему поисковому запросу ничего не найдено.
+
+    .svz-search-list__header.svz-row
+        .header__title.svz-col
+            .svz-h2
+                | Поиск
+        .svz-row
+            form.svz-search-list__search.svz-col
+                .svz-col
+                    select.svz-search-list__sort.js-selectivity
+                        option
+                            | По всем разделам
+                        option
+                            | По сотрудникам
+                        option
+                            | По медиа
+                        option
+                            | По файлам
+                .svz-col.svz-search-list__input-wrap
+                    label
+                        input.svz-search-list__input(placeholder='', value='')
+                .svz-col
+                    a.svz-search-list__cross(href='javascript:void(0);')
+                .svz-col
+                    label.svz-search-list__submit-wrap
+                        input.svz-search-list__submit(type='submit')
+    .svz-search-list-results.svz-row
+        .svz-row.svz-search-list-results__text.svz-search-list-results__text--smth
+            | По вашему поисковому запросу найдено 129 ссылок
+        .svz-row.svz-search-list__sort-more-wrap
+            .svz-col
+                .svz-search-list__sort-more.svz-tooltip(data-tooltip-content="#svz-search-list-filters")
+                    | По дате
+        .svz-row
+            ol.svz-search-list-results-count
+                li.svz-search-list-results-count
+                    .svz-row
+                        h3.svz-col
+                            | 8 тонких и легких смартфонов до 23 000 рублей!
+                        span.svz-col
+
+
+
+.svz-tooltip_templates
+    #svz-search-list-filters
+        .svz-search-list__tooltip
+            .svz-search-list__tooltip-sort-more
+                a(href="#")
+                    | По релевантности
+                a(href="#")
+                    | По дате
