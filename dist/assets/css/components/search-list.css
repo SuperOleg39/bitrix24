@@ -141,10 +141,97 @@
   counter-reset: numeric;
 }
 .svz-search-list-results-count__item {
-  padding: 35px 10px 30px 35px;
+  padding: 35px 10px 35px 35px;
   border-top: 1px solid #e6e6e6;
   list-style-type: none;
   position: relative;
+}
+.svz-search-list-results-count__item .item-staff-main {
+  position: relative;
+  padding-right: 70px;
+}
+.svz-search-list-results-count__item .item-staff-main__pic {
+  border-radius: 100%;
+}
+.svz-search-list-results-count__item .item-staff-main__pic-wrap {
+  position: relative;
+  margin-right: 10px;
+}
+.svz-search-list-results-count__item .item-staff-main__status {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  right: -4px;
+  bottom: -3px;
+  border: 3px solid #fff;
+  border-radius: 100%;
+}
+.svz-search-list-results-count__item .item-staff-main__status--online {
+  background: #5fbc4e;
+}
+.svz-search-list-results-count__item .item-staff-main__status--no-disturb {
+  background: url("../../img/item-staff-main__status--no-disturb.png");
+}
+.svz-search-list-results-count__item .item-staff-main__name {
+  color: #4c4c4c;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+.svz-search-list-results-count__item .item-staff-main__position {
+  color: #999;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+}
+.svz-search-list-results-count__item .item-staff-contact-info {
+  padding-right: 90px;
+}
+.svz-search-list-results-count__item .item-staff-contact-info__title {
+  color: #4c4c4c;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+.svz-search-list-results-count__item .item-staff-contact-info__current {
+  color: #999;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+.svz-search-list-results-count__item .item-staff-contact-info__current a {
+  color: #38a7de;
+  text-decoration: none;
+}
+.svz-search-list-results-count__item .item-staff-contact-info__head {
+  color: #724fa0;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+.svz-search-list-results-count__item .item-staff-contact-info__head-icon {
+  background-image: url("../../img/item-staff-contact-info__head-icon.png");
+  background-repeat: no-repeat;
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.svz-search-list-results-count__item .item-staff-actions {
+  text-align: right;
+  width: 10%;
+}
+.svz-search-list-results-count__item .item-staff-actions__icon {
+  background-image: url("../../img/item-staff-actions__icon.png");
+  width: 20px;
+  height: 12px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 5px;
+}
+.svz-search-list-results-count__item .item-staff-actions__icon.svz-switch-icon--active {
+  background-color: inherit;
+  border: 0;
 }
 .svz-search-list-results-count__item:before {
   counter-increment: numeric;
@@ -174,11 +261,45 @@
 }
 .svz-search-list-results-count__item-type-icon {
   margin-left: 5px;
-  line-height: 36px;
 }
 .svz-search-list-results-count__item-type-icon.icon--thanks {
   background-image: url("../../img/icon-thanks-gray.png");
+  background-repeat: no-repeat;
   display: inline-block;
   width: 19px;
-  height: 18px;
+  height: 24px;
+  background-position: center bottom;
+}
+.svz-search-list-results-count__item-type-icon.icon--message {
+  background-image: url("../../img/icon-message-gray.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 19px;
+  height: 24px;
+  background-position: center bottom;
+}
+.svz-search-list-results-count__item-type-icon.icon--comment {
+  background-image: url("../../img/icon-comment-gray.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 19px;
+  height: 24px;
+  background-position: center bottom;
+}
+.svz-search-list-results-count__item-type-icon,
+.svz-search-list-results-count__item-header {
+  margin-bottom: 15px;
+  display: block;
+  text-decoration: none !important;
+}
+.svz-search-list-results-count__item-description {
+  color: #4c4c4c;
+  font-family: 'StagSans-Book', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: normal;
+}
+.svz-search-list-results-count__item-description b {
+  font-weight: normal;
+  color: #5fbb4e;
 }
