@@ -114,12 +114,12 @@ script(src='assets/js/selectivity--call.js')
                     .svz-row
                         .svz-col.item-staff-main
                             .svz-row
-                                .svz-col.item-staff-main__pic-wrap
+                                .item-staff-main__pic-wrap
                                     img.item-staff-main__pic(src='assets/img/dummy-staff-1.png')
                                     i.item-staff-main__status.item-staff-main__status--online
-                                .svz-col
+                                .item-staff-main__info
                                     .item-staff-main__name
-                                        | Панкрашен Станислав
+                                        | Панкрашен Станислав Панкрашен Станислав
                                     .item-staff-main__position
                                         | Начальник отдела
                         .svz-col.item-staff-contact-info
@@ -156,12 +156,12 @@ script(src='assets/js/selectivity--call.js')
                     .svz-row
                         .svz-col.item-staff-main
                             .svz-row
-                                .svz-col.item-staff-main__pic-wrap
+                                .item-staff-main__pic-wrap
                                     img.item-staff-main__pic(src='assets/img/dummy-staff-2.png')
                                     i.item-staff-main__status.item-staff-main__status--no-disturb
-                                .svz-col
+                                .item-staff-main__info
                                     .item-staff-main__name
-                                        | Ларюхина Оксана
+                                        | Ларюхина Оксана Ларюхина Оксана
                                     .item-staff-main__position
                                         | Охранник
                         .svz-col.item-staff-contact-info
@@ -185,7 +185,190 @@ script(src='assets/js/selectivity--call.js')
                                         | Боровское ТЦ Наш
                         .svz-col.item-staff-actions
                             i.item-staff-actions__icon.svz-tooltip(data-tooltip-content="#svz-actions-user-2")
-
+                li.svz-search-list-results-count__item
+                    .svz-row
+                        .svz-col.item-staff-main
+                            .svz-row
+                                .item-staff-main__pic-wrap
+                                    img.item-staff-main__pic(src='assets/img/dummy-staff-3.png')
+                                    i.item-staff-main__status.item-staff-main__status--away
+                                .item-staff-main__info
+                                    .item-staff-main__name
+                                        | Адрова Светлана Адрова Светлана
+                                    .item-staff-main__position
+                                        | Менеджер проектов
+                        .svz-col.item-staff-contact-info
+                            .item-staff-contact-info__wrap
+                                span.item-staff-contact-info__title
+                                    | E-Mail:&nbsp;
+                                span.item-staff-contact-info__current
+                                    a(href='mailto:i.abramova@example.com')
+                                        | i.abramova@example.com
+                            .item-staff-contact-info__wrap
+                                span.item-staff-contact-info__title
+                                    | Мобильный:&nbsp;
+                                span.item-staff-contact-info__current
+                                    | +7 (926) 423 38 88
+                        .svz-col.item-staff-department
+                            .item-staff-contact-info__wrap
+                                span.item-staff-contact-info__title
+                                    | Отдел:&nbsp;
+                                span.item-staff-contact-info__current
+                                    a(href='#')
+                                        | Спб Тосно Боярова
+                        .svz-col.item-staff-actions
+                            i.item-staff-actions__icon.svz-tooltip(data-tooltip-content="#svz-actions-user-3")
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        h3.svz-col
+                            | Степан Маришенков
+                        span.svz-col.svz-search-list-results-count__item-type
+                            | Комментарий
+                        i.svz-col.svz-search-list-results-count__item-type-icon.icon--comment
+                    .svz-row.svz-search-list-results-count__item-description
+                        .svz-col
+                            b При
+                            | соединилась к компании «Связной» в 2016 году. С 1994 года работала в Промторгбанке, а после запуска Связного Банка,
+                            | продолжила свое развитие в его команде с момента основания.
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        h3.svz-col
+                            | А может отметим НГ на Гавайаях?
+                        span.svz-col.svz-search-list-results-count__item-type
+                            | Идеи
+                        i.svz-col.svz-search-list-results-count__item-type-icon.icon--idea
+                    .svz-row.svz-search-list-results-count__item-description
+                        .svz-col
+                            b При
+                            | соединилась к компании «Связной» в 2016 году. С 1994 года работала в Промторгбанке, а после запуска Связного Банка,
+                            | продолжила свое развитие в его команде с момента основания.
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        .svz-col
+                            i.svz-file-icon.svz-file-icon--pdf
+                        span.svz-col.svz-search-list-results-count__document-name
+                            | Выплата ЗП (1).pdf
+                        span.svz-col.svz-search-list-results-count__document-size
+                            | 165,51 КБ
+                    .svz-col.svz-search-list-results-count__document-actions
+                        a.svz-search-list-results-count__document-action.action__link-to(href='#')
+                        a.svz-search-list-results-count__document-action.action__download(href='#')
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        .svz-col
+                            i.svz-file-icon.svz-file-icon--video
+                        span.svz-col.svz-search-list-results-count__document-name
+                            | 4K VIDEO INCREDIBLE PATAGONIA - Epic 4K 60fps Ultra HD Drone Footage.mp4
+                        span.svz-col.svz-search-list-results-count__document-size
+                            | 360 МБ
+                    .svz-col.svz-search-list-results-count__document-actions
+                        a.svz-search-list-results-count__document-action.action__link-to(href='#')
+                        a.svz-search-list-results-count__document-action.action__download(href='#')
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        .svz-col
+                            i.svz-file-icon.svz-file-icon--doc
+                        span.svz-col.svz-search-list-results-count__document-name
+                            | more-test.txt
+                        span.svz-col.svz-search-list-results-count__document-size
+                            | 3 МБ
+                    .svz-col.svz-search-list-results-count__document-actions
+                        a.svz-search-list-results-count__document-action.action__link-to(href='#')
+                        a.svz-search-list-results-count__document-action.action__download(href='#')
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        .svz-col
+                            i.svz-file-icon.svz-file-icon--docx
+                        span.svz-col.svz-search-list-results-count__document-name
+                            | more-test.txt
+                        span.svz-col.svz-search-list-results-count__document-size
+                            | 3 МБ
+                    .svz-col.svz-search-list-results-count__document-actions
+                        a.svz-search-list-results-count__document-action.action__link-to(href='#')
+                        a.svz-search-list-results-count__document-action.action__download(href='#')
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        .svz-col
+                            i.svz-file-icon.svz-file-icon--image
+                        span.svz-col.svz-search-list-results-count__document-name
+                            | more-test.gif
+                        span.svz-col.svz-search-list-results-count__document-size
+                            | 3 МБ
+                    .svz-col.svz-search-list-results-count__document-actions
+                        a.svz-search-list-results-count__document-action.action__link-to(href='#')
+                        a.svz-search-list-results-count__document-action.action__download(href='#')
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        .svz-col
+                            i.svz-file-icon.svz-file-icon--jpeg
+                        span.svz-col.svz-search-list-results-count__document-name
+                            | more-test.jpg
+                        span.svz-col.svz-search-list-results-count__document-size
+                            | 3 МБ
+                    .svz-col.svz-search-list-results-count__document-actions
+                        a.svz-search-list-results-count__document-action.action__link-to(href='#')
+                        a.svz-search-list-results-count__document-action.action__download(href='#')
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        .svz-col
+                            i.svz-file-icon.svz-file-icon--php
+                        span.svz-col.svz-search-list-results-count__document-name
+                            | more-test.php
+                        span.svz-col.svz-search-list-results-count__document-size
+                            | 3 МБ
+                    .svz-col.svz-search-list-results-count__document-actions
+                        a.svz-search-list-results-count__document-action.action__link-to(href='#')
+                        a.svz-search-list-results-count__document-action.action__download(href='#')
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        .svz-col
+                            i.svz-file-icon.svz-file-icon--png
+                        span.svz-col.svz-search-list-results-count__document-name
+                            | more-test.png
+                        span.svz-col.svz-search-list-results-count__document-size
+                            | 3 МБ
+                    .svz-col.svz-search-list-results-count__document-actions
+                        a.svz-search-list-results-count__document-action.action__link-to(href='#')
+                        a.svz-search-list-results-count__document-action.action__download(href='#')
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        .svz-col
+                            i.svz-file-icon.svz-file-icon--ppt
+                        span.svz-col.svz-search-list-results-count__document-name
+                            | more-test.ppt
+                        span.svz-col.svz-search-list-results-count__document-size
+                            | 3 МБ
+                    .svz-col.svz-search-list-results-count__document-actions
+                        a.svz-search-list-results-count__document-action.action__link-to(href='#')
+                        a.svz-search-list-results-count__document-action.action__download(href='#')
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        .svz-col
+                            i.svz-file-icon.svz-file-icon--txt
+                        span.svz-col.svz-search-list-results-count__document-name
+                            | more-test.txt
+                        span.svz-col.svz-search-list-results-count__document-size
+                            | 3 МБ
+                    .svz-col.svz-search-list-results-count__document-actions
+                        a.svz-search-list-results-count__document-action.action__link-to(href='#')
+                        a.svz-search-list-results-count__document-action.action__download(href='#')
+                li.svz-search-list-results-count__item
+                    a.svz-row.svz-search-list-results-count__item-header(href='#')
+                        .svz-col
+                            i.svz-file-icon.svz-file-icon--xls
+                        span.svz-col.svz-search-list-results-count__document-name
+                            | more-test.xls
+                        span.svz-col.svz-search-list-results-count__document-size
+                            | 3 МБ
+                    .svz-col.svz-search-list-results-count__document-actions
+                        a.svz-search-list-results-count__document-action.action__link-to(href='#')
+                        a.svz-search-list-results-count__document-action.action__download(href='#')
+            .svz-search-list__footer.svz-row
+                .svz-pull-left
+                    .svz-search-list__show-more-btn.svz-btn
+                        | показать еще 10
+                .svz-pull-right
+                    include pagination
 
 .svz-tooltip_templates
     #svz-search-list-filters
@@ -210,6 +393,18 @@ script(src='assets/js/selectivity--call.js')
                     | Создать задачу
 .svz-tooltip_templates
     #svz-actions-user-2
+        .svz-search-list__tooltip
+            .svz-search-list__tooltip-sort-more
+                a(href="#")
+                    | Написать сообщение
+                a(href="#")
+                    | Позвонить
+                a(href="#")
+                    | Видеозвонок
+                a(href="#")
+                    | Создать задачу
+.svz-tooltip_templates
+    #svz-actions-user-3
         .svz-search-list__tooltip
             .svz-search-list__tooltip-sort-more
                 a(href="#")
